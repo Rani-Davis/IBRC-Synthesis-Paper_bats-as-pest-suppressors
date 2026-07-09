@@ -26,6 +26,12 @@ In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 | `Script 5` | Produces figures summarising Survey 2 scores |
 | `Script 6` | Extracts socio-economic, environmental performance, and R&D spending indices; visualises against Survey 2 scores |
 
+## Interactive Maps
+
+- [Survey map (dropdown options)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/survey%20map_drop%20down%20options.html)
+- [Teardrop map (coloured by crop)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_coloured%20by%20crop.html)
+- [Teardrop map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
+
 **Folders:**
 
 - `raw data/` — raw survey data as submitted by contributors
