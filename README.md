@@ -36,4 +36,4 @@ In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 
 - `raw data/` — raw survey data as submitted by contributors
 - `figure exports/` — all key figures produced by the analysis scripts
-- `map exports/` — maps showing spatial coverage of study systems
+- `docs/map exports/` — maps showing spatial coverage of study systems
