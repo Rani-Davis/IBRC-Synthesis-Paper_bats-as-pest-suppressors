@@ -28,9 +28,9 @@ In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 
 ## Interactive Maps
 
-- [Survey map (dropdown options)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/survey%20map_drop%20down%20options.html)
-- [Teardrop map (coloured by crop)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_coloured%20by%20crop.html)
-- [Teardrop map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
+- [Interactive study system map (with dropdown options to colour by specific crop, crop type, country or world region)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/survey%20map_drop%20down%20options.html)
+- [Static study system map (coloured by crop type)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_coloured%20by%20crop.html)
+- [Static study system map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
 
 **Folders:**
 
