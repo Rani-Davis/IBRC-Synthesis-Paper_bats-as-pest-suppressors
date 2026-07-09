@@ -35,5 +35,6 @@ In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 **Folders:**
 
 - `raw data/` — raw survey data as submitted by contributors
+- `clean data/` — cleaned and scored survey data
 - `figure exports/` — all key figures produced by the analysis scripts
 - `docs/map exports/` — maps showing spatial coverage of study systems
