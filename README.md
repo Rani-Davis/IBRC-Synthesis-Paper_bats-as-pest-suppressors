@@ -11,14 +11,14 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 - **Survey 1 (Knowledge scoring)** — places each study system within our conceptual "knowledge pathway"
 - **Survey 2 (Implementation scoring)** — gathers information on what interventions have been implemented and tested for their effects on bats in each study system
 
-In both surveys, key questions had pre-selected responses on a scale from 0 to 3.
+In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 
 ## Repository Structure
 
 | Script | Purpose |
 |--------|---------|
 | `Script 0` | Visualises our conceptual knowledge pathway |
-| `Map Script 1: make map.R` | Analyses spatial coverage of study systems in the dataset |
+| `Map Script 1: make map.R` | Creates maps to show spatial coverage of study systems in the dataset |
 | `Script 1` | Data wrangling for Survey 1 (Knowledge scoring) |
 | `Script 2` | Produces figures summarising Survey 1 scores |
 | `Script 3` | Extracts socio-economic, environmental performance, and R&D spending indices; visualises against Survey 1 scores |
