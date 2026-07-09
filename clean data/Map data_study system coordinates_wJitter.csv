@@ -1,0 +1,76 @@
+Respondent.clean,Respondent.ID,Respondent.entry.ID,Region.within.country.clean,World.region.clean,World.region.specific.clean,Country.clean,Crop.clean,Crop.type.clean,Crop.type.specific.clean,Closest.city.clean,Latitude,Longitude
+Adrià López-Baucells,R1,1,Catalonia,Europe,Europe,Spain,Tomato,Vegetable crops,Vegetable crops,"Multiple (Granollers, Barcelona, Vic, Sant Cugat, etc.)",41.3993941,2.1620704
+Alexandra Howard,R2,1,Free State,Africa,Africa,South Africa,Apple,Perennial fruit & forestry crops,Perennial fruit crops,Harrismith,-28.2707,29.1324
+Andrés Muñoz-Sáez,R3,1,Santiago Metropolitan region,Latin America / Caribbean,Latin America / Caribbean,Chile,Vineyard,Vineyard,Vineyard,Santiago,-33.4489,-70.6693
+April Reside,R4,1,Queensland,Australasia / Pacific,Australasia / Pacific,Australia,Multi- grain & vegetable,Pasture & mixed cropping,Mixed farming system,Brisbane,-27.5588,152.2782
+Ara Monadjem,R5,1,North-east Eswatini,Africa,Africa,Eswatini,Sugar cane,Field crops,Field crops,Simunye,-26.1667,31.9333
+Brooke Maslo,R6,1,New Jersey,North America,North America,USA,Multi- fruit & orchard,Perennial fruit & forestry crops,Perennial fruit crops,"New York City, NY, USA",40.6961929,-74.335573
+Carme Tuneu-Corral,R7,1,Multi-region: DIANA & Vatovavy-Fitovinany regions,Africa,Africa,Madagascar,Rice,Grain crops,Grain crops,Antsiranana/Ambilobe (DIANA); Ranomafana/Fianarantsoa (Vatovavy-Fitovinany),-12.2787,49.2917
+Carme Tuneu-Corral,R7,2,Multi-region: Catalonia & Aragon,Europe,Europe,Spain,Rice,Grain crops,Grain crops,Deltebre (Catalonia); Alcolea de Cinca (Aragon),40.7189,0.7079
+Carmi Korine,R8,1,Southern Distict,Middle East / Western Asia,Middle East / Western Asia,Israel,Date palms,Perennial fruit & forestry crops,Perennial fruit crops,Eilat,31.2494784,34.7921865
+Carmi Korine,R8,2,Southern Distict,Middle East / Western Asia,Middle East / Western Asia,Israel,Onion,Vegetable crops,Vegetable crops,Eilat,31.2647358,34.8553582
+Carmi Korine,R8,3,Southern Distict,Middle East / Western Asia,Middle East / Western Asia,Israel,Melon,Vegetable crops,Vegetable crops,Eilat,31.2723655,34.744809
+Carmi Korine,R8,4,Northern District,Middle East / Western Asia,Middle East / Western Asia,Israel,Apple,Perennial fruit & forestry crops,Perennial fruit crops,Katzrin,32.9365027,35.6696774
+Carmi Korine,R8,5,Haifa District,Middle East / Western Asia,Middle East / Western Asia,Israel,Cotton,Field crops,Field crops,Hadera,32.4505141,34.9151365
+Carmi Korine,R8,6,Haifa District,Middle East / Western Asia,Middle East / Western Asia,Israel,Vineyard,Vineyard,Vineyard,Binyamina,32.4232783,34.8976272
+Carmi Korine,R8,7,Haifa District,Middle East / Western Asia,Middle East / Western Asia,Israel,Vineyard,Vineyard,Vineyard,Binyamina,32.4241477,34.9410578
+Carmi Korine,R8,8,Jerusalem District,Middle East / Western Asia,Middle East / Western Asia,Israel,Vineyard,Vineyard,Vineyard,Beth Shemesh,31.701023,34.9839163
+Carmi Korine,R8,9,Jerusalem District,Middle East / Western Asia,Middle East / Western Asia,Israel,Olive groves,Perennial fruit & forestry crops,Perennial fruit crops,Beth Shemesh,31.7585434,35.0227121
+Carmi Korine,R8,10,Jerusalem District,Middle East / Western Asia,Middle East / Western Asia,Israel,Wheat,Grain crops,Grain crops,Beth Shemesh,31.7614626,34.9351656
+Carmi Korine,R8,11,Southern Distict,Middle East / Western Asia,Middle East / Western Asia,Israel,Brassica,Vegetable crops,Vegetable crops,Kiryat Gat,31.3011178,34.8052332
+Carmi Korine,R8,12,Southern Distict,Middle East / Western Asia,Middle East / Western Asia,Israel,Citrus,Perennial fruit & forestry crops,Perennial fruit crops,Kiryat Gat,31.1837159,34.7880653
+Carmi Korine,R8,13,Southern Distict,Middle East / Western Asia,Middle East / Western Asia,Israel,Peach,Perennial fruit & forestry crops,Perennial fruit crops,Kiryat Gat,31.2166006,34.7379436
+Carmi Korine,R8,14,Central District,Middle East / Western Asia,Middle East / Western Asia,Israel,Corn,Grain crops,Grain crops,Ramle,31.9017906,34.874433
+Carmi Korine,R8,15,Central District,Middle East / Western Asia,Middle East / Western Asia,Israel,Potato,Vegetable crops,Vegetable crops,Ramle,31.951032,34.8710002
+Carmi Korine,R8,16,Central District,Middle East / Western Asia,Middle East / Western Asia,Israel,Watermelon,Vegetable crops,Vegetable crops,Ramle,31.9271432,34.9032723
+Carmi Korine,R8,17,Northern District,Middle East / Western Asia,Middle East / Western Asia,Israel,Wheat,Grain crops,Grain crops,Beit She'an,32.9768301,35.7548251
+Carmi Korine,R8,18,Northern District,Middle East / Western Asia,Middle East / Western Asia,Israel,Apple,Perennial fruit & forestry crops,Perennial fruit crops,Sefat,33.0217422,35.6346621
+Carmi Korine,R8,19,Northern District,Middle East / Western Asia,Middle East / Western Asia,Israel,Tomato,Vegetable crops,Vegetable crops,Kiryat Shmona,33.0436137,35.7163706
+Carmi Korine,R8,20,Central District,Middle East / Western Asia,Middle East / Western Asia,Israel,Cotton,Field crops,Field crops,Gedera,31.9256863,34.8435342
+Carmi Korine,R8,21,Southern Distict,Middle East / Western Asia,Middle East / Western Asia,Israel,Pumpkin,Vegetable crops,Vegetable crops,Eilat,31.2054475,34.8498634
+Cárol Sierra-Durán,R9,1,Morelos,Latin America / Caribbean,Latin America / Caribbean,Mexico,Multi- grain & vegetable,Pasture & mixed cropping,Mixed farming system,"Emiliano Zapata, Morelos",18.69,-99.19
+Cárol Sierra-Durán,R9,2,Extremadura,Europe,Europe,Spain,Tomato,Vegetable crops,Vegetable crops,Badajoz,38.8794,-6.9707
+Carolina Ocampo-Ariza,R10,1,Multi-country (Peru-Colombia multi-region),Latin America / Caribbean,Latin America / Caribbean,Peru & Colombia,Agroforestry cacao,Agroforestry cacao,Agroforestry cacao,Piura/Juanjui/Pucallpa (Peru); Neiva (Colombia),-5.1945,-80.6328
+Cecilia Montauban,R11,1,Western Province,Africa,Africa,Ghana,Multi- crop,Pasture & mixed cropping,Mixed farming system,"Elubo, Ahokwa, Dompim",5.1667,-2.8667
+Danilo Russo,R12,1,Veneto,Europe,Europe,Italy,Apple,Perennial fruit & forestry crops,Perennial fruit crops,Venezia,45.4408,12.3155
+Diogo Ferreira,R13,1,Cameroon: multi-region,Africa,Africa,Cameroon,Agroforestry cacao,Agroforestry cacao,Agroforestry cacao,Yaound√© (Central); Douala (Southwest),3.8342983,11.5899907
+Diogo Ferreira,R13,2,Cameroon: multi-region,Africa,Africa,Cameroon,Agroforestry cacao,Agroforestry cacao,Agroforestry cacao,Yaound√©,3.8315579,11.4389285
+Kadambari Deshpande,R14,1,Karnataka,South / Southeast Asia,South Asia,India,Rice,Grain crops,Grain crops,"Sirsi, Uttar Kannada",14.6130562,74.8772855
+Kadambari Deshpande,R14,2,Karnataka,South / Southeast Asia,South Asia,India,Arecanut,Perennial fruit & forestry crops,Perennial fruit crops,"Sirsi, Uttar Kannada",14.6113952,74.7842449
+Elisa Fuentes-Montemayor,R15,1,Central Scotland,Europe,Europe,UK,Multi- grain & vegetable,Pasture & mixed cropping,Mixed farming system,Stirling,56.1068332,-3.93793
+Elisa Fuentes-Montemayor,R15,2,Central Scotland,Europe,Europe,UK,Pasture,Pasture & mixed cropping,Pasture,Stirling,56.1192751,-3.9494312
+Elisa Fuentes-Montemayor,R15,3,Central Scotland,Europe,Europe,UK,Multi- crop & pasture,Pasture & mixed cropping,Mixed farming system,Stirling,56.1197536,-3.926772
+Florence Matutini,R16,1,"Multi-region: northern, eastern & western France",Europe,Europe,France,Multi- crop & pasture,Pasture & mixed cropping,Mixed farming system,Rambouillet (center),48.65926,1.73671
+Florence Matutini,R16,2,"Multi-region: northern, eastern & western France",Europe,Europe,France,Multi- crop & pasture,Pasture & mixed cropping,Mixed farming system,distributed across W/N/E France,48.63779,1.92263
+Florence Matutini,R16,3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine",Europe,Europe,France,Apple,Perennial fruit & forestry crops,Perennial fruit crops,Lisieux/Montpellier/Avignon/Limoges,45.8336,1.2611
+Gary McCracken,R17,1,Texas,North America,North America,USA,Cotton,Field crops,Field crops,"Uvalde, TX",29.2098,-99.7862
+Gary McCracken,R17,2,Multi-region: Texas & Florida,North America,North America,USA,Pecan,Perennial fruit & forestry crops,Perennial fruit crops,"Sabinal, TX; Gainesville, FL",29.3216,-99.4712
+Heidi Kolkert,R18,1,New South Wales,Australasia / Pacific,Australasia / Pacific,Australia,Cotton,Field crops,Field crops,"Boggabri, Narrabri, Moree",-29.5160076,149.8422299
+Heidi Kolkert,R18,2,New South Wales,Australasia / Pacific,Australasia / Pacific,Australia,Blueberries,Perennial fruit & forestry crops,Perennial fruit crops,Coffs Harbour,-30.29705912,153.1123257
+Hugo Rebelo,R19,1,Alentejo,Europe,Europe,Portugal,Vineyard,Vineyard,Vineyard,√âvora,38.5714,-7.9135
+Hugo Rebelo,R19,2,Central Portugal,Europe,Europe,Portugal,Pine,Perennial fruit & forestry crops,Forestry,Guarda,40.5364,-7.2683
+Hui Wu,R20,1,"Multi-region: shandong province, shannxi province & yunnan province",East Asia,East Asia,China,Apple,Perennial fruit & forestry crops,Perennial fruit crops,Yantai; Baoji,37.4638,121.4479
+Jarod McTaggart,R21,1,Auckland,Australasia / Pacific,Australasia / Pacific,New Zealand,Multi- crop & pasture,Pasture & mixed cropping,Mixed farming system,Taupo,-38.6857,176.0702
+Jeremy Froidevaux,R22,1,Bourgogne-Franche-Comt√©,Europe,Europe,France,Multi- crop & pasture,Pasture & mixed cropping,Mixed farming system,Besan√ßon,47.2378,6.0241
+Jérémy Froidevaux,R23,2,Multi-region: Occitanie & Nouvelle-Aquitaine,Europe,Europe,France,Vineyard,Vineyard,Vineyard,Montpellier,43.6108,3.8767
+Jérémy Froidevaux,R23,3,South West England,Europe,Europe,UK,Multi- crop & pasture,Pasture & mixed cropping,Mixed farming system,Bristol,51.4545,-2.5879
+Jian-Nan Liu,R24,1,Hualien County,East Asia,East Asia,Taiwan,Rice,Grain crops,Grain crops,Hualien City,23.9871,121.6015
+José M. Herrera,R25,1,Alentejo,Europe,Europe,Portugal,Olive groves,Perennial fruit & forestry crops,Perennial fruit crops,√âvora,38.5714,-7.9135
+Leonardo Ancillotto,R26,1,Tuscany,Europe,Europe,Italy,Olive groves,Perennial fruit & forestry crops,Perennial fruit crops,Florence,43.7696,11.2558
+Leonardo Ancillotto,R26,2,Lazio,Europe,Europe,Italy,Multi- grain & vegetable,Pasture & mixed cropping,Mixed farming system,Rome,41.9028,12.4964
+Luisa Sofia,R27,1,Yucat√°n,Latin America / Caribbean,Latin America / Caribbean,Mexico,Multi- crop & pasture,Pasture & mixed cropping,Mixed farming system,Merida,20.9674,-89.5926
+Maggie Campbell-Jones,R28,1,New South Wales,Australasia / Pacific,Australasia / Pacific,Australia,Cotton,Field crops,Field crops,Moree,-29.4693871,149.917761
+Nayelli Rivera,R29,1,Zacatecas,Latin America / Caribbean,Latin America / Caribbean,Mexico,Multi- crop,Pasture & mixed cropping,Mixed farming system,Zacatecas City,22.7709,-102.5832
+Peter Taylor,R30,1,Multi-region: Limpopo & Free State,Africa,Africa,South Africa,Multi- fruit & orchard,Perennial fruit & forestry crops,Perennial fruit crops,Thohoyandou; Harrismith,-22.9375,30.4844
+Rani Davis,R31,1,Queensland,Australasia / Pacific,Australasia / Pacific,Australia,Macadamia,Perennial fruit & forestry crops,Perennial fruit crops,Beerwah / Brisbane,-26.8583,152.9588
+Sándor Zseb_k,R32,1,Central-Transdanubian Region,Europe,Europe,Hungary,Vineyard,Vineyard,Vineyard,Keszthely,46.7679,17.2437
+Siteri Tikoca,R33,1,Vanua Levu,Australasia / Pacific,Australasia / Pacific,Fiji,Multi- crop,Pasture & mixed cropping,Mixed farming system,Labasa,-16.4333,179.3667
+Stuart Parsons,R34,1,Multi-country: Australia & New Zealand,Australasia / Pacific,Australasia / Pacific,Australia & New Zealand,Multi- crop,Pasture & mixed cropping,Mixed farming system,Moree; Christchurch,-29.4702838,149.7804319
+Teja Tscharntke,R35,1,Central Sulawesi,South / Southeast Asia,Southeast Asia,Indonesia,Agroforestry cacao,Agroforestry cacao,Agroforestry cacao,Palu,-0.8917,119.8707
+Teja Tscharntke,R35,2,Piura,Latin America / Caribbean,Latin America / Caribbean,Peru,Agroforestry cacao,Agroforestry cacao,Agroforestry cacao,Piura,-5.1945,-80.6328
+Teja Tscharntke,R35,3,Limpopo,Africa,Africa,South Africa,Macadamia,Perennial fruit & forestry crops,Perennial fruit crops,Levubu,-23.05,30.3667
+Tinglei Jiang,R36,1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province",East Asia,East Asia,China,Multi- crop,Pasture & mixed cropping,Mixed farming system,Yantai; Baoji; Nanyang; Ji'an,34.7466,113.6254
+Xavier Puig-Montserrat,R37,1,Catalonia,Europe,Europe,Spain,Olive groves,Perennial fruit & forestry crops,Perennial fruit crops,Girona,41.378145,2.1658469
+Xavier Puig-Montserrat,R37,2,Catalonia,Europe,Europe,Spain,Rice,Grain crops,Grain crops,Girona,41.3915392,2.181983
+Xavier Puig-Montserrat,R37,3,Catalonia,Europe,Europe,Spain,Vineyard,Vineyard,Vineyard,"Girona, Barcelona",41.3865165,2.1497109
+Zenon Czenze & Heidi Kolkert,R38,1,Multi-region: New South Wales & Victoria,Australasia / Pacific,Australasia / Pacific,Australia,Vineyard,Vineyard,Vineyard,Melbourne,-37.8136,144.9631
