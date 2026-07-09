@@ -1,6 +1,6 @@
 # IBRC Synthesis Paper: Bats as Pest Suppressors
 
-Our global synthesis paper aims to summarise knowledge on the role of insectivorous bats as pest suppressors in agricultural systems.
+Our global synthesis paper summarises published and unpublished knowledge on insectivorous bats as pest suppressors in agricultural systems, and the interventions trialled to support them.
 
 This repository contains the raw survey data from all contributors, data-wrangling scripts, cleaned datasets, and scripts for visualising and analysing the data.
 
