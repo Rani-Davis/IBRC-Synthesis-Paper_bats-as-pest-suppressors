@@ -17,6 +17,12 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 
 In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 
+## Maps showing the global coverage of our study systems
+
+- [Interactive study system map (with dropdown options to colour by specific crop, crop type, country or world region)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/survey%20map_drop%20down%20options.html)
+- [Static study system map (coloured by crop type)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_coloured%20by%20crop.html)
+- [Static study system map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
+
 ## Repository Structure
 
 | Script | Purpose |
@@ -29,12 +35,6 @@ In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 | `Script 4` | Data wrangling for Survey 2 (Implementation scoring) |
 | `Script 5` | Produces figures summarising Survey 2 scores |
 | `Script 6` | Extracts socio-economic, environmental performance, and R&D spending indices; visualises against Survey 2 scores |
-
-## Maps showing the global coverage of our study systems
-
-- [Interactive study system map (with dropdown options to colour by specific crop, crop type, country or world region)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/survey%20map_drop%20down%20options.html)
-- [Static study system map (coloured by crop type)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_coloured%20by%20crop.html)
-- [Static study system map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
 
 **Folders:**
 
