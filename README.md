@@ -5,15 +5,16 @@ Our global synthesis paper summarises published and unpublished knowledge on ins
 This repository contains the raw survey data from all contributors, data-wrangling scripts, cleaned datasets, and scripts for visualising and analysing the data.
 
 ## Overview
-
 Contributors were asked to complete two surveys to gather knowledge about the research conducted in their study systems. A **study system** is defined as a crop type x region combination in which studies were done.
 
 - **Survey 1 (Knowledge scoring)** — places each study system within our conceptual "knowledge pathway"
 - **Survey 2 (Implementation scoring)** — gathers information on what interventions have been implemented and tested for their effects on bats in each study system
 
+In both surveys, key questions had pre-selected responses to scale from 0 to 3.
+
 ![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)
 
-In both surveys, key questions had pre-selected responses to scale from 0 to 3.
+*Figure: Conceptual knowledge pathway used to score study systems (see Script 0).*
 
 ## Repository Structure
 
