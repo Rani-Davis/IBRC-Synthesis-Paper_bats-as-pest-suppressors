@@ -18,6 +18,8 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 - [Static study system map (coloured by crop type)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_coloured%20by%20crop.html)
 - [Static study system map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
 
+## Key Figures
+
 ## Repository Structure
 
 | Script | Purpose |
