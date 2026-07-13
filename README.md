@@ -11,7 +11,7 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 
 ![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)
 
-*Figure: Conceptual knowledge pathway used to score study systems (see Script 0).*
+*Figure 1: Conceptual knowledge pathway used to score study systems (see Script 0).*
 
 - **Survey 2 (Implementation scoring)** — gathers information on what interventions have been implemented and tested for their effects on bats in each study system
 
