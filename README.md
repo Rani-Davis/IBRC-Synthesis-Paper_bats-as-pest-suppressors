@@ -4,7 +4,7 @@ Our global synthesis paper summarises published and unpublished knowledge on ins
 
 This repository contains the raw survey data from all contributors, data-wrangling scripts, cleaned datasets, and scripts for visualising and analysing the data.
 
-## Overview
+## Overview of Data
 Contributors were asked to complete two surveys to gather knowledge about the research conducted in their study systems. A **study system** is defined as a crop type x region combination in which studies were done.
 
 | Survey | Description |
