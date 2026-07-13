@@ -11,6 +11,8 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 - **Survey 1 (Knowledge scoring)** — places each study system within our conceptual "knowledge pathway"
 - **Survey 2 (Implementation scoring)** — gathers information on what interventions have been implemented and tested for their effects on bats in each study system
 
+![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)
+
 In both surveys, key questions had pre-selected responses to scale from 0 to 3.
 
 ## Repository Structure
