@@ -9,8 +9,8 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 
 | Survey | Description |
 |---|---|
-| # 1: Knowledge scoring) | Places each study system within our conceptual "knowledge pathway"<br><br>![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)<br>*Figure 1: Conceptual knowledge pathway used to score study systems (see Script 0).* |
-| # 2: Implementation scoring) | Gathers information on what interventions have been implemented and tested for their effects on bats in each study system |
+| # 1: Knowledge scoring | Places each study system within our conceptual "knowledge pathway"<br><br>![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)<br>*Figure 1: Conceptual knowledge pathway used to score study systems (see Script 0).* |
+| # 2: Implementation scoring | Gathers information on what interventions have been implemented and tested for their effects on bats in each study system |
 
 ## Maps showing the global coverage of our study systems
 
