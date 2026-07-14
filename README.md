@@ -19,6 +19,8 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 - [Static study system map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
 
 ## Key Figures
+[Knowledge pathway results](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png)<br>
+*Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean maturity scores (± SE) with raw respondent-level data points.*
 
 
 ## Repository Structure
