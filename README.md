@@ -9,7 +9,7 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 
 | Survey | Description |
 |---|---|
-| # 1: Knowledge scoring | Places each study system within our conceptual "knowledge pathway"<br><br>![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)<br>*Figure 1: Conceptual knowledge pathway used to score study systems (see Script 0).* |
+| # 1: Knowledge scoring | Places each study system within our conceptual "knowledge pathway"<br><br>![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)<br>*Figure 1: Conceptual knowledge pathway used to score study systems (see Script 0) (click on image to view larger).* |
 | # 2: Implementation scoring | Gathers information on what interventions have been implemented and tested for their effects on bats in each study system |
 
 ## Maps showing the global coverage of our study systems
@@ -20,7 +20,7 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 
 ## Key Figures
 ![Knowledge pathway results](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png)
-*Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean maturity scores (± SE) with raw respondent-level data points.*
+*Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean scores (± SE) with raw respondent-level data points (click on figure to view larger).*
 
 ## Repository Structure
 
