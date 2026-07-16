@@ -35,25 +35,47 @@ Explore the global coverage of our study systems using these interactive maps:
 
 <h2 align="center"> Knowledge Pathway Scores (Survey 1) </h2>
 
-![Knowledge pathway results by crop](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png)
-*Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean scores (± SE) with raw respondent-level data points (click to enlarge).*
+<p align="center">
+  <img src="figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png" alt="Knowledge pathway results by crop" /><br>
+  <sub><i>Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean scores (± SE) with raw respondent-level data points (click to enlarge).</i></sub>
+</p>
 
-![Knowledge pathway results by region](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20World%20Region.png)
-*Figure 3: Knowledge pathway progress (Evidence → Implementation) across regions, showing mean scores (± SE) with raw respondent-level data points (click to enlarge).*
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20World%20Region.png" alt="Knowledge pathway results by region" /><br>
+  <sub><i>Figure 3: Knowledge pathway progress (Evidence → Implementation) across regions, showing mean scores (± SE) with raw respondent-level data points (click to enlarge).</i></sub>
+</p>
+
+---
 
 <h2 align="center"> Intervention Testing Scores (Survey 2) </h2> 
 
-![Implementation results stacked bar](figure%20exports/Overall.intervention.testing.stackedbar.jpeg)
-*Figure 4: Proportion of systems that have tested different bat-supportive interventions. 'NAs' correspond to incomplete surveys, which will be updated when all survey entries are received (click to enlarge).*
+<p align="center">
+  <img src="figure%20exports/Overall.intervention.testing.stackedbar.jpeg" alt="Implementation results stacked bar" /><br>
+  <sub><i>Figure 4: Proportion of systems that have tested different bat-supportive interventions. 'NAs' correspond to incomplete surveys, which will be updated when all survey entries are received (click to enlarge).</i></sub>
+</p>
 
-![Mean testing scores by crop](figure%20exports/Mean.SE.ByCrop.Intervention.testing.jpeg)
-*Figure 5: Mean +/- SE of testing scores by crop (click to enlarge).*
+<br>
 
-![Mean testing scores by region](figure%20exports/Mean.SE.ByRegion.Intervention.testing.jpeg)
-*Figure 6: Mean +/- SE of testing scores by region (click to enlarge).*
+<p align="center">
+  <img src="figure%20exports/Mean.SE.ByCrop.Intervention.testing.jpeg" alt="Mean testing scores by crop" /><br>
+  <sub><i>Figure 5: Mean +/- SE of testing scores by crop (click to enlarge).</i></sub>
+</p>
 
-![Environmental Performance Index vs Intervention Score](figure%20exports/EnvPerformance.vs.Overall.intervention.testing.score.jpeg)
-*Figure 7: Country-level mean intervention score (total score across all interventions) against the [Yale Environmental Performance Index](https://epi.yale.edu). (Note: Total intervention scores against GDP, agricultural R&D spending, etc., can be viewed in the figure exports folder. Next steps include modelling as GLMMs).*
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Mean.SE.ByRegion.Intervention.testing.jpeg" alt="Mean testing scores by region" /><br>
+  <sub><i>Figure 6: Mean +/- SE of testing scores by region (click to enlarge).</i></sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="figure%20exports/EnvPerformance.vs.Overall.intervention.testing.score.jpeg" alt="Environmental Performance Index vs Intervention Score" /><br>
+  <sub><i>Figure 7: Country-level mean intervention score (total score across all interventions) against the <a href="https://epi.yale.edu">Yale Environmental Performance Index</a>. (Note: Total intervention scores against GDP, agricultural R&D spending, etc., can be viewed in the figure exports folder. Next steps include modelling as GLMMs).</i></sub>
+</p>
 
 ---
 
