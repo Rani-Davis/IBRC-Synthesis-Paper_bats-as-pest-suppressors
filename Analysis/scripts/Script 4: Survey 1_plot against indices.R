@@ -87,10 +87,9 @@ Survey1_Indice_cor_table <- map_df(indices, function(var) {
 
 print(Survey1_Indice_cor_table)
 
-
-# ========================================
-# 4. PLOT EACH INDEX VS MEAN TOTAL SCORE (country means)
-# ========================================
+========================================
+  # 9. PLOT EACH INDEX VS MEAN TOTAL SCORE (country means)
+  # ========================================
 ggplot(country_indices %>% filter(!is.na(GDP_per_capita)),
        aes(x = GDP_per_capita, y = Mean.Total.Score,
            size = n, label = Country.n.label)) +
@@ -110,7 +109,7 @@ ggplot(country_indices %>% filter(!is.na(GDP_per_capita)),
         panel.grid.minor = element_blank()) +
   labs(x = "GDP per capita (USD)",
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
-  ggtitle("Country GDP vs Bat Research Score")
+  ggtitle("Simple linear model - Country GDP vs Knowledge Pathway Score")
 
 ggplot(country_indices %>% filter(!is.na(AllResearchAndDev_percentGPD)),
        aes(x = AllResearchAndDev_percentGPD, y = Mean.Total.Score,
@@ -132,7 +131,7 @@ ggplot(country_indices %>% filter(!is.na(AllResearchAndDev_percentGPD)),
         panel.grid.minor = element_blank()) +
   labs(x = "National R&D spending (all sectors) (% of GDP)",
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
-  ggtitle("National R&D Investment (all sectors) vs Bat Research Score")
+  ggtitle("Simple linear model - National R&D Investment (all sectors) vs Knowledge Pathway Score")
 
 ggplot(country_indices %>% filter(!is.na(AgForestryFish_ValueAdded_percentGDP)),
        aes(x = AgForestryFish_ValueAdded_percentGDP, y = Mean.Total.Score,
@@ -154,7 +153,7 @@ ggplot(country_indices %>% filter(!is.na(AgForestryFish_ValueAdded_percentGDP)),
         panel.grid.minor = element_blank()) +
   labs(x = "Agriculture, Forestry & Fisheries as % of GDP",
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
-  ggtitle("Agricultural Economy Dependence vs Bat Research Score")
+  ggtitle("Simple linear model - Agricultural Economy Dependence vs Knowledge Pathway Score")
 
 ggplot(country_indices %>% filter(!is.na(AgResearchAndDev_PPP2017)),
        aes(x = AgResearchAndDev_PPP2017, y = Mean.Total.Score,
@@ -175,7 +174,7 @@ ggplot(country_indices %>% filter(!is.na(AgResearchAndDev_PPP2017)),
         panel.grid.minor = element_blank()) +
   labs(x = "Public Ag R&D spending (million 2017 Purchasing Power Parity)",
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
-  ggtitle("Agricultural R&D Investment vs Bat Research Score")
+  ggtitle("Simple linear model - Agricultural R&D Investment vs Knowledge Pathway Score")
 
 ggplot(country_indices %>% filter(!is.na(EnviroPerformance_score)),
        aes(x = EnviroPerformance_score, y = Mean.Total.Score,
@@ -196,11 +195,11 @@ ggplot(country_indices %>% filter(!is.na(EnviroPerformance_score)),
         panel.grid.minor = element_blank()) +
   labs(x = "Environmental Performance Index (0-100)",
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
-  ggtitle("Environmental Performance vs Bat Research Score")
+  ggtitle("Simple linear model - Environmental Performance vs Knowledge Pathway Score")
 
 
 # ========================================
-# 5. RAW ENTRIES VS COUNTRY MEANS COMPARISON (not as country means)
+# 10. RAW ENTRIES VS COUNTRY MEANS COMPARISON (not as country means)
 # ========================================
 ggplot(
   Survey_1_long_indices %>%
