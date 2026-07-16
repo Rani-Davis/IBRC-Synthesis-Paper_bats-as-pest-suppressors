@@ -33,7 +33,7 @@ Explore the global coverage of our study systems using these interactive maps:
 
 ## 📊 Key Figures
 
-<h2 align="center"> Knowledge Pathway Results (Survey 1) </h2>
+<h2 align="center"> Knowledge Pathway Scores (Survey 1) </h2>
 
 ![Knowledge pathway results by crop](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png)
 *Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean scores (± SE) with raw respondent-level data points (click to enlarge).*
@@ -41,7 +41,7 @@ Explore the global coverage of our study systems using these interactive maps:
 ![Knowledge pathway results by region](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20World%20Region.png)
 *Figure 3: Knowledge pathway progress (Evidence → Implementation) across regions, showing mean scores (± SE) with raw respondent-level data points (click to enlarge).*
 
-### Implementation of Interventions (Survey 2)
+<h2 align="center"> Intervention Testing Scores (Survey 2) </h2> 
 
 ![Implementation results stacked bar](figure%20exports/Overall.intervention.testing.stackedbar.jpeg)
 *Figure 4: Proportion of systems that have tested different bat-supportive interventions. 'NAs' correspond to incomplete surveys, which will be updated when all survey entries are received (click to enlarge).*
