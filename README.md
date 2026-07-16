@@ -21,21 +21,22 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 *Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean scores (± SE) with raw respondent-level data points (click on figure to view larger).*
 
 ## Repository Structure
+**Folders:**
+- `Analysis/raw data/` — raw survey data as submitted by contributors
+- `Analysis/clean data/` — cleaned and scored survey data
+- `Analysis/` — analysis scripts (listed above)
+- `figure exports/` — all key figures produced by the analysis scripts
+- `docs/map exports/` — interactive maps showing spatial coverage of study systems
 
 | Script | Purpose |
 |--------|---------|
 | `Script 0` | Visualises our conceptual knowledge pathway |
 | `Map Script 1: make map.R` | Creates maps to show spatial coverage of study systems in the dataset |
+| `Colour palette script.R` | Defines consistent colour palettes used across maps and figures |
 | `Script 1` | Data wrangling for Survey 1 (Knowledge scoring) |
 | `Script 2` | Produces figures summarising Survey 1 scores |
-| `Script 3` | Extracts socio-economic, environmental performance, and R&D spending indices; visualises against Survey 1 scores |
-| `Script 4` | Data wrangling for Survey 2 (Implementation scoring) |
-| `Script 5` | Produces figures summarising Survey 2 scores |
-| `Script 6` | Extracts socio-economic, environmental performance, and R&D spending indices; visualises against Survey 2 scores |
-
-**Folders:**
-
-- `raw data/` — raw survey data as submitted by contributors
-- `clean data/` — cleaned and scored survey data
-- `figure exports/` — all key figures produced by the analysis scripts
-- `docs/map exports/` — maps showing spatial coverage of study systems
+| `Script 3` | Extracts socio-economic, environmental performance, and R&D spending indices |
+| `Script 4` | Visualises Survey 1 scores against socio-economic indices |
+| `Script 5` | Data wrangling for Survey 2 (Implementation scoring) |
+| `Script 6` | Produces figures summarising Survey 2 scores |
+| `Script 7` | Visualises Survey 2 scores against socio-economic indices |
