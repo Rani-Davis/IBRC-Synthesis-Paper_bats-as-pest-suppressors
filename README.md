@@ -33,7 +33,7 @@ Explore the global coverage of our study systems using these interactive maps:
 
 ## 📊 Key Figures
 
-### Knowledge Pathway Results (Survey 1)
+<h2 align="center"> Knowledge Pathway Results (Survey 1) </h2>
 
 ![Knowledge pathway results by crop](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png)
 *Figure 2: Knowledge pathway progress (Evidence → Implementation) across crop types, showing mean scores (± SE) with raw respondent-level data points (click to enlarge).*
