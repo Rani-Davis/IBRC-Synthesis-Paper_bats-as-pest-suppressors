@@ -24,13 +24,21 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 ![Knowledge pathway results](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20World%20Region.png)
 *Figure 3: Knowledge pathway progress (Evidence → Implementation) across regions, showing mean scores (± SE) with raw respondent-level data points (click on figure to view larger or download).*
 
-Overall 'Knowledge' scores (total for Survey 1) in relation to indices
-
 
 **Implementation of interventions (Survey 2)**
+![Implementation results](figure%20exports/Overall.intervention.testing.stackedbar.jpeg)
+*Figure 4: Proportion of systems that have tested different bat-supportive interventions. 'NAs' correspond to incomplete surveys, which will be updated when all survey entries are received (click on figure to view larger or download).*
 
+![Implementation results](figure%20exports/Mean.SE.ByCrop.Intervention.testing.jpeg)
+*Figure 5: Mean +/- SE of testing scores by  crop (click on figure to view larger or download).*
 
-Overall implementation scores in relation to indices
+![Implementation results](figure%20exports/Mean.SE.ByRegion.Intervention.testing.jpeg)
+*Figure 5: Mean +/- SE of testing scores by  region (click on figure to view larger or download).*
+
+Overall implementation scores in relation to Environmental Performance
+![Implementation results](figure%20exports/EnvPerformance.vs.Overall.intervention.testing.score.jpeg)
+*Figure 6: Country-level mean intervention score (total score across all interventions) against the Yale Environmental Performance Index. You can read about the index here https://epi.yale.edu. We have also visualised total intervention scores against GDP, agricultural R&D spending, etc, view these in the figure exports folder. Our next steps are to model as GLMMs (click on figure to view larger or download).*
+
 
 
 ## Repository Structure

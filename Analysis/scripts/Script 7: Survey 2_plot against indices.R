@@ -132,23 +132,23 @@ plot_index2 <- function(data, x_var, x_label) {
 
 plot_index2(country_indices_s2, "GDP_per_capita", "GDP per capita (USD)") +
   scale_x_log10(labels = dollar_format(prefix = "$")) +
-  ggtitle("GDP vs Bat Management Score (Survey 2)")
+  ggtitle("Simple linear model - GDP vs Bat Management Score (Survey 2)")
 
 plot_index2(country_indices_s2, "AllResearchAndDev_percentGPD", "National R&D spending (all sectors) (% of GDP)") +
   scale_x_continuous(labels = percent_format(scale = 1), breaks = seq(0, 5, by = 0.5)) +
-  ggtitle("National R&D Investment vs Testing of Bat Interventions (Survey 2)")
+  ggtitle("Simple linear model - National R&D Investment vs Testing of Bat Interventions (Survey 2)")
 
 plot_index2(country_indices_s2, "AgForestryFish_ValueAdded_percentGDP", "Agriculture, Forestry & Fisheries as % of GDP") +
   scale_x_continuous(labels = percent_format(scale = 1), breaks = seq(0, 80, by = 10)) +
-  ggtitle("Agricultural Economy Dependence vs Testing of Bat Interventions (Survey 2)")
+  ggtitle("Simple linear model - Agricultural Economy Dependence vs Testing of Bat Interventions (Survey 2)")
 
 plot_index2(country_indices_s2, "EnviroPerformance_score", "Environmental Performance Index (0-100)") +
   scale_x_continuous(limits = c(15, 85), breaks = seq(10, 90, by = 10)) +
-  ggtitle("Environmental Performance vs Testing of Bat Interventions (Survey 2)")
+  ggtitle("Simple linear model - Environmental Performance vs Testing of Bat Interventions (Survey 2)")
 
 plot_index2(country_indices_s2, "AgResearchAndDev_PPP2017", "Public Ag R&D spending (million 2017 Purchasing Power Parity)") +
   scale_x_log10(labels = dollar_format(prefix = "$", suffix = "M")) +
-  ggtitle("Agricultural R&D Investment vs Testing of Bat Interventions (Survey 2)")
+  ggtitle("Simple linear model - Agricultural R&D Investment vs Testing of Bat Interventions (Survey 2)")
 
 
 # Correlation heatmap — intervention x index

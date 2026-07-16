@@ -87,7 +87,7 @@ Survey1_Indice_cor_table <- map_df(indices, function(var) {
 
 print(Survey1_Indice_cor_table)
 
-========================================
+#========================================
   # 9. PLOT EACH INDEX VS MEAN TOTAL SCORE (country means)
   # ========================================
 ggplot(country_indices %>% filter(!is.na(GDP_per_capita)),
@@ -147,7 +147,7 @@ ggplot(country_indices %>% filter(!is.na(AgForestryFish_ValueAdded_percentGDP)),
   scale_size_continuous(name = "n entries", range = c(3, 10)) +
   scale_y_continuous(breaks = 0:12) +
   scale_x_continuous(labels = scales::percent_format(scale = 1),
-                     breaks = seq(0, 80, by = 10)) +
+                     breaks = seq(0, 80, by = 2)) +
   theme_minimal() +
   theme(axis.text = element_text(size = 10),
         panel.grid.minor = element_blank()) +
