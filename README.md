@@ -87,7 +87,7 @@ Explore the global coverage of our study systems using these interactive maps:
 ### Folders:
 * 📁 `Analysis/raw data/` — Raw survey data as submitted by contributors
 * 📁 `Analysis/clean data/` — Cleaned and scored survey data
-* 📁 `Analysis/` — Core analysis scripts 
+* 📁 `Analysis/scripts/` — Core analysis scripts 
 * 📁 `figure exports/` — All key figures produced by scripts
 * 📁 `docs/map exports/` — Interactive HTML maps showing spatial coverage
 
