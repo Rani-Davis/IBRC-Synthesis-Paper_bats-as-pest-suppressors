@@ -18,8 +18,11 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 | **# 2: Implementation scoring** | Interventions | Gathers information on what interventions have been implemented and tested for their effects on bats in each study system. Scores for each intervention scale from 0 (intervention not tried) to 3 (intervention tried and evaluated)|
 
 ### Figure 1: Conceptual Knowledge Pathway
-![Our conceptual knowledge pathway](figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png)
-*Figure 1: Conceptual knowledge pathway used to score study systems (see Script 0) (click on image to view larger).*
+
+<p align="center">
+  <img src="figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png" alt="Our conceptual knowledge pathway" /><br>
+  <sub><i>Figure 1: Conceptual knowledge pathway used to score study systems (see Script 0) (click on image to view larger).</i></sub>
+</p>
 
 ---
 
