@@ -1,10 +1,5 @@
 <h1 align="center">🦇 IBRC Synthesis Paper: Bats as Pest Suppressors</h1>
 
-<p align="center">
-  <img src="https://shields.io" alt="Status">
-  <img src="https://shields.io" alt="Data Status">
-</p>
-
 Our global synthesis paper summarises published and unpublished knowledge on insectivorous bats as pest suppressors in agricultural systems, and the interventions trialled to support them.
 
 This repository contains the raw survey data from all contributors, data-wrangling scripts, cleaned datasets, and scripts for visualising and analysing the data.
