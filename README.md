@@ -1,4 +1,4 @@
-<h1 align="center">🦇 IBRC Synthesis Paper: Bats as Pest Suppressors</h1>
+<h1 align="center">🦇 IBRC Synthesis Paper: Bats as Pest Suppressors 🦇</h1>
 
 Our global synthesis paper summarises published and unpublished knowledge on insectivorous bats as pest suppressors in agricultural systems, and the interventions trialled to support them.
 
