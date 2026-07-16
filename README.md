@@ -13,10 +13,8 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 | # 2: Implementation scoring | Gathers information on what interventions have been implemented and tested for their effects on bats in each study system |
 
 ## Maps showing the global coverage of our study systems
-
-- [Interactive study system map (with dropdown options to colour by specific crop, crop type, country or world region)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/survey%20map_drop%20down%20options.html)
-- [Static study system map (coloured by crop type)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_coloured%20by%20crop.html)
-- [Static study system map (consistent colour)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_consisent%20colour.html)
+- [Interactive study system map (Pin markers)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/teardrop%20map_interactive.html)
+- [Interactive study system map (Circle markers)](https://rani-davis.github.io/IBRC-Synthesis-Paper_bats-as-pest-suppressors/map%20exports/circle%20map_interactive.html)
 
 ## Key Figures
 ![Knowledge pathway results](figure%20exports/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png)

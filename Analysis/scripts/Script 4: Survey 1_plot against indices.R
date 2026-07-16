@@ -1,117 +1,69 @@
 # Code author: Rani Davis
-# Last updated: 6 July 2026
+# Last updated: 16 July 2026
 
-# ----------------------------------------
-# Packages
-# ----------------------------------------
-library(tidyverse)
-library(ggrepel)     # for non-overlapping plot labels
-library(scales)      # for axis formatting
-library(ggpubr)      # for stat_cor for correlation on plots
-library(readxl)      # to read Excel files
-library(GGally)      # for ggpairs correlation matrix
-library(broom)       # for tidy model outputs
-library(patchwork)   # to combine plots
-
-# Indices datasets
-library(WDI)         # World Bank data
-library(OECD)        # OECD data (optional)
-library(FAOSTAT)     # FAO data (optional - requires login)
+library(ggrepel)      # geom_text_repel() -- non-overlapping country labels
+library(ggpubr)       # stat_cor() -- correlation stats overlaid on plots
+library(scales)       # dollar_format(), percent_format() -- axis label formatting
+library(GGally)       # ggpairs() -- pairwise correlation matrix plot
+library(tidyverse)   # dplyr, tidyr, ggplot2, purrr (map_df, pmap_df), readr (read_csv), tibble -- covers most of the pipeline
 
 
 # ========================================
-# 1. PULL WORLD BANK GDP DATA
+# 1. JOIN INDICES TO SURVEY 1 DATA (single join, using the patched coverage table)
 # ========================================
-gdp_data <- WDI(indicator = "NY.GDP.PCAP.CD",
-                start = 2022, end = 2023,
-                extra = TRUE) %>%
-  filter(year == 2023) %>%
-  select(country, iso2c, GDP_per_capita = NY.GDP.PCAP.CD)
+Survey_1_long_indices <- Survey_1_long %>%
+  mutate(Country.WB = recode(Country.clean, !!!country_recode)) %>%
+  left_join(indices_coverage_check, by = "Country.WB")
 
-# Can search through different indices online at https://data.worldbank.org/indicator
-
-# Look up specific indices
-WDIsearch(string = "NV.AGR.TOTL.ZS", field = "indicator", cache = NULL, short = FALSE)
-WDIsearch(string = "GB.XPD.RSDV.GD.ZS", field = "indicator", cache = NULL, short = FALSE)
-
-# Pull WDI ag value added and R&D spending
-wdi_raw <- WDI(
-  indicator = c(
-    AgForestryFish_ValueAdded_percentGDP = "NV.AGR.TOTL.ZS",
-    AllResearchAndDev_percentGPD       = "GB.XPD.RSDV.GD.ZS"
-  ),
-  start = 2018, end = 2023,
-  extra = TRUE
-)
-
-wdi_indicators <- wdi_raw %>%
-  group_by(country) %>%
+# Check coverage
+Survey_1_long_indices %>%
   summarise(
-    AgForestryFish_ValueAdded_percentGDP = last(na.omit(AgForestryFish_ValueAdded_percentGDP)),
-    AllResearchAndDev_percentGPD       = last(na.omit(AllResearchAndDev_percentGPD )),
-    .groups = "drop"
-  ) %>%
-  select(country, AgForestryFish_ValueAdded_percentGDP,AllResearchAndDev_percentGPD )
-
-
-# ========================================
-# 2. PULL EPI DATA
-# Yale Environmental Performance Index
-# Score 0-100, higher = better environmental performance
-# Good proxy for environmental consciousness / policy maturity
-# ========================================
-epi_data <- read_csv("https://epi.yale.edu/downloads/epi2024results.csv") %>%
-  select(country = country, EnviroPerformance_score = EPI.new)
-# If URL fails, download manually from https://epi.yale.edu and read locally:
-# epi_data <- read_csv("epi2024results.csv") %>% select(country, epi_score = EPI.new)
-
-
-# ========================================
-# 3. PULL GRAPE AG R&D DATA
-# WUR-ERS Global Research on Agriculture: Personnel & Expenditures
-# Download grape_v1.0.0.xlsx dataset directly from zenodo.org/records/15828189
-# ========================================
-grape_raw <- read_xlsx("raw data/grape_v1.0.0.xlsx")
-
-# Filter to RD (expenditure) series, most recent year per country
-grape_clean <- grape_raw %>%
-  filter(variable == "RD") %>%
-  group_by(country) %>%
-  filter(year == max(year, na.rm = TRUE)) %>%
-  summarise(
-    AgResearchAndDev_PPP2017 = first(value),  # ag R&D in 2017 PPP$ = Purchasing Power Parity for 2017
-    AgResearchAndDev_year  = first(year),
-    iso3c       = first(iso3c), # iso3c = 3 letter code for each country
-    .groups = "drop"
+    n_gdp   = sum(!is.na(GDP_per_capita)),
+    n_ag_va = sum(!is.na(AgForestryFish_ValueAdded_percentGDP)),
+    n_rd    = sum(!is.na(AllResearchAndDev_percentGPD)),
+    n_epi   = sum(!is.na(EnviroPerformance_score)),
+    n_ag_rd = sum(!is.na(AgResearchAndDev_PPP2017))
   )
 
+Survey_1_long_indices %>%
+  filter(!is.na(Country.WB), is.na(GDP_per_capita)) %>%
+  distinct(Country.WB)
+
+#write.csv(Survey_1_long_indices,"Analysis/clean data/Survey 1_scored_with indices.csv", row.names = FALSE)
+
+
 
 # ========================================
-# 4. FAOSTAT (optional - but would require an account login, which I dont have...)
-# https://www.fao.org/faostat
+# 2. SUMMARISE TO COUNTRY LEVEL
 # ========================================
-# faostat_login(username = "your@email.com", password = "yourpassword")
-# search_dataset("land")
+country_indices <- Survey_1_long_indices %>%
+  filter(!is.na(Country.clean)) %>%
+  group_by(Country.clean, Country.WB,
+           GDP_per_capita, AgForestryFish_ValueAdded_percentGDP,
+           AllResearchAndDev_percentGPD, EnviroPerformance_score, AgResearchAndDev_PPP2017,
+           Taiwan_imputed_from_China) %>%
+  summarise(
+    Mean.Total.Score = mean(TotalScore, na.rm = TRUE),
+    n = n_distinct(Respondent.ID),
+    .groups = "drop"
+  ) %>%
+  mutate(Country.n.label = paste0(Country.clean, "\n(n=", n, ")"))
 
-does 
 
 # ========================================
-# 8. EXPLORE COLLINEARITY BETWEEN INDICES
+# 3. EXPLORE COLLINEARITY BETWEEN INDICES
 # ========================================
-# Correlation matrix
 country_indices %>%
   select(Mean.Total.Score, GDP_per_capita, AgForestryFish_ValueAdded_percentGDP,
          AllResearchAndDev_percentGPD, EnviroPerformance_score, AgResearchAndDev_PPP2017) %>%
   cor(use = "pairwise.complete.obs") %>%
   round(2)
 
-# Pairwise plot matrix
 country_indices %>%
   select(Mean.Total.Score, GDP_per_capita, AgForestryFish_ValueAdded_percentGDP,
          AllResearchAndDev_percentGPD, EnviroPerformance_score, AgResearchAndDev_PPP2017) %>%
   ggpairs()
 
-# Correlation table with significance
 indices <- c("GDP_per_capita", "AgForestryFish_ValueAdded_percentGDP",
              "AllResearchAndDev_percentGPD", "EnviroPerformance_score", "AgResearchAndDev_PPP2017")
 
@@ -134,32 +86,11 @@ Survey1_Indice_cor_table <- map_df(indices, function(var) {
 })
 
 print(Survey1_Indice_cor_table)
-# Significant correlations include:
-# - AgForestryFish_ValueAdded_percentGDP: Agriculture, Forestry & Fisheries as % of GDP (negative - wealthier, more
-#   industrialised countries have smaller ag share of GDP and more research capacity)
-# - EnviroPerformance_score: Environmental Performance Index (positive - environmentally
-#   conscious countries score higher)
 
 
 # ========================================
-# 9. PLOT EACH INDEX VS MEAN TOTAL SCORE (country means)
+# 4. PLOT EACH INDEX VS MEAN TOTAL SCORE (country means)
 # ========================================
-# Colour palette for world regions
-region_colours <- c(
-  "Europe"                     = "#2166AC",
-  "Africa"                     = "#D6604D",
-  "Latin America & Caribbean"  = "#33A02C",
-  "Australasia / Pacific"      = "#00B4D8",
-  "North America"              = "#7B2D8B",
-  "Middle East / Western Asia" = "#FF8C00",
-  "South Asia"                 = "#E7298A",
-  "East Asia"                  = "#E6C619",
-  "Southeast Asia"             = "#7DB82A"
-)
-
-# ----------------------------------------
-# GDP per capita (log scale)
-# ----------------------------------------
 ggplot(country_indices %>% filter(!is.na(GDP_per_capita)),
        aes(x = GDP_per_capita, y = Mean.Total.Score,
            size = n, label = Country.n.label)) +
@@ -181,10 +112,6 @@ ggplot(country_indices %>% filter(!is.na(GDP_per_capita)),
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
   ggtitle("Country GDP vs Bat Research Score")
 
-# ----------------------------------------
-# General R&D spending % of GDP
-# Flat: general R&D spending doesn't predict bat-agriculture knowledge
-# ----------------------------------------
 ggplot(country_indices %>% filter(!is.na(AllResearchAndDev_percentGPD)),
        aes(x = AllResearchAndDev_percentGPD, y = Mean.Total.Score,
            size = n, label = Country.n.label)) +
@@ -207,11 +134,6 @@ ggplot(country_indices %>% filter(!is.na(AllResearchAndDev_percentGPD)),
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
   ggtitle("National R&D Investment (all sectors) vs Bat Research Score")
 
-# ----------------------------------------
-# Agriculture % of GDP
-# Negative: wealthier, industrialised countries have smaller ag share of GDP
-# and likely more research capacity and bat knowledge
-# ----------------------------------------
 ggplot(country_indices %>% filter(!is.na(AgForestryFish_ValueAdded_percentGDP)),
        aes(x = AgForestryFish_ValueAdded_percentGDP, y = Mean.Total.Score,
            size = n, label = Country.n.label)) +
@@ -234,9 +156,6 @@ ggplot(country_indices %>% filter(!is.na(AgForestryFish_ValueAdded_percentGDP)),
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
   ggtitle("Agricultural Economy Dependence vs Bat Research Score")
 
-# ----------------------------------------
-# Ag R&D spending (log scale)
-# ----------------------------------------
 ggplot(country_indices %>% filter(!is.na(AgResearchAndDev_PPP2017)),
        aes(x = AgResearchAndDev_PPP2017, y = Mean.Total.Score,
            size = n, label = Country.n.label)) +
@@ -258,9 +177,6 @@ ggplot(country_indices %>% filter(!is.na(AgResearchAndDev_PPP2017)),
        y = "Mean Total Score for Survey 1\n(Knowledge Pathway) per country") +
   ggtitle("Agricultural R&D Investment vs Bat Research Score")
 
-# ----------------------------------------
-# EPI score
-# ----------------------------------------
 ggplot(country_indices %>% filter(!is.na(EnviroPerformance_score)),
        aes(x = EnviroPerformance_score, y = Mean.Total.Score,
            size = n, label = Country.n.label)) +
@@ -284,12 +200,8 @@ ggplot(country_indices %>% filter(!is.na(EnviroPerformance_score)),
 
 
 # ========================================
-# 10. RAW ENTRIES VS COUNTRY MEANS COMPARISON (not as country means)
+# 5. RAW ENTRIES VS COUNTRY MEANS COMPARISON (not as country means)
 # ========================================
-# Raw entries plot - one point per respondent entry, coloured by world region
-# To see spread of total scores
-
-# GDP
 ggplot(
   Survey_1_long_indices %>%
     filter(!is.na(GDP_per_capita)) %>%
@@ -307,7 +219,6 @@ ggplot(
        title = "Raw entries", colour = "World Region") +
   theme(panel.grid.minor = element_blank())
 
-# All R&D spending
 ggplot(
   Survey_1_long_indices %>%
     filter(!is.na(AllResearchAndDev_percentGPD)) %>%
@@ -328,7 +239,6 @@ ggplot(
        colour = "World Region") +
   theme(panel.grid.minor = element_blank())
 
-# Ag R&D
 ggplot(
   Survey_1_long_indices %>%
     filter(!is.na(AgResearchAndDev_PPP2017)) %>%
@@ -348,7 +258,6 @@ ggplot(
        colour = "World Region") +
   theme(panel.grid.minor = element_blank())
 
-# Environmental Performance index
 ggplot(
   Survey_1_long_indices %>%
     filter(!is.na(EnviroPerformance_score)) %>%
@@ -367,4 +276,3 @@ ggplot(
        title = "Raw entries - Environmental Performance vs Bat Research Score",
        colour = "World Region") +
   theme(panel.grid.minor = element_blank())
-

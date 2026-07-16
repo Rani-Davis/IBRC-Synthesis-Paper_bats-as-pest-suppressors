@@ -9,7 +9,7 @@ library(tidyverse); library(writexl); library(scales)
 # ----------------------------------------
 # Import data
 # ----------------------------------------
-Survey_2_data <- read_csv("clean data/Survey 2_scored_near complete_16.6.26.csv") 
+Survey_2_data <- read_csv("Analysis/clean data/Survey 2_scored_near complete_16.6.26.csv") 
 head(Survey_2_data)
 names(Survey_2_data)
 str(Survey_2_data)

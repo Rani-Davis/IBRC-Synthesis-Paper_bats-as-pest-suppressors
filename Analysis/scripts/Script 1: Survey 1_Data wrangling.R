@@ -12,7 +12,7 @@ library(writexl)
 # =========================
 # 1. Load data
 # =========================
-survey_1 <- read_csv("raw data/Survey 1 clean_near complete_16.6.26.csv") %>%
+survey_1 <- read_csv("Analysis/raw data/Survey 1 clean_near complete_16.6.26.csv") %>%
   mutate(RowID = row_number())
 
 # Optional check
@@ -115,6 +115,12 @@ scores_list <- list(
   )
 )
 
+clean_text <- function(x) {
+  x %>%
+    trimws() %>%          # remove leading/trailing spaces
+    stringr::str_squish()  # collapse any internal double/multiple spaces to one
+}
+
 # =========================
 # 4.b. Apply scoring 
 # =========================
@@ -179,5 +185,5 @@ names(survey_1.2)
 # specify columns to export
 survey_1_export <- survey_1.2[, 1:48]
 # write files
-write_xlsx(survey_1_export, "clean data/Survey 1_scored_near complete_16.6.26.xlsx")
-write.csv(survey_1_export, "clean data/Survey 1_scored_near complete_16.6.26.csv", row.names = FALSE)
+#write_xlsx(survey_1_export, "Analysis/clean data/Survey 1_scored_near complete_16.6.26.xlsx")
+#write.csv(survey_1_export, "Analysis/clean data/Survey 1_scored_near complete_16.6.26.csv", row.names = FALSE)

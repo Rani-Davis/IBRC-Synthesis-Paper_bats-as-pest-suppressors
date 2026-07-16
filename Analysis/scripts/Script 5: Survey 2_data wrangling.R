@@ -13,7 +13,7 @@ library(writexl)
 # =========================
 # 1. Load data
 # =========================
-survey_2 <- read_csv("raw data/Survey 2 clean_near complete_16.6.26.csv") %>%
+survey_2 <- read_csv("Analysis/raw data/Survey 2 clean_near complete_16.6.26.csv") %>%
   mutate(RowID = row_number())
 
 # Optional check
@@ -173,5 +173,5 @@ colnames(survey_2.2)
 # specify columns to export
 survey_2_export <- survey_2.2[, 1:31]
 # write files
-write_xlsx(survey_2_export, "clean data/Survey 2_scored_near complete_16.6.26.xlsx")
-write.csv(survey_2_export, "clean data/Survey 2_scored_near complete_16.6.26.csv", row.names = FALSE)
+#write_xlsx(survey_2_export, "Analysis/clean data/Survey 2_scored_near complete_16.6.26.xlsx")
+#write.csv(survey_2_export, "Analysis/clean data/Survey 2_scored_near complete_16.6.26.csv", row.names = FALSE)
