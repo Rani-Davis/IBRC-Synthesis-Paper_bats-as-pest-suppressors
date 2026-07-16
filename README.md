@@ -17,7 +17,7 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 | **# 1: Knowledge scoring** | Conceptual pathway | Places each study system within our conceptual "knowledge pathway" (see **Figure 1** below). Scores at each step along the pathway scale from 0 (no knowledge) to 3 (extensive knowledge)|
 | **# 2: Implementation scoring** | Interventions | Gathers information on what interventions have been implemented and tested for their effects on bats in each study system. Scores for each intervention scale from 0 (intervention not tried) to 3 (intervention tried and evaluated)|
 
-### Figure 1: Conceptual Knowledge Pathway
+### Conceptual Knowledge Pathway
 
 <p align="center">
   <img src="figure%20exports/Our%20Conceptual%20Knowledge%20Pathway_with%20questions.png" alt="Our conceptual knowledge pathway" /><br>
