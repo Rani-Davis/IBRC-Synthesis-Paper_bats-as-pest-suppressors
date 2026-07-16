@@ -30,9 +30,9 @@ Contributors were asked to complete two surveys to gather knowledge about the re
 
 | Script | Purpose |
 |--------|---------|
+| `Map Script` | Creates maps to show spatial coverage of study systems in the dataset |
+| `Colour palette Script` | Defines consistent colour palettes used across maps and figures |
 | `Script 0` | Visualises our conceptual knowledge pathway |
-| `Map Script 1: make map.R` | Creates maps to show spatial coverage of study systems in the dataset |
-| `Colour palette script.R` | Defines consistent colour palettes used across maps and figures |
 | `Script 1` | Data wrangling for Survey 1 (Knowledge scoring) |
 | `Script 2` | Produces figures summarising Survey 1 scores |
 | `Script 3` | Extracts socio-economic, environmental performance, and R&D spending indices |
