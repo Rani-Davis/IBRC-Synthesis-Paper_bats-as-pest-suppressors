@@ -10,8 +10,6 @@ This repository contains the raw survey data from all contributors, data-wrangli
 
 Contributors were asked to complete two surveys to gather knowledge about the research conducted in their study systems. A **study system** is defined as a crop type $\times$ region combination in which studies were done.
 
-### Survey Breakdown
-
 | Survey | Focus | Purpose |
 | :--- | :--- | :--- |
 | **#1: Knowledge scoring** | Conceptual pathway | Places each study system within our conceptual "knowledge pathway" (see **Figure 1** below). Scores at each step along the pathway scale from 0 (no knowledge) to 3 (extensive knowledge). |
