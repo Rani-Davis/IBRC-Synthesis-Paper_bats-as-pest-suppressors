@@ -97,13 +97,13 @@ As an initial exploration, we visualised the relationship between country-level 
 Below are simple linear models of two example indices (GDP and Environmental Performance Index) against the mean Knowledge and Intervention scores per country. You can view figures for all simple linear models inside 'figure exports/Models with indices/.../simple linear models'
 
 <p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
-  <sub><i>Figure X: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/simple%20linear%20models/GDP%20vs%20Mean%20Knowledge%20Score%20for%20Country%20Means.jpeg" alt="GDP versus Knowledge Pathway score" /><br>
+  <sub><i>Figure 7: Country-level mean Knowledge Pathway scores plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
 </p>
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
-  <sub><i>Figure X: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+  <sub><i>Figure 8: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
 </p>
 
 However, these relationships are unlikely to be driven by a single factor. For example, countries with higher GDP may also differ in environmental protection and investment, agricultural research, variety in crop production systems, and availability of research infrastructure. Similarly, study systems within the same country may share characteristics that make them more similar to one another.
@@ -152,23 +152,26 @@ The current best-supported GLMM investigates how crop type, Environmental Perfor
 Key model-predicted relationships are shown below.
 
 <p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Crop type effect on Knowledge Pathway scores" /><br>
-  <sub><i>Figure X: GLMM-predicted effect of crop type on mean Knowledge Pathway scores (±95% CI).</i></sub>
-</p>
-
-<br>
-
-<p align="center">
   <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Env%20Performance%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Environmental Performance effect on Knowledge Pathway scores" /><br>
-  <sub><i>Figure X: GLMM-predicted relationship between Environmental Performance Index and mean Knowledge Pathway scores (±95% CI).</i></sub>
+  <sub><i>Figure 10: GLMM-predicted relationship between Environmental Performance Index and mean Knowledge Pathway scores (±95% CI).</i></sub>
 </p>
 
 <br>
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Latitude%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Latitude effect on Knowledge Pathway scores" /><br>
-  <sub><i>Figure X: GLMM-predicted relationship between absolute latitude and mean Knowledge Pathway scores (±95% CI).</i></sub>
+  <sub><i>Figure 11: GLMM-predicted relationship between absolute latitude and mean Knowledge Pathway scores (±95% CI).</i></sub>
+
 </p>
+
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Crop type effect on Knowledge Pathway scores" /><br>
+  <sub><i>Figure 9: GLMM-predicted effect of crop type on mean Knowledge Pathway scores (±95% CI).</i></sub>
+
+</p>
+
 
 ---
 
@@ -179,23 +182,25 @@ The current best-supported GLMM investigates how crop type, Environmental Perfor
 Key model-predicted relationships are shown below.
 
 <p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Crop type effect on Intervention scores" /><br>
-  <sub><i>Figure X: GLMM-predicted effect of crop type on mean Intervention Testing scores (±95% CI).</i></sub>
-</p>
-
-<br>
-
-<p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Env%20Performance%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Environmental Performance effect on Intervention scores" /><br>
-  <sub><i>Figure X: GLMM-predicted relationship between Environmental Performance Index and mean Intervention Testing scores (±95% CI).</i></sub>
+  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean Intervention Testing scores (±95% CI).</i></sub>
 </p>
 
 <br>
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Latitude%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Latitude effect on Intervention scores" /><br>
-  <sub><i>Figure X: GLMM-predicted relationship between absolute latitude and mean Intervention Testing scores (±95% CI).</i></sub>
+  <sub><i>Figure 14: GLMM-predicted relationship between absolute latitude and mean Intervention Testing scores (±95% CI).</i></sub>
+
 </p>
+
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Crop type effect on Intervention scores" /><br>
+  <sub><i>Figure 12: GLMM-predicted effect of crop type on mean Intervention Testing scores (±95% CI).</i></sub>
+</p>
+
 
 ---
 
