@@ -106,23 +106,11 @@ Below are simple linear models of two example indices (GDP and Environmental Per
   <sub><i>Figure 8: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
 </p>
 
-However, these relationships are unlikely to be driven by a single factor. For example, countries with higher GDP may also differ in environmental protection and investment, agricultural research, variety in crop production systems, and availability of research infrastructure. Similarly, study systems within the same country may share characteristics that make them more similar to one another.
-
-Therefore, we are moving beyond simple correlations and using **Generalised Linear Mixed Models (GLMMs)** to evaluate multiple predictors simultaneously
-
 ## Why GLMMs?
 
-The simple linear models do not account for study systems not being independent.
+The simple linear models shown above do not account for study systems not being independent, and these relationships are unlikely to be driven by a single factor (e.g. GDP). 
 
-To identify the factors associated with knowledge progression or intervention implementation while accounting for this non-independence, we fitted **Generalised Linear Mixed Models (GLMMs)** using the `glmmTMB` package in R.
-
-GLMMs allow us to:
-
-- quantify relationships between survey scores and explanatory variables;
-- account for variation among countries using random effects;
-- estimate the influence of environmental and socio-economic predictors;
-- generate model-predicted effects with 95% confidence intervals;
-- compare crop types using estimated marginal means (EMMs) and Tukey-adjusted pairwise comparisons.
+Therefore, we are moving beyond simple correlations and using **Generalised Linear Mixed Models (GLMMs)** to evaluate multiple predictors simultaneously
 
 The current models investigate:
 
