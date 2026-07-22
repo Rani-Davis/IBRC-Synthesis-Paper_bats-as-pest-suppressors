@@ -50,7 +50,7 @@ Explore the global coverage of our study systems using these interactive maps:
 
 <p align="center">
   <img src="figure%20exports/Knowledge%20pathway%20scores/Draft_composite%20knowledge%20pathway%20plot_By%20World%20Region.png" alt="Knowledge pathway results by region" /><br>
-  <sub><i>Figure 3: Knowledge pathway progress across regions, showing mean scores (± SE) with raw respondent-level data points. Click to enlarge.</i></sub>
+  <sub><i>Figure 3: Knowledge pathway progress across regions, showing mean scores (± SE) for each question in Survey 1 with raw respondent-level data points. Click to enlarge.</i></sub>
 </p>
 
 ---
@@ -59,21 +59,21 @@ Explore the global coverage of our study systems using these interactive maps:
 
 <p align="center">
   <img src="figure%20exports/Intervention%20testing%20scores/Overall.intervention.testing.stackedbar.jpeg" alt="Implementation results stacked bar" /><br>
-  <sub><i>Figure 4: Proportion of study systems that have tested different bat-supportive interventions.</i></sub>
+  <sub><i>Figure 4: Proportion of study systems that have tested different bat-supportive interventions (from Survey 2). Click to enlarge. </i></sub>
 </p>
 
 <br>
 
 <p align="center">
   <img src="figure%20exports/Intervention%20testing%20scores/Mean.SE.ByCrop.Intervention.testing.jpeg" alt="Mean testing scores by crop" /><br>
-  <sub><i>Figure 5: Mean intervention testing scores by crop type.</i></sub>
+  <sub><i>Figure 5: Mean intervention testing scores (± SE) by crop type (from Survey 2). Click to enlarge.</i></sub>
 </p>
 
 <br>
 
 <p align="center">
   <img src="figure%20exports/Intervention%20testing%20scores/Mean.SE.ByRegion.Intervention.testing.jpeg" alt="Mean testing scores by region" /><br>
-  <sub><i>Figure 6: Mean intervention testing scores by world region.</i></sub>
+  <sub><i>Figure 6: Mean intervention testing scores (± SE) by world region (from Survey 2). Click to enlarge.</i></sub>
 </p>
 
 ---
@@ -98,12 +98,12 @@ Below are simple linear models of two example indices (GDP and Environmental Per
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/simple%20linear%20models/GDP%20vs%20Mean%20Knowledge%20Score%20for%20Country%20Means.jpeg" alt="GDP versus Knowledge Pathway score" /><br>
-  <sub><i>Figure 7: Country-level mean Knowledge Pathway scores plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+  <sub><i>Figure 7: Country-level mean Knowledge Pathway scores (scores from Survey 1, across the entire pathway) plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors.</i></sub>
 </p>
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
-  <sub><i>Figure 8: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+  <sub><i>Figure 8: Country-level mean Intervention Testing scores (scores from Survey 2, across all 6 interventions) plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors.</i></sub>
 </p>
 
 ## Why GLMMs?
@@ -141,14 +141,14 @@ Key model-predicted relationships are shown below.
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Env%20Performance%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Environmental Performance effect on Knowledge Pathway scores" /><br>
-  <sub><i>Figure 10: GLMM-predicted relationship between Environmental Performance Index and mean Knowledge Pathway scores (±95% CI).</i></sub>
+  <sub><i>Figure 10: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Knowledge score across the entire Pathway (Survey 1).</i></sub>
 </p>
 
 <br>
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Latitude%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Latitude effect on Knowledge Pathway scores" /><br>
-  <sub><i>Figure 11: GLMM-predicted relationship between absolute latitude and mean Knowledge Pathway scores (±95% CI).</i></sub>
+  <sub><i>Figure 11: GLMM-predicted relationship between absolute latitude and mean (±95% CI) Knowledge score across the entire Pathway (Survey 1).</i></sub>
 
 </p>
 
@@ -156,7 +156,7 @@ Key model-predicted relationships are shown below.
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Crop type effect on Knowledge Pathway scores" /><br>
-  <sub><i>Figure 9: GLMM-predicted effect of crop type on mean Knowledge Pathway scores (±95% CI).</i></sub>
+  <sub><i>Figure 9: GLMM-predicted effect of crop type on mean (±95% CI) Knowledge score across the entire Pathway (Survey 1).</i></sub>
 
 </p>
 
@@ -171,14 +171,14 @@ Key model-predicted relationships are shown below.
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Env%20Performance%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Environmental Performance effect on Intervention scores" /><br>
-  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean Intervention Testing scores (±95% CI).</i></sub>
+  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Intervention score (Survey 2, mean across all 6 interventions). Note that a score of 0 = not tried; 1 = tried, untested; 2 = tried, testing ongoing; 3 = tried and tested </i></sub>
 </p>
 
 <br>
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Latitude%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Latitude effect on Intervention scores" /><br>
-  <sub><i>Figure 14: GLMM-predicted relationship between absolute latitude and mean Intervention Testing scores (±95% CI).</i></sub>
+  <sub><i>Figure 14: GLMM-predicted relationship between absolute latitude and and mean (±95% CI) Intervention score (Survey 2, mean across all 6 interventions). Note that a score of 0 = not tried; 1 = tried, untested; 2 = tried, testing ongoing; 3 = tried and tested.</i></sub>
 
 </p>
 
@@ -186,7 +186,7 @@ Key model-predicted relationships are shown below.
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Crop type effect on Intervention scores" /><br>
-  <sub><i>Figure 12: GLMM-predicted effect of crop type on mean Intervention Testing scores (±95% CI).</i></sub>
+  <sub><i>Figure 12: GLMM-predicted effect of crop type on and mean (±95% CI) Intervention score (Survey 2, mean across all 6 interventions). Note that a score of 0 = not tried; 1 = tried, untested; 2 = tried, testing ongoing; 3 = tried and tested.</i></sub>
 </p>
 
 
