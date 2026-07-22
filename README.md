@@ -88,18 +88,21 @@ Potential explanatory indices being explored include:
 - 🌍 Environmental Performance Index
 - 💰 GDP
 - 🌱 Agricultural contribution to GDP
-- 🔬 Agricultural and national research & development investment
+- 🔬 National research & development investment (all sectors)
+- 🔬Agricultural research & development investment
 
 
-As an initial exploration, we visualised the relationship between country-level mean Knowledge Pathway and Intervention scores and each index. Below are simple linear models of GDP and Environmental Performance Index against the mean Knowledge and Intervention scores per country.
+As an initial exploration, we visualised the relationship between country-level mean Knowledge Pathway and Intervention scores and each index. 
+
+Below are simple linear models of two example indices (GDP and Environmental Performance Index) against the mean Knowledge and Intervention scores per country. You can view figures for all simple linear models inside figure xports/
 
 <p align="center">
-  <img src="figure%20exports/Intervention%20scores%20vs%20indexes%20models/simple%20linear%20models/GDP%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="GDP versus Intervention score" /><br>
-  <sub><i>Figure X: Country-level mean Intervention Testing scores plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
+  <sub><i>Figure X: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
 </p>
 
 <p align="center">
-  <img src="figure%20exports/Intervention%20scores%20vs%20indexes%20models/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
+  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
   <sub><i>Figure X: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
 </p>
 
