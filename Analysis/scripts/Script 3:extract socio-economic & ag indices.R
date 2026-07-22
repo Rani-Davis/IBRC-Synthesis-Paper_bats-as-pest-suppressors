@@ -18,6 +18,7 @@ library(countrycode) #
 library(WDI)         # World Bank data
 library(OECD)        # OECD data (optional)
 library(FAOSTAT)     # FAO data (optional - requires login)
+# GRAPE dataset from this paper = https://www.nature.com/articles/s41597-025-05331-y?utm_source=researchgate.net&utm_medium=article#Sec10
 
 # ========================================
 # 0. BUILD COUNTRY LOOKUP (shared across all index pulls)
@@ -99,6 +100,8 @@ epi_data <- epi_raw %>%
 # ========================================
 # 3. PULL GRAPE AG R&D DATA (filtered to your countries after read)
 # ========================================
+# https://www.nature.com/articles/s41597-025-05331-y?utm_source=researchgate.net&utm_medium=article#Sec10
+# Can download here - https://zenodo.org/records/15507361
 all_countries_grape <- recode(all_countries_wb, "Taiwan, China" = "Taiwan")
 
 grape_raw <- read_xlsx("Analysis/raw data/grape_v1.0.0.xlsx")

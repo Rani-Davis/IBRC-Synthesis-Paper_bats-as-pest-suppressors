@@ -1,561 +1,561 @@
-"Respondent.clean","Respondent.ID","Respondent.entry.ID","Region.within.country.clean","Country.clean","World.region.clean","Crop.clean","Crop.type.clean","Score.type","Score","Respondent.entry.label","TotalScore"
-"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Evidence",2,"R1-1",8
-"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Representativeness",1,"R1-1",8
-"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Limiting Factors",1,"R1-1",8
-"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Available Interventions",1,"R1-1",8
-"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Monitoring Interventions",2,"R1-1",8
+"Respondent.clean","Respondent.ID","Respondent.entry.ID","Region.within.country.clean","Country.clean","World.region.clean","Crop.clean","Crop.type.clean","Score.type","Score","Respondent.entry.label","TotalScore.allSteps","MeanScore.allSteps","GeoMeanScore.allSteps"
+"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Evidence",2,"R1-1",7,1.4,1.31950791077289
+"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Representativeness",1,"R1-1",7,1.4,1.31950791077289
+"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Limiting Factors",1,"R1-1",7,1.4,1.31950791077289
+"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Available Interventions",1,"R1-1",7,1.4,1.31950791077289
+"Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Monitoring Interventions",2,"R1-1",7,1.4,1.31950791077289
 "Adrià López-Baucells","R1",1,"Catalonia","Spain","Europe","Tomato","Vegetable crops","Breadth of Implementation
-of Interventions",1,"R1-1",8
-"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Evidence",1,"R2-1",6
-"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Representativeness",1,"R2-1",6
-"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R2-1",6
-"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Available Interventions",1,"R2-1",6
-"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Monitoring Interventions",0,"R2-1",6
+of Interventions",1,"R1-1",7,1.4,1.31950791077289
+"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Evidence",1,"R2-1",5,1,0
+"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Representativeness",1,"R2-1",5,1,0
+"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R2-1",5,1,0
+"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Available Interventions",1,"R2-1",5,1,0
+"Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Monitoring Interventions",0,"R2-1",5,1,0
 "Alexandra Howard","R2",1,"Free State","South Africa","Africa","Apple","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",1,"R2-1",6
-"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Evidence",3,"R3-1",8
-"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Representativeness",1,"R3-1",8
-"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Limiting Factors",1,"R3-1",8
-"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Available Interventions",1,"R3-1",8
-"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Monitoring Interventions",1,"R3-1",8
+of Interventions",1,"R2-1",5,1,0
+"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Evidence",3,"R3-1",7,1.4,1.24573093961552
+"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Representativeness",1,"R3-1",7,1.4,1.24573093961552
+"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Limiting Factors",1,"R3-1",7,1.4,1.24573093961552
+"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Available Interventions",1,"R3-1",7,1.4,1.24573093961552
+"Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Monitoring Interventions",1,"R3-1",7,1.4,1.24573093961552
 "Andrés Muñoz-Sáez","R3",1,"Santiago Metropolitan region","Chile","Latin America / Caribbean","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",1,"R3-1",8
-"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",2,"R4-1",6
-"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",1,"R4-1",6
-"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",1,"R4-1",6
-"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",1,"R4-1",6
-"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",0,"R4-1",6
+of Interventions",1,"R3-1",7,1.4,1.24573093961552
+"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",2,"R4-1",5,1,0
+"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",1,"R4-1",5,1,0
+"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",1,"R4-1",5,1,0
+"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",1,"R4-1",5,1,0
+"April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",0,"R4-1",5,1,0
 "April Reside","R4",1,"Queensland","Australia","Australasia / Pacific","Multi- grain & vegetable","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",1,"R4-1",6
-"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Evidence",2,"R5-1",4
-"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Representativeness",0,"R5-1",4
-"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Limiting Factors",1,"R5-1",4
-"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Available Interventions",1,"R5-1",4
-"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Monitoring Interventions",0,"R5-1",4
+of Interventions",1,"R4-1",5,1,0
+"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Evidence",2,"R5-1",4,0.8,0
+"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Representativeness",0,"R5-1",4,0.8,0
+"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Limiting Factors",1,"R5-1",4,0.8,0
+"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Available Interventions",1,"R5-1",4,0.8,0
+"Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Monitoring Interventions",0,"R5-1",4,0.8,0
 "Ara Monadjem","R5",1,"North-east Eswatini","Eswatini","Africa","Sugar cane","Field crops","Breadth of Implementation
-of Interventions",0,"R5-1",4
-"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Evidence",2,"R6-1",9
-"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Representativeness",2,"R6-1",9
-"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Limiting Factors",3,"R6-1",9
-"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Available Interventions",1,"R6-1",9
-"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Monitoring Interventions",0,"R6-1",9
+of Interventions",0,"R5-1",4,0.8,0
+"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Evidence",2,"R6-1",7,1.4,0
+"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Representativeness",2,"R6-1",7,1.4,0
+"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Limiting Factors",3,"R6-1",7,1.4,0
+"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Available Interventions",1,"R6-1",7,1.4,0
+"Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Monitoring Interventions",0,"R6-1",7,1.4,0
 "Brooke Maslo","R6",1,"New Jersey","USA","North America","Multi- fruit & orchard","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",1,"R6-1",9
-"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Evidence",2,"R7-1",7
-"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Representativeness",1,"R7-1",7
-"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Limiting Factors",1,"R7-1",7
-"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Available Interventions",1,"R7-1",7
-"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Monitoring Interventions",1,"R7-1",7
+of Interventions",1,"R6-1",7,1.4,0
+"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Evidence",2,"R7-1",6,1.2,1.14869835499704
+"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Representativeness",1,"R7-1",6,1.2,1.14869835499704
+"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Limiting Factors",1,"R7-1",6,1.2,1.14869835499704
+"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Available Interventions",1,"R7-1",6,1.2,1.14869835499704
+"Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Monitoring Interventions",1,"R7-1",6,1.2,1.14869835499704
 "Carme Tuneu-Corral","R7",1,"Multi-region: DIANA & Vatovavy-Fitovinany regions","Madagascar","Africa","Rice","Grain crops","Breadth of Implementation
-of Interventions",1,"R7-1",7
-"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Evidence",3,"R7-2",14
-"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Representativeness",2,"R7-2",14
-"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Limiting Factors",2,"R7-2",14
-"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Available Interventions",3,"R7-2",14
-"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Monitoring Interventions",2,"R7-2",14
+of Interventions",1,"R7-1",6,1.2,1.14869835499704
+"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Evidence",3,"R7-2",12,2.4,2.35215804504935
+"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Representativeness",2,"R7-2",12,2.4,2.35215804504935
+"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Limiting Factors",2,"R7-2",12,2.4,2.35215804504935
+"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Available Interventions",3,"R7-2",12,2.4,2.35215804504935
+"Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Monitoring Interventions",2,"R7-2",12,2.4,2.35215804504935
 "Carme Tuneu-Corral","R7",2,"Multi-region: Catalonia & Aragon","Spain","Europe","Rice","Grain crops","Breadth of Implementation
-of Interventions",2,"R7-2",14
-"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Evidence",2,"R8-1",11
-"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Representativeness",2,"R8-1",11
-"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Limiting Factors",1,"R8-1",11
-"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Available Interventions",2,"R8-1",11
-"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Monitoring Interventions",2,"R8-1",11
+of Interventions",2,"R7-2",12,2.4,2.35215804504935
+"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Evidence",2,"R8-1",9,1.8,1.74110112659225
+"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Representativeness",2,"R8-1",9,1.8,1.74110112659225
+"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Limiting Factors",1,"R8-1",9,1.8,1.74110112659225
+"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Available Interventions",2,"R8-1",9,1.8,1.74110112659225
+"Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Monitoring Interventions",2,"R8-1",9,1.8,1.74110112659225
 "Carmi Korine","R8",1,"Southern Distict","Israel","Middle East / Western Asia","Date palms","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",2,"R8-1",11
-"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Evidence",1,"R8-2",7
-"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Representativeness",1,"R8-2",7
-"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Limiting Factors",2,"R8-2",7
-"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Available Interventions",1,"R8-2",7
-"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Monitoring Interventions",1,"R8-2",7
+of Interventions",2,"R8-1",9,1.8,1.74110112659225
+"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Evidence",1,"R8-2",6,1.2,1.14869835499704
+"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Representativeness",1,"R8-2",6,1.2,1.14869835499704
+"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Limiting Factors",2,"R8-2",6,1.2,1.14869835499704
+"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Available Interventions",1,"R8-2",6,1.2,1.14869835499704
+"Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Monitoring Interventions",1,"R8-2",6,1.2,1.14869835499704
 "Carmi Korine","R8",2,"Southern Distict","Israel","Middle East / Western Asia","Onion","Vegetable crops","Breadth of Implementation
-of Interventions",1,"R8-2",7
-"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Evidence",1,"R8-3",6
-"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Representativeness",1,"R8-3",6
-"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Limiting Factors",2,"R8-3",6
-"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Available Interventions",1,"R8-3",6
-"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Monitoring Interventions",0,"R8-3",6
+of Interventions",1,"R8-2",6,1.2,1.14869835499704
+"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Evidence",1,"R8-3",5,1,0
+"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Representativeness",1,"R8-3",5,1,0
+"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Limiting Factors",2,"R8-3",5,1,0
+"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Available Interventions",1,"R8-3",5,1,0
+"Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Monitoring Interventions",0,"R8-3",5,1,0
 "Carmi Korine","R8",3,"Southern Distict","Israel","Middle East / Western Asia","Melon","Vegetable crops","Breadth of Implementation
-of Interventions",1,"R8-3",6
-"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Evidence",2,"R8-4",10
-"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Representativeness",1,"R8-4",10
-"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R8-4",10
-"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Available Interventions",2,"R8-4",10
-"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Monitoring Interventions",1,"R8-4",10
+of Interventions",1,"R8-3",5,1,0
+"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Evidence",2,"R8-4",9,1.8,1.74110112659225
+"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Representativeness",1,"R8-4",9,1.8,1.74110112659225
+"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R8-4",9,1.8,1.74110112659225
+"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Available Interventions",2,"R8-4",9,1.8,1.74110112659225
+"Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Monitoring Interventions",1,"R8-4",9,1.8,1.74110112659225
 "Carmi Korine","R8",4,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",2,"R8-4",10
-"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Evidence",2,"R8-5",7
-"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Representativeness",1,"R8-5",7
-"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Limiting Factors",2,"R8-5",7
-"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Available Interventions",1,"R8-5",7
-"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Monitoring Interventions",1,"R8-5",7
+of Interventions",2,"R8-4",9,1.8,1.74110112659225
+"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Evidence",2,"R8-5",6,1.2,0
+"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Representativeness",1,"R8-5",6,1.2,0
+"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Limiting Factors",2,"R8-5",6,1.2,0
+"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Available Interventions",1,"R8-5",6,1.2,0
+"Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Monitoring Interventions",1,"R8-5",6,1.2,0
 "Carmi Korine","R8",5,"Haifa District","Israel","Middle East / Western Asia","Cotton","Field crops","Breadth of Implementation
-of Interventions",0,"R8-5",7
-"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Evidence",2,"R8-6",9
-"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Representativeness",1,"R8-6",9
-"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Limiting Factors",1,"R8-6",9
-"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Available Interventions",2,"R8-6",9
-"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Monitoring Interventions",2,"R8-6",9
+of Interventions",0,"R8-5",6,1.2,0
+"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Evidence",2,"R8-6",8,1.6,1.5157165665104
+"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Representativeness",1,"R8-6",8,1.6,1.5157165665104
+"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Limiting Factors",1,"R8-6",8,1.6,1.5157165665104
+"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Available Interventions",2,"R8-6",8,1.6,1.5157165665104
+"Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Monitoring Interventions",2,"R8-6",8,1.6,1.5157165665104
 "Carmi Korine","R8",6,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",1,"R8-6",9
-"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Evidence",2,"R8-7",8
-"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Representativeness",1,"R8-7",8
-"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Limiting Factors",1,"R8-7",8
-"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Available Interventions",2,"R8-7",8
-"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Monitoring Interventions",1,"R8-7",8
+of Interventions",1,"R8-6",8,1.6,1.5157165665104
+"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Evidence",2,"R8-7",7,1.4,1.31950791077289
+"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Representativeness",1,"R8-7",7,1.4,1.31950791077289
+"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Limiting Factors",1,"R8-7",7,1.4,1.31950791077289
+"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Available Interventions",2,"R8-7",7,1.4,1.31950791077289
+"Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Monitoring Interventions",1,"R8-7",7,1.4,1.31950791077289
 "Carmi Korine","R8",7,"Haifa District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",1,"R8-7",8
-"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Evidence",1,"R8-8",4
-"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Representativeness",1,"R8-8",4
-"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Limiting Factors",2,"R8-8",4
-"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Available Interventions",0,"R8-8",4
-"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Monitoring Interventions",0,"R8-8",4
+of Interventions",1,"R8-7",7,1.4,1.31950791077289
+"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Evidence",1,"R8-8",3,0.6,0
+"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Representativeness",1,"R8-8",3,0.6,0
+"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Limiting Factors",2,"R8-8",3,0.6,0
+"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Available Interventions",0,"R8-8",3,0.6,0
+"Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Monitoring Interventions",0,"R8-8",3,0.6,0
 "Carmi Korine","R8",8,"Jerusalem District","Israel","Middle East / Western Asia","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",0,"R8-8",4
-"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Evidence",1,"R8-9",5
-"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Representativeness",1,"R8-9",5
-"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Limiting Factors",2,"R8-9",5
-"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Available Interventions",1,"R8-9",5
-"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-9",5
+of Interventions",0,"R8-8",3,0.6,0
+"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Evidence",1,"R8-9",4,0.8,0
+"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Representativeness",1,"R8-9",4,0.8,0
+"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Limiting Factors",2,"R8-9",4,0.8,0
+"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Available Interventions",1,"R8-9",4,0.8,0
+"Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-9",4,0.8,0
 "Carmi Korine","R8",9,"Jerusalem District","Israel","Middle East / Western Asia","Olive groves","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R8-9",5
-"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Evidence",1,"R8-10",4
-"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Representativeness",1,"R8-10",4
-"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Limiting Factors",2,"R8-10",4
-"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Available Interventions",0,"R8-10",4
-"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Monitoring Interventions",0,"R8-10",4
+of Interventions",0,"R8-9",4,0.8,0
+"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Evidence",1,"R8-10",3,0.6,0
+"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Representativeness",1,"R8-10",3,0.6,0
+"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Limiting Factors",2,"R8-10",3,0.6,0
+"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Available Interventions",0,"R8-10",3,0.6,0
+"Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Monitoring Interventions",0,"R8-10",3,0.6,0
 "Carmi Korine","R8",10,"Jerusalem District","Israel","Middle East / Western Asia","Wheat","Grain crops","Breadth of Implementation
-of Interventions",0,"R8-10",4
-"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Evidence",1,"R8-11",1
-"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Representativeness",0,"R8-11",1
-"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Limiting Factors",0,"R8-11",1
-"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Available Interventions",0,"R8-11",1
-"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Monitoring Interventions",0,"R8-11",1
+of Interventions",0,"R8-10",3,0.6,0
+"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Evidence",1,"R8-11",1,0.2,0
+"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Representativeness",0,"R8-11",1,0.2,0
+"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Limiting Factors",0,"R8-11",1,0.2,0
+"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Available Interventions",0,"R8-11",1,0.2,0
+"Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Monitoring Interventions",0,"R8-11",1,0.2,0
 "Carmi Korine","R8",11,"Southern Distict","Israel","Middle East / Western Asia","Brassica","Vegetable crops","Breadth of Implementation
-of Interventions",0,"R8-11",1
-"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Evidence",1,"R8-12",2
-"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Representativeness",1,"R8-12",2
-"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Limiting Factors",0,"R8-12",2
-"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Available Interventions",0,"R8-12",2
-"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-12",2
+of Interventions",0,"R8-11",1,0.2,0
+"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Evidence",1,"R8-12",1,0.2,0
+"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Representativeness",1,"R8-12",1,0.2,0
+"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Limiting Factors",0,"R8-12",1,0.2,0
+"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Available Interventions",0,"R8-12",1,0.2,0
+"Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-12",1,0.2,0
 "Carmi Korine","R8",12,"Southern Distict","Israel","Middle East / Western Asia","Citrus","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R8-12",2
-"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Evidence",0,"R8-13",1
-"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Representativeness",1,"R8-13",1
-"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Limiting Factors",0,"R8-13",1
-"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Available Interventions",0,"R8-13",1
-"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-13",1
+of Interventions",0,"R8-12",1,0.2,0
+"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Evidence",0,"R8-13",0,0,0
+"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Representativeness",1,"R8-13",0,0,0
+"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Limiting Factors",0,"R8-13",0,0,0
+"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Available Interventions",0,"R8-13",0,0,0
+"Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-13",0,0,0
 "Carmi Korine","R8",13,"Southern Distict","Israel","Middle East / Western Asia","Peach","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R8-13",1
-"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Evidence",0,"R8-14",1
-"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Representativeness",1,"R8-14",1
-"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Limiting Factors",0,"R8-14",1
-"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Available Interventions",0,"R8-14",1
-"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Monitoring Interventions",0,"R8-14",1
+of Interventions",0,"R8-13",0,0,0
+"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Evidence",0,"R8-14",0,0,0
+"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Representativeness",1,"R8-14",0,0,0
+"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Limiting Factors",0,"R8-14",0,0,0
+"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Available Interventions",0,"R8-14",0,0,0
+"Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Monitoring Interventions",0,"R8-14",0,0,0
 "Carmi Korine","R8",14,"Central District","Israel","Middle East / Western Asia","Corn","Grain crops","Breadth of Implementation
-of Interventions",0,"R8-14",1
-"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Evidence",1,"R8-15",2
-"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Representativeness",1,"R8-15",2
-"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Limiting Factors",0,"R8-15",2
-"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Available Interventions",0,"R8-15",2
-"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Monitoring Interventions",0,"R8-15",2
+of Interventions",0,"R8-14",0,0,0
+"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Evidence",1,"R8-15",1,0.2,0
+"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Representativeness",1,"R8-15",1,0.2,0
+"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Limiting Factors",0,"R8-15",1,0.2,0
+"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Available Interventions",0,"R8-15",1,0.2,0
+"Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Monitoring Interventions",0,"R8-15",1,0.2,0
 "Carmi Korine","R8",15,"Central District","Israel","Middle East / Western Asia","Potato","Vegetable crops","Breadth of Implementation
-of Interventions",0,"R8-15",2
-"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Evidence",1,"R8-16",3
-"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Representativeness",1,"R8-16",3
-"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Limiting Factors",1,"R8-16",3
-"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Available Interventions",0,"R8-16",3
-"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Monitoring Interventions",0,"R8-16",3
+of Interventions",0,"R8-15",1,0.2,0
+"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Evidence",1,"R8-16",2,0.4,0
+"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Representativeness",1,"R8-16",2,0.4,0
+"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Limiting Factors",1,"R8-16",2,0.4,0
+"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Available Interventions",0,"R8-16",2,0.4,0
+"Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Monitoring Interventions",0,"R8-16",2,0.4,0
 "Carmi Korine","R8",16,"Central District","Israel","Middle East / Western Asia","Watermelon","Vegetable crops","Breadth of Implementation
-of Interventions",0,"R8-16",3
-"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Evidence",1,"R8-17",4
-"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Representativeness",2,"R8-17",4
-"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Limiting Factors",1,"R8-17",4
-"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Available Interventions",0,"R8-17",4
-"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Monitoring Interventions",0,"R8-17",4
+of Interventions",0,"R8-16",2,0.4,0
+"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Evidence",1,"R8-17",2,0.4,0
+"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Representativeness",2,"R8-17",2,0.4,0
+"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Limiting Factors",1,"R8-17",2,0.4,0
+"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Available Interventions",0,"R8-17",2,0.4,0
+"Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Monitoring Interventions",0,"R8-17",2,0.4,0
 "Carmi Korine","R8",17,"Northern District","Israel","Middle East / Western Asia","Wheat","Grain crops","Breadth of Implementation
-of Interventions",0,"R8-17",4
-"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Evidence",1,"R8-18",3
-"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Representativeness",2,"R8-18",3
-"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Limiting Factors",0,"R8-18",3
-"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Available Interventions",0,"R8-18",3
-"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-18",3
+of Interventions",0,"R8-17",2,0.4,0
+"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Evidence",1,"R8-18",1,0.2,0
+"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Representativeness",2,"R8-18",1,0.2,0
+"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Limiting Factors",0,"R8-18",1,0.2,0
+"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Available Interventions",0,"R8-18",1,0.2,0
+"Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Monitoring Interventions",0,"R8-18",1,0.2,0
 "Carmi Korine","R8",18,"Northern District","Israel","Middle East / Western Asia","Apple","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R8-18",3
-"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Evidence",1,"R8-19",4
-"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Representativeness",1,"R8-19",4
-"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Limiting Factors",2,"R8-19",4
-"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Available Interventions",0,"R8-19",4
-"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Monitoring Interventions",0,"R8-19",4
+of Interventions",0,"R8-18",1,0.2,0
+"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Evidence",1,"R8-19",3,0.6,0
+"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Representativeness",1,"R8-19",3,0.6,0
+"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Limiting Factors",2,"R8-19",3,0.6,0
+"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Available Interventions",0,"R8-19",3,0.6,0
+"Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Monitoring Interventions",0,"R8-19",3,0.6,0
 "Carmi Korine","R8",19,"Northern District","Israel","Middle East / Western Asia","Tomato","Vegetable crops","Breadth of Implementation
-of Interventions",0,"R8-19",4
-"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Evidence",1,"R8-20",3
-"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Representativeness",1,"R8-20",3
-"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Limiting Factors",1,"R8-20",3
-"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Available Interventions",0,"R8-20",3
-"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Monitoring Interventions",0,"R8-20",3
+of Interventions",0,"R8-19",3,0.6,0
+"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Evidence",1,"R8-20",2,0.4,0
+"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Representativeness",1,"R8-20",2,0.4,0
+"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Limiting Factors",1,"R8-20",2,0.4,0
+"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Available Interventions",0,"R8-20",2,0.4,0
+"Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Monitoring Interventions",0,"R8-20",2,0.4,0
 "Carmi Korine","R8",20,"Central District","Israel","Middle East / Western Asia","Cotton","Field crops","Breadth of Implementation
-of Interventions",0,"R8-20",3
-"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Evidence",1,"R8-21",6
-"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Representativeness",1,"R8-21",6
-"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Limiting Factors",0,"R8-21",6
-"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Available Interventions",2,"R8-21",6
-"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Monitoring Interventions",1,"R8-21",6
+of Interventions",0,"R8-20",2,0.4,0
+"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Evidence",1,"R8-21",5,1,0
+"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Representativeness",1,"R8-21",5,1,0
+"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Limiting Factors",0,"R8-21",5,1,0
+"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Available Interventions",2,"R8-21",5,1,0
+"Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Monitoring Interventions",1,"R8-21",5,1,0
 "Carmi Korine","R8",21,"Southern Distict","Israel","Middle East / Western Asia","Pumpkin","Vegetable crops","Breadth of Implementation
-of Interventions",1,"R8-21",6
-"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",3,"R9-1",8
-"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",1,"R9-1",8
-"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",1,"R9-1",8
-"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",1,"R9-1",8
-"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",1,"R9-1",8
+of Interventions",1,"R8-21",5,1,0
+"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",3,"R9-1",7,1.4,1.24573093961552
+"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",1,"R9-1",7,1.4,1.24573093961552
+"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",1,"R9-1",7,1.4,1.24573093961552
+"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",1,"R9-1",7,1.4,1.24573093961552
+"Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",1,"R9-1",7,1.4,1.24573093961552
 "Cárol Sierra-Durán","R9",1,"Morelos","Mexico","Latin America / Caribbean","Multi- grain & vegetable","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",1,"R9-1",8
-"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Evidence",2,"R9-2",12
-"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Representativeness",1,"R9-2",12
-"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Limiting Factors",2,"R9-2",12
-"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Available Interventions",3,"R9-2",12
-"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Monitoring Interventions",2,"R9-2",12
+of Interventions",1,"R9-1",7,1.4,1.24573093961552
+"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Evidence",2,"R9-2",11,2.2,2.1689435423954
+"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Representativeness",1,"R9-2",11,2.2,2.1689435423954
+"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Limiting Factors",2,"R9-2",11,2.2,2.1689435423954
+"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Available Interventions",3,"R9-2",11,2.2,2.1689435423954
+"Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Monitoring Interventions",2,"R9-2",11,2.2,2.1689435423954
 "Cárol Sierra-Durán","R9",2,"Extremadura","Spain","Europe","Tomato","Vegetable crops","Breadth of Implementation
-of Interventions",2,"R9-2",12
-"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R10-1",6
-"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R10-1",6
-"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R10-1",6
-"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Available Interventions",0,"R10-1",6
-"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",0,"R10-1",6
+of Interventions",2,"R9-2",11,2.2,2.1689435423954
+"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R10-1",5,1,0
+"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R10-1",5,1,0
+"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R10-1",5,1,0
+"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Available Interventions",0,"R10-1",5,1,0
+"Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",0,"R10-1",5,1,0
 "Carolina Ocampo-Ariza","R10",1,"Multi-country (Peru-Colombia multi-region)","Peru & Colombia","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Breadth of Implementation
-of Interventions",0,"R10-1",6
-"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Evidence",2,"R11-1",6
-"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Representativeness",1,"R11-1",6
-"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Limiting Factors",2,"R11-1",6
-"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R11-1",6
-"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",0,"R11-1",6
+of Interventions",0,"R10-1",5,1,0
+"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Evidence",2,"R11-1",5,1,0
+"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Representativeness",1,"R11-1",5,1,0
+"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Limiting Factors",2,"R11-1",5,1,0
+"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R11-1",5,1,0
+"Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",0,"R11-1",5,1,0
 "Cecilia Montauban","R11",1,"Western Province","Ghana","Africa","Multi- crop","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",0,"R11-1",6
-"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Evidence",3,"R12-1",7
-"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Representativeness",0,"R12-1",7
-"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R12-1",7
-"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Available Interventions",1,"R12-1",7
-"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Monitoring Interventions",0,"R12-1",7
+of Interventions",0,"R11-1",5,1,0
+"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Evidence",3,"R12-1",7,1.4,0
+"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Representativeness",0,"R12-1",7,1.4,0
+"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R12-1",7,1.4,0
+"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Available Interventions",1,"R12-1",7,1.4,0
+"Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Monitoring Interventions",0,"R12-1",7,1.4,0
 "Danilo Russo","R12",1,"Veneto","Italy","Europe","Apple","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",1,"R12-1",7
-"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R13-1",7
-"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R13-1",7
-"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R13-1",7
-"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Available Interventions",1,"R13-1",7
-"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",0,"R13-1",7
+of Interventions",1,"R12-1",7,1.4,0
+"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R13-1",6,1.2,0
+"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R13-1",6,1.2,0
+"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R13-1",6,1.2,0
+"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Available Interventions",1,"R13-1",6,1.2,0
+"Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",0,"R13-1",6,1.2,0
 "Diogo Ferreira","R13",1,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Breadth of Implementation
-of Interventions",0,"R13-1",7
-"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R13-2",8
-"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Representativeness",0,"R13-2",8
-"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R13-2",8
-"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Available Interventions",2,"R13-2",8
-"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",1,"R13-2",8
+of Interventions",0,"R13-1",6,1.2,0
+"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R13-2",8,1.6,0
+"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Representativeness",0,"R13-2",8,1.6,0
+"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R13-2",8,1.6,0
+"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Available Interventions",2,"R13-2",8,1.6,0
+"Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",1,"R13-2",8,1.6,0
 "Diogo Ferreira","R13",2,"Cameroon: multi-region","Cameroon","Africa","Agroforestry cacao","Agroforestry cacao","Breadth of Implementation
-of Interventions",0,"R13-2",8
-"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Evidence",2,"R14-1",4
-"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Representativeness",1,"R14-1",4
-"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Limiting Factors",1,"R14-1",4
-"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Available Interventions",0,"R14-1",4
-"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Monitoring Interventions",0,"R14-1",4
+of Interventions",0,"R13-2",8,1.6,0
+"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Evidence",2,"R14-1",3,0.6,0
+"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Representativeness",1,"R14-1",3,0.6,0
+"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Limiting Factors",1,"R14-1",3,0.6,0
+"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Available Interventions",0,"R14-1",3,0.6,0
+"Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Monitoring Interventions",0,"R14-1",3,0.6,0
 "Kadambari Deshpande","R14",1,"Karnataka","India","South / Southeast Asia","Rice","Grain crops","Breadth of Implementation
-of Interventions",0,"R14-1",4
-"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Evidence",2,"R14-2",4
-"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Representativeness",1,"R14-2",4
-"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Limiting Factors",0,"R14-2",4
-"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Available Interventions",0,"R14-2",4
-"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Monitoring Interventions",1,"R14-2",4
+of Interventions",0,"R14-1",3,0.6,0
+"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Evidence",2,"R14-2",3,0.6,0
+"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Representativeness",1,"R14-2",3,0.6,0
+"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Limiting Factors",0,"R14-2",3,0.6,0
+"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Available Interventions",0,"R14-2",3,0.6,0
+"Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Monitoring Interventions",1,"R14-2",3,0.6,0
 "Kadambari Deshpande","R14",2,"Karnataka","India","South / Southeast Asia","Arecanut","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R14-2",4
-"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",2,"R15-1",12
-"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",2,"R15-1",12
-"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",2,"R15-1",12
-"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",2,"R15-1",12
-"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",2,"R15-1",12
+of Interventions",0,"R14-2",3,0.6,0
+"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",2,"R15-1",10,2,2
+"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",2,"R15-1",10,2,2
+"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",2,"R15-1",10,2,2
+"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",2,"R15-1",10,2,2
+"Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",2,"R15-1",10,2,2
 "Elisa Fuentes-Montemayor","R15",1,"Central Scotland","UK","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R15-1",12
-"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Evidence",2,"R15-2",12
-"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Representativeness",2,"R15-2",12
-"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Limiting Factors",2,"R15-2",12
-"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Available Interventions",2,"R15-2",12
-"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R15-2",12
+of Interventions",2,"R15-1",10,2,2
+"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Evidence",2,"R15-2",10,2,2
+"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Representativeness",2,"R15-2",10,2,2
+"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Limiting Factors",2,"R15-2",10,2,2
+"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Available Interventions",2,"R15-2",10,2,2
+"Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R15-2",10,2,2
 "Elisa Fuentes-Montemayor","R15",2,"Central Scotland","UK","Europe","Pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R15-2",12
-"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R15-3",12
-"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",2,"R15-3",12
-"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R15-3",12
-"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",2,"R15-3",12
-"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R15-3",12
+of Interventions",2,"R15-2",10,2,2
+"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R15-3",10,2,2
+"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",2,"R15-3",10,2,2
+"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R15-3",10,2,2
+"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",2,"R15-3",10,2,2
+"Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R15-3",10,2,2
 "Elisa Fuentes-Montemayor","R15",3,"Central Scotland","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R15-3",12
-"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R16-1",11
-"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",1,"R16-1",11
-"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R16-1",11
-"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",2,"R16-1",11
-"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R16-1",11
+of Interventions",2,"R15-3",10,2,2
+"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R16-1",10,2,2
+"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",1,"R16-1",10,2,2
+"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R16-1",10,2,2
+"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",2,"R16-1",10,2,2
+"Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R16-1",10,2,2
 "Florence Matutini","R16",1,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R16-1",11
-"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",0,"R16-2",10
-"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",2,"R16-2",10
-"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R16-2",10
-"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",2,"R16-2",10
-"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R16-2",10
+of Interventions",2,"R16-1",10,2,2
+"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",0,"R16-2",8,1.6,0
+"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",2,"R16-2",8,1.6,0
+"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R16-2",8,1.6,0
+"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",2,"R16-2",8,1.6,0
+"Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",2,"R16-2",8,1.6,0
 "Florence Matutini","R16",2,"Multi-region: northern, eastern & western France","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R16-2",10
-"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Evidence",2,"R16-3",12
-"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Representativeness",2,"R16-3",12
-"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R16-3",12
-"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Available Interventions",2,"R16-3",12
-"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Monitoring Interventions",2,"R16-3",12
+of Interventions",2,"R16-2",8,1.6,0
+"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Evidence",2,"R16-3",10,2,2
+"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Representativeness",2,"R16-3",10,2,2
+"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R16-3",10,2,2
+"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Available Interventions",2,"R16-3",10,2,2
+"Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Monitoring Interventions",2,"R16-3",10,2,2
 "Florence Matutini","R16",3,"Multi-region: Normandie, Occitanie, Vaucluse & Nouvelle-Aquitaine","France","Europe","Apple","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",2,"R16-3",12
-"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Evidence",3,"R17-1",13
-"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Representativeness",3,"R17-1",13
-"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Limiting Factors",3,"R17-1",13
-"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Available Interventions",1,"R17-1",13
-"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Monitoring Interventions",2,"R17-1",13
+of Interventions",2,"R16-3",10,2,2
+"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Evidence",3,"R17-1",10,2,1.782602457966
+"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Representativeness",3,"R17-1",10,2,1.782602457966
+"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Limiting Factors",3,"R17-1",10,2,1.782602457966
+"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Available Interventions",1,"R17-1",10,2,1.782602457966
+"Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Monitoring Interventions",2,"R17-1",10,2,1.782602457966
 "Gary McCracken","R17",1,"Texas","USA","North America","Cotton","Field crops","Breadth of Implementation
-of Interventions",1,"R17-1",13
-"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Evidence",2,"R17-2",10
-"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Representativeness",1,"R17-2",10
-"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Limiting Factors",2,"R17-2",10
-"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Available Interventions",2,"R17-2",10
-"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Monitoring Interventions",1,"R17-2",10
+of Interventions",1,"R17-1",10,2,1.782602457966
+"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Evidence",2,"R17-2",9,1.8,1.74110112659225
+"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Representativeness",1,"R17-2",9,1.8,1.74110112659225
+"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Limiting Factors",2,"R17-2",9,1.8,1.74110112659225
+"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Available Interventions",2,"R17-2",9,1.8,1.74110112659225
+"Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Monitoring Interventions",1,"R17-2",9,1.8,1.74110112659225
 "Gary McCracken","R17",2,"Multi-region: Texas & Florida","USA","North America","Pecan","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",2,"R17-2",10
-"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Evidence",3,"R18-1",10
-"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Representativeness",2,"R18-1",10
-"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Limiting Factors",1,"R18-1",10
-"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Available Interventions",2,"R18-1",10
-"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Monitoring Interventions",1,"R18-1",10
+of Interventions",2,"R17-2",9,1.8,1.74110112659225
+"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Evidence",3,"R18-1",8,1.6,1.43096908110526
+"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Representativeness",2,"R18-1",8,1.6,1.43096908110526
+"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Limiting Factors",1,"R18-1",8,1.6,1.43096908110526
+"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Available Interventions",2,"R18-1",8,1.6,1.43096908110526
+"Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Monitoring Interventions",1,"R18-1",8,1.6,1.43096908110526
 "Heidi Kolkert","R18",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Breadth of Implementation
-of Interventions",1,"R18-1",10
-"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Evidence",1,"R18-2",4
-"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Representativeness",1,"R18-2",4
-"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Limiting Factors",2,"R18-2",4
-"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Available Interventions",0,"R18-2",4
-"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Monitoring Interventions",0,"R18-2",4
+of Interventions",1,"R18-1",8,1.6,1.43096908110526
+"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Evidence",1,"R18-2",3,0.6,0
+"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Representativeness",1,"R18-2",3,0.6,0
+"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Limiting Factors",2,"R18-2",3,0.6,0
+"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Available Interventions",0,"R18-2",3,0.6,0
+"Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Monitoring Interventions",0,"R18-2",3,0.6,0
 "Heidi Kolkert","R18",2,"New South Wales","Australia","Australasia / Pacific","Blueberries","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R18-2",4
-"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Evidence",2,"R19-1",13
-"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Representativeness",1,"R19-1",13
-"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Limiting Factors",3,"R19-1",13
-"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Available Interventions",2,"R19-1",13
-"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Monitoring Interventions",2,"R19-1",13
+of Interventions",0,"R18-2",3,0.6,0
+"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Evidence",2,"R19-1",12,2.4,2.35215804504935
+"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Representativeness",1,"R19-1",12,2.4,2.35215804504935
+"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Limiting Factors",3,"R19-1",12,2.4,2.35215804504935
+"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Available Interventions",2,"R19-1",12,2.4,2.35215804504935
+"Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Monitoring Interventions",2,"R19-1",12,2.4,2.35215804504935
 "Hugo Rebelo","R19",1,"Alentejo","Portugal","Europe","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",3,"R19-1",13
-"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Evidence",2,"R19-2",12
-"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Representativeness",3,"R19-2",12
-"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Limiting Factors",3,"R19-2",12
-"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Available Interventions",1,"R19-2",12
-"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Monitoring Interventions",2,"R19-2",12
+of Interventions",3,"R19-1",12,2.4,2.35215804504935
+"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Evidence",2,"R19-2",9,1.8,1.64375182951723
+"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Representativeness",3,"R19-2",9,1.8,1.64375182951723
+"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Limiting Factors",3,"R19-2",9,1.8,1.64375182951723
+"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Available Interventions",1,"R19-2",9,1.8,1.64375182951723
+"Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Monitoring Interventions",2,"R19-2",9,1.8,1.64375182951723
 "Hugo Rebelo","R19",2,"Central Portugal","Portugal","Europe","Pine","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",1,"R19-2",12
-"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Evidence",3,"R20-1",8
-"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Representativeness",1,"R20-1",8
-"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R20-1",8
-"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Available Interventions",1,"R20-1",8
-"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Monitoring Interventions",1,"R20-1",8
+of Interventions",1,"R19-2",9,1.8,1.64375182951723
+"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Evidence",3,"R20-1",7,1.4,0
+"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Representativeness",1,"R20-1",7,1.4,0
+"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Limiting Factors",2,"R20-1",7,1.4,0
+"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Available Interventions",1,"R20-1",7,1.4,0
+"Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Monitoring Interventions",1,"R20-1",7,1.4,0
 "Hui Wu","R20",1,"Multi-region: shandong province, shannxi province & yunnan province","China","East Asia","Apple","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R20-1",8
-"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R21-1",4
-"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",1,"R21-1",4
-"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",1,"R21-1",4
-"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",0,"R21-1",4
-"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",0,"R21-1",4
+of Interventions",0,"R20-1",7,1.4,0
+"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R21-1",3,0.6,0
+"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",1,"R21-1",3,0.6,0
+"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",1,"R21-1",3,0.6,0
+"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",0,"R21-1",3,0.6,0
+"Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",0,"R21-1",3,0.6,0
 "Jarod McTaggart","R21",1,"Auckland","New Zealand","Australasia / Pacific","Multi- crop & pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",0,"R21-1",4
-"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",1,"R22-1",9
-"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",2,"R22-1",9
-"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R22-1",9
-"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",1,"R22-1",9
-"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",1,"R22-1",9
+of Interventions",0,"R21-1",3,0.6,0
+"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",1,"R22-1",7,1.4,1.31950791077289
+"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",2,"R22-1",7,1.4,1.31950791077289
+"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",2,"R22-1",7,1.4,1.31950791077289
+"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",1,"R22-1",7,1.4,1.31950791077289
+"Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",1,"R22-1",7,1.4,1.31950791077289
 "Jeremy Froidevaux","R22",1,"Bourgogne-Franche-Comté","France","Europe","Multi- crop & pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R22-1",9
-"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Evidence",3,"R23-2",13
-"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Representativeness",2,"R23-2",13
-"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Limiting Factors",2,"R23-2",13
-"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Available Interventions",2,"R23-2",13
-"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Monitoring Interventions",2,"R23-2",13
+of Interventions",2,"R22-1",7,1.4,1.31950791077289
+"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Evidence",3,"R23-2",11,2.2,2.1689435423954
+"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Representativeness",2,"R23-2",11,2.2,2.1689435423954
+"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Limiting Factors",2,"R23-2",11,2.2,2.1689435423954
+"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Available Interventions",2,"R23-2",11,2.2,2.1689435423954
+"Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Monitoring Interventions",2,"R23-2",11,2.2,2.1689435423954
 "Jérémy Froidevaux","R23",2,"Multi-region: Occitanie & Nouvelle-Aquitaine","France","Europe","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",2,"R23-2",13
-"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R23-3",14
-"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",3,"R23-3",14
-"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",3,"R23-3",14
-"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",3,"R23-3",14
-"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",1,"R23-3",14
+of Interventions",2,"R23-2",11,2.2,2.1689435423954
+"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Evidence",2,"R23-3",11,2.2,2.04767251107922
+"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",3,"R23-3",11,2.2,2.04767251107922
+"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",3,"R23-3",11,2.2,2.04767251107922
+"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",3,"R23-3",11,2.2,2.04767251107922
+"Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",1,"R23-3",11,2.2,2.04767251107922
 "Jérémy Froidevaux","R23",3,"South West England","UK","Europe","Multi- crop & pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R23-3",14
-"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Evidence",1,"R24-1",4
-"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Representativeness",1,"R24-1",4
-"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Limiting Factors",1,"R24-1",4
-"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Available Interventions",1,"R24-1",4
-"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Monitoring Interventions",0,"R24-1",4
+of Interventions",2,"R23-3",11,2.2,2.04767251107922
+"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Evidence",1,"R24-1",3,0.6,0
+"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Representativeness",1,"R24-1",3,0.6,0
+"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Limiting Factors",1,"R24-1",3,0.6,0
+"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Available Interventions",1,"R24-1",3,0.6,0
+"Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Monitoring Interventions",0,"R24-1",3,0.6,0
 "Jian-Nan Liu","R24",1,"Hualien County","Taiwan","East Asia","Rice","Grain crops","Breadth of Implementation
-of Interventions",0,"R24-1",4
-"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Evidence",3,"R25-1",11
-"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Representativeness",3,"R25-1",11
-"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Limiting Factors",NA,"R25-1",11
-"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Available Interventions",3,"R25-1",11
-"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",NA,"R25-1",11
+of Interventions",0,"R24-1",3,0.6,0
+"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Evidence",3,"R25-1",8,2.66666666666667,2.6207413942089
+"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Representativeness",3,"R25-1",8,2.66666666666667,2.6207413942089
+"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Limiting Factors",NA,"R25-1",8,2.66666666666667,2.6207413942089
+"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Available Interventions",3,"R25-1",8,2.66666666666667,2.6207413942089
+"José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",NA,"R25-1",8,2.66666666666667,2.6207413942089
 "José M. Herrera","R25",1,"Alentejo","Portugal","Europe","Olive groves","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",2,"R25-1",11
-"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Evidence",2,"R26-1",8
-"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Representativeness",2,"R26-1",8
-"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Limiting Factors",3,"R26-1",8
-"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Available Interventions",1,"R26-1",8
-"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",0,"R26-1",8
+of Interventions",2,"R25-1",8,2.66666666666667,2.6207413942089
+"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Evidence",2,"R26-1",6,1.2,0
+"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Representativeness",2,"R26-1",6,1.2,0
+"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Limiting Factors",3,"R26-1",6,1.2,0
+"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Available Interventions",1,"R26-1",6,1.2,0
+"Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",0,"R26-1",6,1.2,0
 "Leonardo Ancillotto","R26",1,"Tuscany","Italy","Europe","Olive groves","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R26-1",8
-"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",2,"R26-2",9
-"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",2,"R26-2",9
-"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",2,"R26-2",9
-"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",1,"R26-2",9
-"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",1,"R26-2",9
+of Interventions",0,"R26-1",6,1.2,0
+"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Evidence",2,"R26-2",7,1.4,1.31950791077289
+"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Representativeness",2,"R26-2",7,1.4,1.31950791077289
+"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Limiting Factors",2,"R26-2",7,1.4,1.31950791077289
+"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Available Interventions",1,"R26-2",7,1.4,1.31950791077289
+"Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Monitoring Interventions",1,"R26-2",7,1.4,1.31950791077289
 "Leonardo Ancillotto","R26",2,"Lazio","Italy","Europe","Multi- grain & vegetable","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",1,"R26-2",9
-"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Evidence",1,"R27-1",2
-"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",0,"R27-1",2
-"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",1,"R27-1",2
-"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",0,"R27-1",2
-"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",0,"R27-1",2
+of Interventions",1,"R26-2",7,1.4,1.31950791077289
+"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Evidence",1,"R27-1",2,0.4,0
+"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Representativeness",0,"R27-1",2,0.4,0
+"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Limiting Factors",1,"R27-1",2,0.4,0
+"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Available Interventions",0,"R27-1",2,0.4,0
+"Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Monitoring Interventions",0,"R27-1",2,0.4,0
 "Luisa Sofia","R27",1,"Yucatán","Mexico","Latin America / Caribbean","Multi- crop & pasture","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",0,"R27-1",2
-"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Evidence",2,"R28-1",7
-"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Representativeness",2,"R28-1",7
-"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Limiting Factors",1,"R28-1",7
-"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Available Interventions",1,"R28-1",7
-"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Monitoring Interventions",0,"R28-1",7
+of Interventions",0,"R27-1",2,0.4,0
+"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Evidence",2,"R28-1",5,1,0
+"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Representativeness",2,"R28-1",5,1,0
+"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Limiting Factors",1,"R28-1",5,1,0
+"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Available Interventions",1,"R28-1",5,1,0
+"Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Monitoring Interventions",0,"R28-1",5,1,0
 "Maggie Campbell-Jones","R28",1,"New South Wales","Australia","Australasia / Pacific","Cotton","Field crops","Breadth of Implementation
-of Interventions",1,"R28-1",7
-"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Evidence",1,"R29-1",9
-"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Representativeness",0,"R29-1",9
-"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Limiting Factors",2,"R29-1",9
-"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Available Interventions",2,"R29-1",9
-"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",2,"R29-1",9
+of Interventions",1,"R28-1",5,1,0
+"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Evidence",1,"R29-1",9,1.8,1.74110112659225
+"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Representativeness",0,"R29-1",9,1.8,1.74110112659225
+"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Limiting Factors",2,"R29-1",9,1.8,1.74110112659225
+"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Available Interventions",2,"R29-1",9,1.8,1.74110112659225
+"Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",2,"R29-1",9,1.8,1.74110112659225
 "Nayelli Rivera","R29",1,"Zacatecas","Mexico","Latin America / Caribbean","Multi- crop","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",2,"R29-1",9
-"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Evidence",3,"R30-1",11
-"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Representativeness",2,"R30-1",11
-"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Limiting Factors",2,"R30-1",11
-"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Available Interventions",2,"R30-1",11
-"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Monitoring Interventions",1,"R30-1",11
+of Interventions",2,"R29-1",9,1.8,1.74110112659225
+"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Evidence",3,"R30-1",9,1.8,1.64375182951723
+"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Representativeness",2,"R30-1",9,1.8,1.64375182951723
+"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Limiting Factors",2,"R30-1",9,1.8,1.64375182951723
+"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Available Interventions",2,"R30-1",9,1.8,1.64375182951723
+"Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Monitoring Interventions",1,"R30-1",9,1.8,1.64375182951723
 "Peter Taylor","R30",1,"Multi-region: Limpopo & Free State","South Africa","Africa","Multi- fruit & orchard","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",1,"R30-1",11
-"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Evidence",2,"R31-1",5
-"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Representativeness",1,"R31-1",5
-"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Limiting Factors",1,"R31-1",5
-"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Available Interventions",1,"R31-1",5
-"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Monitoring Interventions",0,"R31-1",5
+of Interventions",1,"R30-1",9,1.8,1.64375182951723
+"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Evidence",2,"R31-1",4,0.8,0
+"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Representativeness",1,"R31-1",4,0.8,0
+"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Limiting Factors",1,"R31-1",4,0.8,0
+"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Available Interventions",1,"R31-1",4,0.8,0
+"Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Monitoring Interventions",0,"R31-1",4,0.8,0
 "Rani Davis","R31",1,"Queensland","Australia","Australasia / Pacific","Macadamia","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",0,"R31-1",5
-"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Evidence",3,"R32-1",11
-"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Representativeness",1,"R32-1",11
-"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Limiting Factors",3,"R32-1",11
-"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Available Interventions",2,"R32-1",11
-"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Monitoring Interventions",1,"R32-1",11
+of Interventions",0,"R31-1",4,0.8,0
+"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Evidence",3,"R32-1",10,2,1.782602457966
+"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Representativeness",1,"R32-1",10,2,1.782602457966
+"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Limiting Factors",3,"R32-1",10,2,1.782602457966
+"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Available Interventions",2,"R32-1",10,2,1.782602457966
+"Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Monitoring Interventions",1,"R32-1",10,2,1.782602457966
 "Sándor Zsebők","R32",1,"Central-Transdanubian Region","Hungary","Europe","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",1,"R32-1",11
-"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Evidence",3,"R33-1",6
-"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Representativeness",1,"R33-1",6
-"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Limiting Factors",1,"R33-1",6
-"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R33-1",6
-"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",0,"R33-1",6
+of Interventions",1,"R32-1",10,2,1.782602457966
+"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Evidence",3,"R33-1",5,1,0
+"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Representativeness",1,"R33-1",5,1,0
+"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Limiting Factors",1,"R33-1",5,1,0
+"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R33-1",5,1,0
+"Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",0,"R33-1",5,1,0
 "Siteri Tikoca","R33",1,"Vanua Levu","Fiji","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",0,"R33-1",6
-"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Evidence",3,"R34-1",8
-"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Representativeness",2,"R34-1",8
-"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Limiting Factors",1,"R34-1",8
-"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R34-1",8
-"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",0,"R34-1",8
+of Interventions",0,"R33-1",5,1,0
+"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Evidence",3,"R34-1",6,1.2,0
+"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Representativeness",2,"R34-1",6,1.2,0
+"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Limiting Factors",1,"R34-1",6,1.2,0
+"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R34-1",6,1.2,0
+"Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",0,"R34-1",6,1.2,0
 "Stuart Parsons","R34",1,"Multi-country: Australia &New Zealand","Australia & New Zealand","Australasia / Pacific","Multi- crop","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",1,"R34-1",8
-"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R35-1",9
-"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R35-1",9
-"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R35-1",9
-"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Available Interventions",1,"R35-1",9
-"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",1,"R35-1",9
+of Interventions",1,"R34-1",6,1.2,0
+"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R35-1",8,1.6,1.43096908110526
+"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R35-1",8,1.6,1.43096908110526
+"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R35-1",8,1.6,1.43096908110526
+"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Available Interventions",1,"R35-1",8,1.6,1.43096908110526
+"Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",1,"R35-1",8,1.6,1.43096908110526
 "Teja Tscharntke","R35",1,"Central Sulawesi","Indonesia","South / Southeast Asia","Agroforestry cacao","Agroforestry cacao","Breadth of Implementation
-of Interventions",1,"R35-1",9
-"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R35-2",10
-"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R35-2",10
-"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R35-2",10
-"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Available Interventions",2,"R35-2",10
-"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",1,"R35-2",10
+of Interventions",1,"R35-1",8,1.6,1.43096908110526
+"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Evidence",3,"R35-2",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Representativeness",1,"R35-2",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Limiting Factors",2,"R35-2",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Available Interventions",2,"R35-2",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Monitoring Interventions",1,"R35-2",9,1.8,1.64375182951723
 "Teja Tscharntke","R35",2,"Piura","Peru","Latin America / Caribbean","Agroforestry cacao","Agroforestry cacao","Breadth of Implementation
-of Interventions",1,"R35-2",10
-"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Evidence",3,"R35-3",11
-"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Representativeness",2,"R35-3",11
-"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Limiting Factors",2,"R35-3",11
-"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Available Interventions",2,"R35-3",11
-"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Monitoring Interventions",1,"R35-3",11
+of Interventions",1,"R35-2",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Evidence",3,"R35-3",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Representativeness",2,"R35-3",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Limiting Factors",2,"R35-3",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Available Interventions",2,"R35-3",9,1.8,1.64375182951723
+"Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Monitoring Interventions",1,"R35-3",9,1.8,1.64375182951723
 "Teja Tscharntke","R35",3,"Limpopo","South Africa","Africa","Macadamia","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",1,"R35-3",11
-"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Evidence",2,"R36-1",9
-"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Representativeness",3,"R36-1",9
-"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Limiting Factors",2,"R36-1",9
-"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R36-1",9
-"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",1,"R36-1",9
+of Interventions",1,"R35-3",9,1.8,1.64375182951723
+"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Evidence",2,"R36-1",6,1.2,0
+"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Representativeness",3,"R36-1",6,1.2,0
+"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Limiting Factors",2,"R36-1",6,1.2,0
+"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Available Interventions",1,"R36-1",6,1.2,0
+"Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Monitoring Interventions",1,"R36-1",6,1.2,0
 "Tinglei Jiang","R36",1,"Multi-region: Jilin province, yunnan province, henan province, shandong provinc & shanxi province","China","East Asia","Multi- crop","Pasture & mixed cropping","Breadth of Implementation
-of Interventions",0,"R36-1",9
-"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Evidence",2,"R37-1",7
-"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Representativeness",1,"R37-1",7
-"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Limiting Factors",1,"R37-1",7
-"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Available Interventions",1,"R37-1",7
-"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",1,"R37-1",7
+of Interventions",0,"R36-1",6,1.2,0
+"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Evidence",2,"R37-1",6,1.2,1.14869835499704
+"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Representativeness",1,"R37-1",6,1.2,1.14869835499704
+"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Limiting Factors",1,"R37-1",6,1.2,1.14869835499704
+"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Available Interventions",1,"R37-1",6,1.2,1.14869835499704
+"Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Monitoring Interventions",1,"R37-1",6,1.2,1.14869835499704
 "Xavier Puig-Montserrat","R37",1,"Catalonia","Spain","Europe","Olive groves","Perennial fruit & forestry crops","Breadth of Implementation
-of Interventions",1,"R37-1",7
-"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Evidence",2,"R37-2",9
-"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Representativeness",1,"R37-2",9
-"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Limiting Factors",1,"R37-2",9
-"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Available Interventions",1,"R37-2",9
-"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Monitoring Interventions",1,"R37-2",9
+of Interventions",1,"R37-1",6,1.2,1.14869835499704
+"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Evidence",2,"R37-2",8,1.6,1.43096908110526
+"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Representativeness",1,"R37-2",8,1.6,1.43096908110526
+"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Limiting Factors",1,"R37-2",8,1.6,1.43096908110526
+"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Available Interventions",1,"R37-2",8,1.6,1.43096908110526
+"Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Monitoring Interventions",1,"R37-2",8,1.6,1.43096908110526
 "Xavier Puig-Montserrat","R37",2,"Catalonia","Spain","Europe","Rice","Grain crops","Breadth of Implementation
-of Interventions",3,"R37-2",9
-"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Evidence",3,"R37-3",9
-"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Representativeness",1,"R37-3",9
-"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Limiting Factors",0,"R37-3",9
-"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Available Interventions",1,"R37-3",9
-"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Monitoring Interventions",2,"R37-3",9
+of Interventions",3,"R37-2",8,1.6,1.43096908110526
+"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Evidence",3,"R37-3",8,1.6,0
+"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Representativeness",1,"R37-3",8,1.6,0
+"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Limiting Factors",0,"R37-3",8,1.6,0
+"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Available Interventions",1,"R37-3",8,1.6,0
+"Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Monitoring Interventions",2,"R37-3",8,1.6,0
 "Xavier Puig-Montserrat","R37",3,"Catalonia","Spain","Europe","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",2,"R37-3",9
-"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Evidence",2,"R38-1",7
-"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Representativeness",1,"R38-1",7
-"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Limiting Factors",2,"R38-1",7
-"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Available Interventions",1,"R38-1",7
-"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Monitoring Interventions",0,"R38-1",7
+of Interventions",2,"R37-3",8,1.6,0
+"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Evidence",2,"R38-1",6,1.2,0
+"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Representativeness",1,"R38-1",6,1.2,0
+"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Limiting Factors",2,"R38-1",6,1.2,0
+"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Available Interventions",1,"R38-1",6,1.2,0
+"Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Monitoring Interventions",0,"R38-1",6,1.2,0
 "Zenon Czenze & Heidi Kolkert","R38",1,"Multi-region: New South Wales & Victoria","Australia","Australasia / Pacific","Vineyard","Vineyard","Breadth of Implementation
-of Interventions",1,"R38-1",7
-"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R39-NA",0
-"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R39-NA",0
-"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R39-NA",0
-"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R39-NA",0
-"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R39-NA",0
+of Interventions",1,"R38-1",6,1.2,0
+"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R39-NA",0,NA,NA
+"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R39-NA",0,NA,NA
+"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R39-NA",0,NA,NA
+"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R39-NA",0,NA,NA
+"Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R39-NA",0,NA,NA
 "Helen Taylor-Boyd","R39",NA,NA,NA,NA,NA,NA,"Breadth of Implementation
-of Interventions",NA,"R39-NA",0
-"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R40-NA",0
-"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R40-NA",0
-"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R40-NA",0
-"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R40-NA",0
-"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R40-NA",0
+of Interventions",NA,"R39-NA",0,NA,NA
+"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R40-NA",0,NA,NA
+"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R40-NA",0,NA,NA
+"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R40-NA",0,NA,NA
+"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R40-NA",0,NA,NA
+"Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R40-NA",0,NA,NA
 "Yingying Liu","R40",NA,NA,NA,NA,NA,NA,"Breadth of Implementation
-of Interventions",NA,"R40-NA",0
-"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R41-NA",0
-"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R41-NA",0
-"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R41-NA",0
-"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R41-NA",0
-"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R41-NA",0
+of Interventions",NA,"R40-NA",0,NA,NA
+"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R41-NA",0,NA,NA
+"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R41-NA",0,NA,NA
+"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R41-NA",0,NA,NA
+"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R41-NA",0,NA,NA
+"Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R41-NA",0,NA,NA
 "Bea Maas","R41",NA,NA,NA,NA,NA,NA,"Breadth of Implementation
-of Interventions",NA,"R41-NA",0
-"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R42-NA",0
-"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R42-NA",0
-"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R42-NA",0
-"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R42-NA",0
-"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R42-NA",0
+of Interventions",NA,"R41-NA",0,NA,NA
+"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R42-NA",0,NA,NA
+"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R42-NA",0,NA,NA
+"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R42-NA",0,NA,NA
+"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R42-NA",0,NA,NA
+"Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R42-NA",0,NA,NA
 "Olga Heim","R42",NA,NA,NA,NA,NA,NA,"Breadth of Implementation
-of Interventions",NA,"R42-NA",0
-"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R43-NA",0
-"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R43-NA",0
-"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R43-NA",0
-"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R43-NA",0
-"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R43-NA",0
+of Interventions",NA,"R42-NA",0,NA,NA
+"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Evidence",NA,"R43-NA",0,NA,NA
+"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Representativeness",NA,"R43-NA",0,NA,NA
+"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Limiting Factors",NA,"R43-NA",0,NA,NA
+"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Available Interventions",NA,"R43-NA",0,NA,NA
+"Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Monitoring Interventions",NA,"R43-NA",0,NA,NA
 "Kirsten Reichel-Jung","R43",NA,NA,NA,NA,NA,NA,"Breadth of Implementation
-of Interventions",NA,"R43-NA",0
+of Interventions",NA,"R43-NA",0,NA,NA

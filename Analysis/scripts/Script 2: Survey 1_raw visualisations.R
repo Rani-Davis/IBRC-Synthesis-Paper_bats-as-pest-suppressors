@@ -65,16 +65,41 @@ Survey_1_long <- Survey_1_long %>%
 
 
 # ----------------------------------------
-# 5. Calculate total score
+# 5. Calculate total score, mean score across all steps, and geometric mean
 # ----------------------------------------
-Survey_1_long <- Survey_1_long %>%
-  group_by(Respondent.clean, Respondent.entry.ID) %>%
-  mutate(TotalScore = sum(Score, na.rm = TRUE)) %>%
-  ungroup() %>%
-  mutate(Respondent.clean = fct_reorder(Respondent.clean, TotalScore))
+#5a. Total score across all steps in the pathway
+#5b. Mean score across all steps in the pathway
+#5c. Geometric mean of scores across all steps in the pathway
+
+# helper function to deal with any NAs
+geometric_mean <- function(x, na.rm = TRUE) {
+  x <- if (na.rm) x[!is.na(x)] else x
+  if (length(x) == 0) return(NA_real_)
+  if (any(x < 0)) {
+    warning("Negative values present; geometric mean undefined.")
+    return(NA_real_)
+  }
+  if (any(x == 0)) {
+    # common convention: geometric mean is 0 if any score is 0
+    return(0)
+  }
+  exp(mean(log(x)))
+}
 
 Survey_1_long <- Survey_1_long %>%
-  mutate(Respondent.entry.label = fct_reorder(Respondent.entry.label, TotalScore, .desc = TRUE))
+  group_by(Respondent.clean, Respondent.entry.ID) %>%
+  mutate(
+    # Excludes "Representativeness" score type - only sums/averages across the other 5 pathway steps 
+    # (Evidence, Limiting Factors, Available Strategies, Monitoring, Implementing)
+    TotalScore.allSteps   = sum(Score[Score.type != "Representativeness"], na.rm = TRUE),
+    MeanScore.allSteps    = mean(Score[Score.type != "Representativeness"], na.rm = TRUE),
+    GeoMeanScore.allSteps = geometric_mean(Score[Score.type != "Representativeness"], na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  mutate(Respondent.clean = fct_reorder(Respondent.clean, TotalScore.allSteps))
+
+Survey_1_long <- Survey_1_long %>%
+  mutate(Respondent.entry.label = fct_reorder(Respondent.entry.label, TotalScore.allSteps, .desc = TRUE))
 
 
 # ----------------------------------------
@@ -97,7 +122,7 @@ Survey_1_long <- Survey_1_long %>%
 # Check data
 #View(Survey_1_long)
 
-#write.csv(Survey_1_long, "Analysis/clean data/Survey 1_scored_near complete_long_16.6.26.csv", row.names = FALSE)
+write.csv(Survey_1_long, "Analysis/clean data/Survey 1_scored_near complete_long_16.6.26.csv", row.names = FALSE)
 
 
 # ----------------------------------------

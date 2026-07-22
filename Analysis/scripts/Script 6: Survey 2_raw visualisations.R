@@ -1,5 +1,5 @@
 # Code author: Rani Davis
-# Last updated: 6 July 2026
+# Last updated:20 July 2026
 #
 # ----------------------------------------
 # 0. Load libraries
@@ -44,16 +44,17 @@ Survey_2_long <- Survey_2_long %>%
 colnames(Survey_2_long)
 
 # ----------------------------------------
-# 3. Calculate total score
+# 3. Calculate total and mean scores across all interventions
 # ----------------------------------------
 Survey_2_long <- Survey_2_long %>%
   group_by(Respondent.clean, Respondent.entry.ID) %>%
-  mutate(TotalScore = sum(Score, na.rm = TRUE)) %>%
+  mutate(TotalScore.allInterventions = sum(Score, na.rm = TRUE),
+         MeanScore.allInterventions    = mean(Score, na.rm = TRUE)) %>%
   ungroup() %>%
-  mutate(Respondent.clean = fct_reorder(Respondent.clean, TotalScore))
+  mutate(Respondent.clean = fct_reorder(Respondent.clean, TotalScore.allInterventions))
 
 Survey_2_long <- Survey_2_long %>%
-  mutate(Respondent.entry.label = fct_reorder(Respondent.entry.label, TotalScore, .desc = TRUE))
+  mutate(Respondent.entry.label = fct_reorder(Respondent.entry.label, TotalScore.allInterventions, .desc = TRUE))
 
 colnames(Survey_2_long)
 head(Survey_2_long)
@@ -64,8 +65,9 @@ head(Survey_2_long)
 # 4. VISUALISATIONS - Stacked barcharts
 # ----------------------------------------
 Survey_2_long %>%
+  filter(!is.na(Score)) %>%   # remove the incomplete survey responses (where score = NA)
   mutate(Score.label = factor(Score, levels = 0:3,
-                              labels = c("Not tried", "Tried, untested", "Testing ongoing", "Evaluated"))) %>%
+                              labels = c("Not tried", "Tried, untested", "Tried, testing ongoing", "Tried and tested"))) %>%
   ggplot(aes(x = Score.type, fill = Score.label)) +
   geom_bar(position = "fill") +
   scale_fill_manual(values = c("#d73027", "#fee08b", "#1a9850", "darkgreen")) +
@@ -78,8 +80,7 @@ Survey_2_long %>%
 # Other way of visualising where to the left = not tried.
 Survey_2_long %>%
   mutate(Score.label = factor(Score, levels = 0:3,
-                              labels = c("Not tried", "Tried, untested",
-                                         "Testing ongoing", "Evaluated")),
+                              labels = c("Not tried", "Tried, untested", "Tried, testing ongoing", "Tried and tested")),
          diverge = Score - 1) %>%
   group_by(Score.type, Score.label) %>%
   summarise(n = n(), .groups = "drop") %>%
@@ -192,6 +193,8 @@ Survey_2_long %>%
 # ----------------------------------------
 # 5. VISUALISATIONS - Mean +/- SE of scores
 # ----------------------------------------
+mutate(Crop.type.label = paste0(Crop.type.clean, "\n(n = ", n_resp, ")"))
+
 Survey_2_long %>%
   group_by(Score.type) %>%
   summarise(
@@ -208,7 +211,7 @@ Survey_2_long %>%
   geom_point(size = 4, colour = "#1a9850") +
   geom_hline(yintercept = 1, linetype = "dashed", colour = "grey60") +
   scale_y_continuous(breaks = 0:3, limits = c(0, 3),
-                     labels = c("Not tried", "Tried,\nnot tested", "Tried,\ntesting ongoing", "Tried\n& tested")
+                     labels = c("Not tried", "Tried,\nuntested", "Tried,\ntesting ongoing", "Tried\nand tested")
   )+
   coord_flip() +
   labs(x = "Intervention", y = "Mean intervention testing score (± SE)",
@@ -227,7 +230,7 @@ crop_n <- Survey_2_long %>%
 summary_by_crop <- Survey_2_long %>%
   filter(!is.na(Crop.type.clean)) %>%
   left_join(crop_n, by = "Crop.type.clean") %>%
-  group_by(Crop.type.label, Score.type) %>%
+  group_by(Crop.type.clean, Crop.type.label, Score.type) %>%   # add Crop.type.clean here
   summarise(
     mean = mean(Score, na.rm = TRUE),
     sd = sd(Score, na.rm = TRUE),
@@ -241,22 +244,25 @@ jitter_by_crop <- Survey_2_long %>%
 
 ggplot(summary_by_crop, aes(x = fct_reorder(Score.type, mean), y = mean)) +
   geom_jitter(data = jitter_by_crop,
-              aes(x = Score.type, y = Score),
-              width = 0.22, height = 0.05, alpha = 0.3, size = 1.5, colour = "grey60") +
-  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2, colour = "grey50") +
-  geom_point(size = 3, colour = "#1a9850") +
+              aes(x = Score.type, y = Score, colour = Crop.type.clean),
+              width = 0.22, height = 0.05, alpha = 0.3, size = 1.5) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se, colour = Crop.type.clean),
+                width = 0.2) +
+  geom_point(aes(colour = Crop.type.clean), size = 3) +
   geom_hline(yintercept = 1, linetype = "dashed", colour = "grey60") +
+  scale_colour_manual(values = crop_colours) +
   scale_y_continuous(breaks = 0:3, limits = c(0, 3),
-                     labels = c("Not tried", "Tried,\nnot tested", "Tried,\ntesting ongoing", "Tried\n& tested")
+                     labels = c("Not tried",  "Tried,\nuntested", "Tried,\ntesting ongoing", "Tried\nand tested")
   ) +
   coord_flip() +
-  facet_wrap(~ Crop.type.label) +
+  facet_wrap(~ Crop.type.label, nrow = 2, ncol = 4) +
   labs(x = NULL, y = "Mean intervention testing score (± SE)",
        caption = "Dashed line = 'Tried, untested' threshold") +
   theme_minimal() +
   theme(strip.text = element_text(face = "bold"),
         axis.text.x = element_text(angle = 35, hjust = 0.9, size = 8),
-        panel.spacing = unit(1.4, "lines"))
+        panel.spacing = unit(1.4, "lines")) +
+  guides(colour = "none")
 
 
 # by world region  ------
@@ -269,7 +275,7 @@ region_n <- Survey_2_long %>%
 summary_by_region <- Survey_2_long %>%
   filter(!is.na(World.region.clean)) %>%
   left_join(region_n, by = "World.region.clean") %>%
-  group_by(World.region.label, Score.type) %>%
+  group_by(World.region.clean, World.region.label, Score.type) %>%   # add World.region.clean here
   summarise(
     mean = mean(Score, na.rm = TRUE),
     sd = sd(Score, na.rm = TRUE),
@@ -277,29 +283,32 @@ summary_by_region <- Survey_2_long %>%
     .groups = "drop"
   )
 
+
 jitter_by_region <- Survey_2_long %>%
   filter(!is.na(World.region.clean)) %>%
   left_join(region_n, by = "World.region.clean")
 
 ggplot(summary_by_region, aes(x = fct_reorder(Score.type, mean), y = mean)) +
   geom_jitter(data = jitter_by_region,
-              aes(x = Score.type, y = Score),
-              width = 0.22, height = 0.05, alpha = 0.3, size = 1.5, colour = "grey60") +
-  geom_errorbar(aes(ymin = mean - se, ymax = mean + se), width = 0.2, colour = "grey50") +
-  geom_point(size = 3, colour = "#1a9850") +
+              aes(x = Score.type, y = Score, colour = World.region.clean),
+              width = 0.22, height = 0.05, alpha = 0.3, size = 1.5) +
+  geom_errorbar(aes(ymin = mean - se, ymax = mean + se, colour = World.region.clean),
+                width = 0.2) +
+  geom_point(aes(colour = World.region.clean), size = 3) +
   geom_hline(yintercept = 1, linetype = "dashed", colour = "grey60") +
+  scale_colour_manual(values = region_colours) +
   scale_y_continuous(breaks = 0:3, limits = c(0, 3),
-                     labels = c("Not tried", "Tried,\nnot tested", "Tried,\ntesting ongoing", "Tried\n& tested")
+                     labels = c("Not tried",  "Tried,\nuntested", "Tried,\ntesting ongoing", "Tried\nand tested")
   ) +
   coord_flip() +
-  facet_wrap(~ World.region.label) +
+  facet_wrap(~ World.region.label, nrow = 2, ncol = 4) +
   labs(x = NULL, y = "Mean intervention testing score (± SE)",
        caption = "Dashed line = 'Tried but untested' threshold") +
   theme_minimal() +
   theme(strip.text = element_text(face = "bold"),
         axis.text.x = element_text(angle = 35, hjust = 0.9, size = 8),
-        panel.spacing = unit(1.4, "lines"))
-
+        panel.spacing = unit(1.4, "lines")) +
+  guides(colour = "none")
 
 # ----------------------------------------
 # 6. VISUALISATIONS - Rigeline plots for scores
