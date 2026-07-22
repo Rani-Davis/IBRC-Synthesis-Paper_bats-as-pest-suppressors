@@ -104,7 +104,7 @@ Among tested indices, Environmental Performance Index currently appears to be th
 
 ---
 
-# Current best model structure
+## Current best model structures
 
 | Survey | Response variable | Fixed effects | Random effect |
 | :--- | :--- | :--- | :--- |
@@ -113,35 +113,15 @@ Among tested indices, Environmental Performance Index currently appears to be th
 
 ---
 
-# Current GLMM results
+## Current GLMM results
 
-## Survey 1 — Knowledge Pathway scores
-
-The current best-supported model indicates that mean Knowledge Pathway scores vary among crop types and are associated with environmental and geographic context.
-
-Key findings:
-
-- Knowledge Pathway scores differed among crop types.
-- Environmental Performance Index showed a positive relationship with predicted Knowledge Pathway scores.
-- Absolute latitude contributed additional explanatory power.
-
-### Model-predicted effects
+#### Survey 1 — Knowledge Pathway scores
 
 *(GLMM effect figures will be added here)*
 
 ---
 
-## Survey 2 — Intervention scores
-
-The current best-supported model indicates that mean intervention testing scores vary among crop types and are associated with environmental and geographic context.
-
-Key findings:
-
-- Intervention scores differed among crop types.
-- Environmental Performance Index was positively associated with predicted intervention scores.
-- Absolute latitude contributed additional explanatory power.
-
-### Model-predicted effects
+#### Survey 2 — Intervention scores
 
 *(GLMM effect figures will be added here)*
 
@@ -149,7 +129,7 @@ Key findings:
 
 # 🤝 Seeking GLMM expertise
 
-If you are particularly experienced with GLMM modelling, especially approaches involving multiple socio-economic, environmental, or agricultural predictors while accounting for important covariates and hierarchical structure, we would welcome input on alternative model structures.
+If you are particularly experienced with GLMM modelling, especially involving socio-economic, environmental, or agricultural predictors while accounting for important covariates and hierarchical structure, we would welcome input on alternative model structures.
 
 Please contact:
 
