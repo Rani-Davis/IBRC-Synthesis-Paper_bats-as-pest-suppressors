@@ -94,7 +94,7 @@ Potential explanatory indices being explored include:
 
 As an initial exploration, we visualised the relationship between country-level mean Knowledge Pathway and Intervention scores and each index. 
 
-Below are simple linear models of two example indices (GDP and Environmental Performance Index) against the mean Knowledge and Intervention scores per country. You can view figures for all simple linear models inside figure xports/
+Below are simple linear models of two example indices (GDP and Environmental Performance Index) against the mean Knowledge and Intervention scores per country. You can view figures for all simple linear models inside 'figure exports/Models with indices/.../simple linear models'
 
 <p align="center">
   <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
