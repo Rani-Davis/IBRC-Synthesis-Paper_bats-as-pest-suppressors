@@ -146,7 +146,6 @@ Collaborators can be provided access to edit the GitHub repository and explore a
 * 📁 `Analysis/raw data/` — Raw survey data as submitted by contributors
 * 📁 `Analysis/clean data/` — Cleaned and scored survey datasets
 * 📁 `Analysis/scripts/` — Data processing, modelling, and visualisation scripts
-* 📁 `Analysis/model outputs/` — Model summaries, diagnostics, and statistical outputs
 * 📁 `figure exports/` — All key figures produced by scripts
 * 📁 `docs/map exports/` — Interactive HTML maps showing spatial coverage
 
