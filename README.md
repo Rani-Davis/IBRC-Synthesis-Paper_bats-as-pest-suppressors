@@ -82,9 +82,9 @@ Explore the global coverage of our study systems using these interactive maps:
 
 ## Why GLMMs?
 
-Descriptive figures summarise patterns in survey responses but do not account for the hierarchical structure of the dataset. Study systems are not statistically independent because multiple observations can occur within the same country, crop type, or contributor.
+The descriptive figures above summarise patterns in survey responses but do not account for study systems not being independent. There can be multiple studies within the same country, crop type, or completed by the same contributor.
 
-To identify the factors associated with knowledge progression and intervention implementation while accounting for this non-independence, we fitted **Generalised Linear Mixed Models (GLMMs)** using the `glmmTMB` package in R.
+To identify the factors associated with knowledge progression or intervention implementation while accounting for this non-independence, we fitted **Generalised Linear Mixed Models (GLMMs)** using the `glmmTMB` package in R.
 
 GLMMs allow us to:
 
@@ -97,10 +97,10 @@ GLMMs allow us to:
 The current models investigate:
 
 - 🌱 Crop type
-- 🌍 Socio-economic and environmental indices (GDP, agricultural contribution to GDP, agricultural R&D investment, Environmental Performance Index)
+- 🌍 Socio-economic and environmental indices (GDP, R&D expenditure in all sectors, Agricultural R&D investment,Agricultural contribution to GDP, and Environmental Performance Index)
 - 📍 Absolute latitude
 
-Among tested indices, Environmental Performance Index currently appears to be the strongest predictor and is included in the current best-supported models.
+Among tested indices, Environmental Performance Index currently appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
 
 ---
 
