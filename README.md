@@ -43,14 +43,14 @@ Explore the global coverage of our study systems using these interactive maps:
 
 <p align="center">
   <img src="figure%20exports/Knowledge%20pathway%20scores/Draft_composite%20knowledge%20pathway%20plot_By%20Crop%20Type.png" alt="Knowledge pathway results by crop" /><br>
-  <sub><i>Figure 2: Knowledge pathway progress across crop types, showing mean scores (± SE) with raw respondent-level data points.</i></sub>
+  <sub><i>Figure 2: Knowledge pathway progress across crop types, showing mean scores (± SE) with raw respondent-level data points. Click to enlarge.</i></sub>
 </p>
 
 <br>
 
 <p align="center">
   <img src="figure%20exports/Knowledge%20pathway%20scores/Draft_composite%20knowledge%20pathway%20plot_By%20World%20Region.png" alt="Knowledge pathway results by region" /><br>
-  <sub><i>Figure 3: Knowledge pathway progress across regions, showing mean scores (± SE) with raw respondent-level data points.</i></sub>
+  <sub><i>Figure 3: Knowledge pathway progress across regions, showing mean scores (± SE) with raw respondent-level data points. Click to enlarge.</i></sub>
 </p>
 
 ---
