@@ -99,8 +99,8 @@ As an initial exploration, we visualised the relationship between country-level 
 </p>
 
 <p align="center">
-  <img src="figure%20exports/Knowledge%20scores%20vs%20index%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="GDP versus Knowledge Pathway score" /><br>
-  <sub><i>Figure X: Country-level mean Knowledge Pathway scores plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+  <img src="figure%20exports/Knowledge%20scores%20vs%20index%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
+  <sub><i>Figure X: Country-level mean Intervention Testing scores plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
 </p>
 
 However, these relationships are unlikely to be driven by a single factor. For example, countries with higher GDP may also differ in environmental protection and investment, agricultural research, variety in crop production systems, and availability of research infrastructure. Similarly, study systems within the same country may share characteristics that make them more similar to one another.
