@@ -80,9 +80,36 @@ Explore the global coverage of our study systems using these interactive maps:
 
 # 📈 Generalised Linear Mixed Models (GLMMs)
 
+## Exploring predictors of Knowledge Pathway and Intervention Testing scores
+We are exploring whether variation in Knowledge Pathway scores (Survey 1) and Intervention Testing scores (Survey 2) can be explained by broader **socio-economic, environmental, and agricultural factors**, while also considering important study-system characteristics such as crop type.
+
+Potential explanatory indices being explored include:
+
+- 🌍 Environmental Performance Index
+- 💰 GDP
+- 🌱 Agricultural contribution to GDP
+- 🔬 Agricultural and national research & development investment
+
+
+As an initial exploration, we visualised the relationship between country-level mean Knowledge Pathway and Intervention scores and each index. Below are simple linear models of GDP and Environmental Performance Index against the mean Knowledge and Intervention scores per country.
+
+<p align="center">
+  <img src="figure%20exports/Knowledge%20scores%20vs%20index%20scores/simple%20linear%20models/GDP%20vs%20Total%20Knowledge%20Score%20for%20Country%20Means.jpeg" alt="GDP versus Knowledge Pathway score" /><br>
+  <sub><i>Figure X: Country-level mean Knowledge Pathway scores plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+</p>
+
+<p align="center">
+  <img src="figure%20exports/Knowledge%20scores%20vs%20index%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="GDP versus Knowledge Pathway score" /><br>
+  <sub><i>Figure X: Country-level mean Knowledge Pathway scores plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors and hierarchical structure.</i></sub>
+</p>
+
+However, these relationships are unlikely to be driven by a single factor. For example, countries with higher GDP may also differ in environmental protection and investment, agricultural research, variety in crop production systems, and availability of research infrastructure. Similarly, study systems within the same country may share characteristics that make them more similar to one another.
+
+Therefore, we are moving beyond simple correlations and using **Generalised Linear Mixed Models (GLMMs)** to evaluate multiple predictors simultaneously
+
 ## Why GLMMs?
 
-The descriptive figures above summarise patterns in survey responses but do not account for study systems not being independent. There can be multiple studies within the same country, crop type, or completed by the same contributor.
+The simple linear models do not account for study systems not being independent.
 
 To identify the factors associated with knowledge progression or intervention implementation while accounting for this non-independence, we fitted **Generalised Linear Mixed Models (GLMMs)** using the `glmmTMB` package in R.
 
@@ -96,9 +123,9 @@ GLMMs allow us to:
 
 The current models investigate:
 
-- 🌱 Crop type
-- 🌍 Socio-economic and environmental indices (GDP, R&D expenditure in all sectors, Agricultural R&D investment,Agricultural contribution to GDP, and Environmental Performance Index)
-- 📍 Absolute latitude
+- 🌱 Crop type.
+- 📍 Absolute latitude. As a proxy for biodiversity as more complex systems with more species may be more challenging to gain knowledge in.
+- 🌍 The socio-economic, environmental, and agricultural indices mentioned above.
 
 Among tested indices, Environmental Performance Index currently appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
 
