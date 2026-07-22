@@ -147,13 +147,55 @@ Among tested indices, Environmental Performance Index currently appears to be th
 
 #### Survey 1 — Knowledge Pathway scores
 
-*(GLMM effect figures will be added here)*
+The current best-supported GLMM investigates how crop type, Environmental Performance Index, and absolute latitude influence Knowledge Pathway scores while accounting for non-independence among study systems.
+
+Key model-predicted relationships are shown below.
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Crop type effect on Knowledge Pathway scores" /><br>
+  <sub><i>Figure X: GLMM-predicted effect of crop type on mean Knowledge Pathway scores (±95% CI).</i></sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Env%20Performance%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Environmental Performance effect on Knowledge Pathway scores" /><br>
+  <sub><i>Figure X: GLMM-predicted relationship between Environmental Performance Index and mean Knowledge Pathway scores (±95% CI).</i></sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20Latitude%20effect%20on%20mean%20Knowledge%20Scores.jpeg" alt="Latitude effect on Knowledge Pathway scores" /><br>
+  <sub><i>Figure X: GLMM-predicted relationship between absolute latitude and mean Knowledge Pathway scores (±95% CI).</i></sub>
+</p>
 
 ---
 
 #### Survey 2 — Intervention scores
 
-*(GLMM effect figures will be added here)*
+The current best-supported GLMM investigates how crop type, Environmental Performance Index, and absolute latitude influence Intervention Testing scores while accounting for non-independence among study systems.
+
+Key model-predicted relationships are shown below.
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Crop%20Type%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Crop type effect on Intervention scores" /><br>
+  <sub><i>Figure X: GLMM-predicted effect of crop type on mean Intervention Testing scores (±95% CI).</i></sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Env%20Performance%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Environmental Performance effect on Intervention scores" /><br>
+  <sub><i>Figure X: GLMM-predicted relationship between Environmental Performance Index and mean Intervention Testing scores (±95% CI).</i></sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Latitude%20effect%20on%20mean%20Intervention%20Scores.jpeg" alt="Latitude effect on Intervention scores" /><br>
+  <sub><i>Figure X: GLMM-predicted relationship between absolute latitude and mean Intervention Testing scores (±95% CI).</i></sub>
+</p>
 
 ---
 
