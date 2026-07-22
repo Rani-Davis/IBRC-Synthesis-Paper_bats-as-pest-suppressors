@@ -577,3 +577,4 @@ ggplot(
        title = "Raw entries - Environmental Performance vs Mean Knowledge Pathway Score",
        colour = "World Region") +
   theme(panel.grid.minor = element_blank())
+

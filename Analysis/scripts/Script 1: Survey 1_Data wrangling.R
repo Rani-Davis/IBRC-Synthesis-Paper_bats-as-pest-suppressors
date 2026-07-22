@@ -185,5 +185,5 @@ names(survey_1.2)
 # specify columns to export
 survey_1_export <- survey_1.2[, 1:48]
 # write files
-#write_xlsx(survey_1_export, "Analysis/clean data/Survey 1_scored_near complete_16.6.26.xlsx")
-#write.csv(survey_1_export, "Analysis/clean data/Survey 1_scored_near complete_16.6.26.csv", row.names = FALSE)
+write_xlsx(survey_1_export, "Analysis/clean data/Survey 1_scored_near complete_16.6.26.xlsx")
+write.csv(survey_1_export, "Analysis/clean data/Survey 1_scored_near complete_16.6.26.csv", row.names = FALSE)
