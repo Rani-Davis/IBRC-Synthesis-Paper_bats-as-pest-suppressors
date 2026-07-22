@@ -151,7 +151,7 @@ Collaborators can be provided access to edit the GitHub repository and explore a
 
 ---
 
-# Scripts
+# 📑 Scripts
 
 | Script | Purpose |
 | :--- | :--- |
