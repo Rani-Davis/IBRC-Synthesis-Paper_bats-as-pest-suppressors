@@ -86,15 +86,12 @@ wdi_indicators <- wdi_raw %>%
 # 2. PULL EPI DATA (filtered to your countries after download --
 #    EPI doesn't offer a country-scoped API call, so filter locally)
 # ========================================
-epi_raw <- read_csv("https://epi.yale.edu/downloads/epi2024results.csv", show_col_types = FALSE)
+epi_raw <- read_csv("Analysis/raw data/epi2026results2026-07-07.csv") # downloaded the 2026 results here - https://epi.yale.edu/downloads
 
 epi_data <- epi_raw %>%
   select(country = country, EnviroPerformance_score = EPI.new) %>%
   mutate(country = recode(country, "United States of America" = "United States")) %>%
   filter(country %in% all_countries_wb)
-
-# If URL fails, download manually from https://epi.yale.edu and read locally:
-# epi_data <- read_csv("epi2024results.csv") %>% select(country, EnviroPerformance_score = EPI.new) %>% filter(country %in% all_countries_wb)
 
 
 # ========================================

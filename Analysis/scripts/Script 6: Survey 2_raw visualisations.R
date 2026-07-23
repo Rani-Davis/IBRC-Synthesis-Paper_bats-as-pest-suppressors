@@ -193,7 +193,7 @@ Survey_2_long %>%
 # ----------------------------------------
 # 5. VISUALISATIONS - Mean +/- SE of scores
 # ----------------------------------------
-mutate(Crop.type.label = paste0(Crop.type.clean, "\n(n = ", n_resp, ")"))
+#mutate(Crop.type.label = paste0(Crop.type.clean, "\n(n = ", n_resp, ")"))
 
 Survey_2_long %>%
   group_by(Score.type) %>%
@@ -310,6 +310,7 @@ ggplot(summary_by_region, aes(x = fct_reorder(Score.type, mean), y = mean)) +
         panel.spacing = unit(1.4, "lines")) +
   guides(colour = "none")
 
+
 # ----------------------------------------
 # 6. VISUALISATIONS - Rigeline plots for scores
 # ----------------------------------------
@@ -336,41 +337,31 @@ Survey_2_long %>%
 
 
 # Ridgeline by world region  ------
-    # Set your minimum n for a density ridge to be shown
-    min_n_for_ridge <- 3
-    
-    ridge_data <- Survey_2_long %>%
-      distinct(Respondent.entry.label, World.region.clean, TotalScore) %>%
-      filter(!is.na(World.region.clean)) %>%
-      left_join(region_n_ridge, by = "World.region.clean") %>%
-      mutate(label = fct_reorder(label, TotalScore))
-    
-    # Split into two groups based on sample size
-    ridge_data_full   <- ridge_data %>% filter(n >= min_n_for_ridge)
-    ridge_data_sparse <- ridge_data %>% filter(n <  min_n_for_ridge)
-    
-    ggplot(ridge_data, aes(x = TotalScore, y = label)) +
-      # Density ridges only for regions with enough data
-      geom_density_ridges_gradient(data = ridge_data_full,
-                                   aes(fill = after_stat(x)),
-                                   jittered_points = TRUE,
-                                   position = position_points_jitter(width = 0.05, height = 0.05),
-                                   point_shape = 21, point_size = 1.5, point_alpha = 0.5,
-                                   scale = 0.8) +
-      # Points only for low-n regions
-      geom_point(data = ridge_data_sparse,
-                 position = position_jitter(width = 0.05, height = 0.1),
-                 shape = 21, size = 1, alpha = 0.8,
-                 aes(fill = TotalScore)) +
-      scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850",
-                           midpoint = 6) +
-      scale_x_continuous(breaks = seq(-1, 18, by = 2), limits = c(-1, 18)) +
-      labs(x = "Total intervention testing score (sum of 6 interventions, 0–18)", 
-           y = NULL,
-           caption = "Each point represents one crop+region system.\nRegions with n < 5 shown as points only (density not estimated).") +
-      theme_minimal() +
-      theme(legend.position = "none",
-            plot.caption = element_text(size = 8, hjust = 0))
+region_n_ridge <- Survey_2_long %>%
+  filter(!is.na(World.region.clean)) %>%
+  distinct(Respondent.entry.label,World.region.clean) %>%
+  count(World.region.clean) %>%
+  mutate(label = paste0(World.region.clean, " (n=", n, ")"))
+
+Survey_2_long %>%
+  distinct(Respondent.entry.label,World.region.clean, TotalScore.allInterventions) %>%
+  filter(!is.na(World.region.clean)) %>%
+  left_join(region_n_ridge, by = "World.region.clean") %>%
+  ggplot(aes(x = TotalScore.allInterventions, y = fct_reorder(label, TotalScore.allInterventions),
+             fill = after_stat(x))) +
+  geom_density_ridges_gradient(jittered_points = TRUE,
+                               position = position_points_jitter(width = 0.05, height = 0.05),
+                               point_shape = 21, point_size = 1.5, point_alpha = 0.5,
+                               scale = 0.8) +
+  scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850",
+                       midpoint = 6) +
+  scale_x_continuous(breaks = seq(0, 18, by = 2), limits = c(0, 18)) +
+  labs(x = "Total intervention testing score (sum of 6 interventions, 0–18)", 
+       y = NULL,
+       caption = "Each point represents one crop+region system") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        plot.caption = element_text(size = 8, hjust = 0))
 
 
 # By region and intervention  ------
@@ -423,10 +414,10 @@ crop_n_ridge <- Survey_2_long %>%
   mutate(label = paste0(Crop.type.clean, " (n=", n, ")"))
 
 Survey_2_long %>%
-  distinct(Respondent.entry.label, Crop.type.clean, TotalScore) %>%
+  distinct(Respondent.entry.label, Crop.type.clean, TotalScore.allInterventions) %>%
   filter(!is.na(Crop.type.clean)) %>%
   left_join(crop_n_ridge, by = "Crop.type.clean") %>%
-  ggplot(aes(x = TotalScore, y = fct_reorder(label, TotalScore),
+  ggplot(aes(x = TotalScore.allInterventions, y = fct_reorder(label, TotalScore.allInterventions),
              fill = after_stat(x))) +
   geom_density_ridges_gradient(jittered_points = TRUE,
                                position = position_points_jitter(width = 0.05, height = 0.05),
