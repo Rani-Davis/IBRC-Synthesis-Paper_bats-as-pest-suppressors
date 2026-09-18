@@ -137,8 +137,6 @@ The current best-supported GLMM for predicting mean Intervention Testing scores 
 
 MeanScore.allInterventions ~ Environmental Performance + (1|Country.clean) + (1|Respondent.clean)
 
-Key model-predicted relationships are shown below.
-
 <p align="center">
   <img src="Analysis/model%20selection/Survey%202-%20Model%20predicted%20mean%20intervention%20score%20by%20EnvPerformance.png" /><br>
   <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Intervention Testing scores (averaged across all 6 interventions)  </i></sub>
