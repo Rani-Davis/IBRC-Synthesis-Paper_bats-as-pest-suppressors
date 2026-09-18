@@ -159,21 +159,20 @@ MeanScore.allInterventions ~ Environmental Performance + (1|Country.clean) + (1|
 
 <br>
 
-**Model summary — mean Intervention Testing score (Survey 2)**
+**Model:** `Survey_2_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
+Family: Beta (logit link) | n = 58 observations, 24 countries, 36 respondents
 
-| Term | Estimate | Std. Error | z value | p value |
-|---|---|---|---|---|
-| Intercept | -2.538 | 0.399 | -6.361 | < 0.001 |
-| Environmental Performance Index | 0.024 | 0.007 | 3.367 | < 0.001 |
+| | Estimate | Std. Error | z value | p value |
+|:---|---:|---:|---:|---:|
+| (Intercept) | -2.538 | 0.399 | -6.361 | <0.001 *** |
+| Environmental Performance Index | 0.024 | 0.007 | 3.367 | <0.001 *** |
 
-**Random effects**
-
-| Group | Variance | Std. Dev. |
-|---|---|---|
-| Country | 0.0264 | 0.162 |
+| Random effect | Variance | Std. Dev. |
+|:---|---:|---:|
+| Country | 0.026 | 0.162 |
 | Respondent | <0.001 | <0.001 |
 
-*Model fit: AIC = -88.2, BIC = -77.9, log-likelihood = 49.1, n = 58 observations (24 countries, 36 respondents)*
+*AIC = -88.2, BIC = -77.9, log-likelihood = 49.1*
 
 
 ---
