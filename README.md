@@ -94,11 +94,11 @@ Additional predictors included in models:
 - 🌱 Crop type.
 - 🦇 Bat species richness - more complex systems with more species may be more challenging to gain knowledge in.
 
-Among tested indices, Environmental Performance Index appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
-
 
 ## Current GLMM results
 #### Best supported models:
+Among tested indices, Environmental Performance Index appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
+
 
 | Survey | Response variable | Fixed effects | Random effects |
 | :--- | :--- | :--- | :--- |
