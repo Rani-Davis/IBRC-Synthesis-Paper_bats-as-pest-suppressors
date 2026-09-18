@@ -85,7 +85,7 @@ Socio-economic and environmental indices explored:
 
 - 🌍 Environmental Performance Index
 - 💰 GDP
-- 🌱 Agricultural contribution to GDP
+- 🌾 Agricultural contribution to GDP
 - 🔬Agricultural research & development investment
 
 
@@ -96,7 +96,14 @@ Additional predictors included in models:
 
 Our predictor 'budget':
 
-- 🌍 We have responses from 24 countries, and the socio-economic and bat species richness data will be at country level. Therefore, we can only ‘afford’ 2 predictors following the 10 observations per predictor rule (excluding random effects). 
+- 💻 We have responses from 24 countries, and the socio-economic and bat species richness data will be at country level. Therefore, we can only ‘afford’ 2 predictors following the 10 observations per predictor rule (excluding random effects). 
+
+Random effects:
+
+- 🌍 (1 | Country) - This accounts for multiple respondents per country sharing the same GDP/Env Performance etc value.
+-	👤 (1 | Respondent) - This accounts for multiple responses per person.
+
+
 
 
 ## Current GLMM results
