@@ -86,23 +86,8 @@ Potential explanatory indices being explored include:
 - 🌍 Environmental Performance Index
 - 💰 GDP
 - 🌱 Agricultural contribution to GDP
-- 🔬 National research & development investment (all sectors)
 - 🔬Agricultural research & development investment
 
-
-As an initial exploration, we visualised the relationship between country-level mean Knowledge Pathway and Intervention scores and each index. 
-
-Below are simple linear models of two example indices (GDP and Environmental Performance Index) against the mean Knowledge and Intervention scores per country. You can view figures for all simple linear models inside 'figure exports/Models with indices/.../simple linear models'
-
-<p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/simple%20linear%20models/GDP%20vs%20Mean%20Knowledge%20Score%20for%20Country%20Means.jpeg" alt="GDP versus Knowledge Pathway score" /><br>
-  <sub><i>Figure 7: Country-level mean Knowledge Pathway scores (scores from Survey 1, across the entire pathway) plotted against GDP, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors.</i></sub>
-</p>
-
-<p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/simple%20linear%20models/Environmental%20Performance%20vs%20Mean%20Intervention%20Score%20for%20Country%20Means.jpeg" alt="Environmental Performance versus Intervention score" /><br>
-  <sub><i>Figure 8: Country-level mean Intervention Testing scores (scores from Survey 2, across all 6 interventions) plotted against Environmental Performance Index, showing a simple linear relationship. This exploratory analysis motivates the use of more complex models that incorporate additional predictors.</i></sub>
-</p>
 
 ## Why GLMMs?
 
@@ -113,19 +98,19 @@ Therefore, we are moving beyond simple correlations and using **Generalised Line
 The current models investigate:
 
 - 🌱 Crop type.
-- 📍 Absolute latitude. As a proxy for biodiversity as more complex systems with more species may be more challenging to gain knowledge in.
+- 🦇 Bat species richness - more complex systems with more species may be more challenging to gain knowledge in.
 - 🌍 The socio-economic, environmental, and agricultural indices mentioned above.
 
-Among tested indices, Environmental Performance Index currently appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
+Among tested indices, Environmental Performance Index appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
 
 ---
 
 ## Current best model structures
 
-| Survey | Response variable | Fixed effects | Random effect |
+| Survey | Response variable | Fixed effects | Random effects |
 | :--- | :--- | :--- | :--- |
-| Survey 1 | Knowledge Pathway score (`MeanScore.allSteps`) | 1 + (null model, no fixed effects) | Country |
-| Survey 2 | Intervention score (`MeanScore.allInterventions`) | Environmental Performance Index + Absolute latitude | Country |
+| Survey 1 | Knowledge Pathway score (`MeanScore.allSteps`) | Environmental Performance Index +  | (1|Country) + (1|Respondent) |
+| Survey 2 | Intervention score (`MeanScore.allInterventions`) | Environmental Performance Index | (1|Country) + (1|Respondent) |
 
 ---
 
@@ -133,15 +118,12 @@ Among tested indices, Environmental Performance Index currently appears to be th
 
 #### Survey 1 — Knowledge Pathway scores
 
-The current best-supported GLMM for predicting mean Knowledge Pathway scores (averaged across the entire pathway) is a null model: 
-MeanScore.allSteps ~ 1 + (1|Country.clean)
-The model was not improved by adding any of the indices, latitude, or crop type as predictors (There are likely too few entries per crop type).
-
-The random effect of country is visualised below:
+The current best-supported GLMM for predicting mean Knowledge Pathway scores (averaged across the entire pathway) is:
+MeanScore.allSteps ~ Environmental Performance + (1|Country.clean) + (1|Respondent.clean)
 
 <p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Knowledge%20scores/GLMM%20predictions/Model-predicted%20random%20effect%20of%20Country%20on%20Knowledge%20scores%20(survey%201%20GLMM).jpeg" alt="Model-predicted random effect of Country on Knowledge scores (survey 1 GLMM)" /><br>
-  <sub><i>Figure 10: GLMM-predicted random effect of Country on mean Knowledge score across the entire Pathway (Survey 1).</i></sub>
+  <img src="Analysis/model%20selection/Survey%201-%20Model%20predicted%20mean%20knowledge%20score%20by%20EnvPerformance.png" /><br>
+  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Knowledge score (Survey 1, mean across knowledge pathway).  </i></sub>
 </p>
 
 <br>
@@ -150,21 +132,13 @@ The random effect of country is visualised below:
 
 #### Survey 2 — Intervention scores
 
-The current best-supported GLMM includes Environmental Performance Index and absolute latitude as predictors of mean Intervention Testing scores (averaged across all 6 interventions), plus the random effect of country.
+The current best-supported GLMM includes Environmental Performance Index as a predictor of mean Intervention Testing scores (averaged across all 6 interventions), plus the random effect of country and respondent.
 
 Key model-predicted relationships are shown below.
 
 <p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Env%20Performance%20effect%20on%20mean%20Intervention%20Scores_coloured%20by%20world%20region.jpeg" alt="Model-predicted Env Performance effect on mean Intervention Scores_coloured by world region" /><br>
-  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Intervention score (Survey 2, mean across all 6 interventions). Note that a score of 0 = not tried; 1 = tried, untested; 2 = tried, testing ongoing; 3 = tried and tested </i></sub>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="figure%20exports/Models%20with%20indices/Intervention%20scores/GLMM%20predictions/Model-predicted%20Latitude%20effect%20on%20mean%20Intervention%20Scores_coloured%20by%20country.jpeg" alt="Model-predicted Latitude effect on mean Intervention Scores_coloured by country" /><br>
-  <sub><i>Figure 14: GLMM-predicted relationship between absolute latitude and and mean (±95% CI) Intervention score (Survey 2, mean across all 6 interventions). Note that a score of 0 = not tried; 1 = tried, untested; 2 = tried, testing ongoing; 3 = tried and tested.</i></sub>
-
+  <img src="Analysis/model%20selection/Survey%202-%20Model%20predicted%20mean%20intervention%20score%20by%20EnvPerformance.png" /><br>
+  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Intervention Testing scores (averaged across all 6 interventions)  </i></sub>
 </p>
 
 <br>
@@ -191,6 +165,7 @@ Collaborators can be provided access to edit the GitHub repository and explore a
 * 📁 `Analysis/raw data/` — Raw survey data as submitted by contributors
 * 📁 `Analysis/clean data/` — Cleaned and scored survey datasets
 * 📁 `Analysis/scripts/` — Data processing, modelling, and visualisation scripts
+* 📁 `Analysis/model selection/` — AICc model comparisons, diagnostic plots and model predictions
 * 📁 `figure exports/` — All key figures produced by scripts
 * 📁 `docs/map exports/` — Interactive HTML maps showing spatial coverage
 
@@ -205,12 +180,14 @@ Collaborators can be provided access to edit the GitHub repository and explore a
 | `Script 0` | Visualises the conceptual knowledge pathway |
 | `Script 1` | Data wrangling for Survey 1 (Knowledge scoring) |
 | `Script 2` | Produces figures summarising Survey 1 scores |
-| `Script 3` | Extracts socio-economic, environmental performance, and R&D spending indices |
-| `Script 4` | Visualises Survey 1 scores against socio-economic indices |
-| `Script 5` | Data wrangling for Survey 2 (Implementation scoring) |
-| `Script 6` | Produces figures summarising Survey 2 scores |
+| `Script 3` | Data wrangling for Survey 2 (Implementation scoring) |
+| `Script 4` | Produces figures summarising Survey 2 scores  |
+| `Script 5` | Extracts socio-economic, environmental performance, and R&D spending indices |
+| `Script 6` | Visualises Survey 1 scores against socio-economic indices |
 | `Script 7` | Visualises Survey 2 scores against socio-economic indices |
 | `Script 8` | Joins latitude data and prepares variables for modelling |
-| `Script 9` | Fits initial GLMMs evaluating predictors of Knowledge Pathway and Intervention scores |
+| `Script 9` | Joins bat richness data and prepares variables for modelling |
+| `Script 10` | Fits GLMMs evaluating predictors of mean Knowledge Pathway scores (Survey 1 data) |
+| `Script 11` | Fits GLMMs evaluating predictors of mean Intervention Testing scores (Survey 2 data) |
 
 ---
