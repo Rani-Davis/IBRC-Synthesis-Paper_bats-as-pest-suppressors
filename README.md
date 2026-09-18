@@ -98,7 +98,7 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 
 
 ## Current GLMM results
-#### Best model structures
+#### Best performing models:
 
 | Survey | Response variable | Fixed effects | Random effects |
 | :--- | :--- | :--- | :--- |
