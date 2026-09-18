@@ -81,7 +81,7 @@ Explore the global coverage of our study systems using these interactive maps:
 ## Exploring predictors of Knowledge Pathway and Intervention Testing scores
 We are exploring whether variation in Knowledge Pathway scores (Survey 1) and Intervention Testing scores (Survey 2) can be explained by broader **socio-economic, environmental, and agricultural factors**, while also considering important study-system characteristics such as crop type.
 
-Potential explanatory indices being explored include:
+Socio-economic and environmental indices being explored:
 
 - 🌍 Environmental Performance Index
 - 💰 GDP
@@ -89,17 +89,10 @@ Potential explanatory indices being explored include:
 - 🔬Agricultural research & development investment
 
 
-## Why GLMMs?
-
-The simple linear models shown above do not account for study systems not being independent, and these relationships are unlikely to be driven by a single factor (e.g. GDP). 
-
-Therefore, we are moving beyond simple correlations and using **Generalised Linear Mixed Models (GLMMs)** to evaluate multiple predictors simultaneously
-
-The current models investigate:
+Additional predictors included in models:
 
 - 🌱 Crop type.
 - 🦇 Bat species richness - more complex systems with more species may be more challenging to gain knowledge in.
-- 🌍 The socio-economic, environmental, and agricultural indices mentioned above.
 
 Among tested indices, Environmental Performance Index appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
 
