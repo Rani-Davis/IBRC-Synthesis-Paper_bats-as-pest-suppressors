@@ -97,6 +97,8 @@ Additional predictors included in models:
 
 ## Current GLMM results
 #### Best supported models:
+Models within 2AICc units of the lowest AICc model are considered.
+
 Among tested indices, Environmental Performance Index appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
 
 
