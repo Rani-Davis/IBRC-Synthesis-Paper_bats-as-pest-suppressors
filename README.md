@@ -107,7 +107,7 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 
 
 
-### Survey 1 — Knowledge Pathway scores
+### Survey 1 best model — Knowledge Pathway scores
 
 **Model:** `Survey_1_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
 
@@ -136,7 +136,7 @@ Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 
 ---
 
-### Survey 2 — Intervention scores
+### Survey 2 best model — Intervention scores
 
 **Model:** `Survey_2_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
 
