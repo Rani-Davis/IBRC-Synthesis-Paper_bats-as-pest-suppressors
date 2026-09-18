@@ -19,7 +19,7 @@ survey_1 <- read_csv("Analysis/raw data/Survey 1 clean_near complete_16.6.26.csv
 glimpse(survey_1)
 head(survey_1)
 names(survey_1)
-#View(survey_1)
+###VIew(survey_1)
 
 
 # ----------------------------------------
@@ -63,8 +63,38 @@ survey_1 <- survey_1 %>%
 # Check the result
 unique(survey_1$Crop.type.clean)
 unique(survey_1$Crop.type.specific.clean) # here is where the original grouping is kept
+
 survey_1 %>% count(Crop.type.clean,Crop.clean)%>%print(n = 70)
 
+
+# Get a simple table of the crop type categories:---------------------
+crop_table <- survey_1 %>%      
+  count(Crop.type.clean, Crop.clean) %>%
+  arrange(Crop.type.clean, Crop.clean) %>%
+  group_by(Crop.type.clean) %>%
+  mutate(Crop.type.clean = if_else(row_number() == 1, Crop.type.clean, "")) %>%
+  ungroup()
+
+head(crop_table)
+##VIew(crop_table)
+# write files
+write.csv(crop_table, "Analysis/clean data/Crop categories table.csv")
+
+detailed_crop_table <- survey_1 %>%
+  group_by(Crop.type.clean) %>%
+  summarise(
+    n = n(),
+    `Specific crops included` = paste(unique(Crop.clean), collapse = ", "),
+    Crop.raw.responses = paste(unique(na.omit(`5) What is/ are your study crop(s) (e.g. vegetables)? If you work in multiple crops grown in different ways (e.g. rotational vegetable crops AND macadamia) please repeat this survey for each crop.`)), collapse = "; "),
+    .groups = "drop"
+  ) %>%
+  arrange(Crop.type.clean) %>%
+  mutate(`Crop type category` = paste0(Crop.type.clean, " (n = ", n, ")")) %>%
+  select(`Crop type category`, `Specific crops included`, Crop.raw.responses)
+
+head(detailed_crop_table)
+##VIew(detailed_crop_table)
+write.csv(detailed_crop_table, "Analysis/clean data/Detailed crop categories table.csv") # <- will manually clean up this csv and save as an excel sheet so that new updates don't over=write it
 
 # =========================
 # 4. SCORE RESPONSES 
@@ -174,7 +204,7 @@ survey_1.2 <- survey_1.2 %>%
 # =========================
 # Quick check
 # =========================
-#View(survey_1.2)
+###VIew(survey_1.2)
 print(survey_1.2)
 names(survey_1.2)
 

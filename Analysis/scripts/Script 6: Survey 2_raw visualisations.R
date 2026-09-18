@@ -34,7 +34,7 @@ Survey_2_long <- Survey_2_data %>%
   ) %>%
   mutate(Score.type = str_remove(Score.type, "^\\d+a\\. ") %>%
            str_remove(" Score$"))
-#View(Survey_2_long)
+##View(Survey_2_long)
 
 # ----------------------------------------
 # 2. Create unique identifier for each respondent x entry
@@ -59,7 +59,7 @@ Survey_2_long <- Survey_2_long %>%
 colnames(Survey_2_long)
 head(Survey_2_long)
 
-#View(Survey_2_long)
+##View(Survey_2_long)
 
 # ----------------------------------------
 # 4. VISUALISATIONS - Stacked barcharts
@@ -318,6 +318,17 @@ ggplot(summary_by_region, aes(x = fct_reorder(Score.type, mean), y = mean)) +
 library(ggridges)
 # Calculates height at each point on a ridge from a kernel density estimate (KDE), 
 # Where scores cluster together (e.g. lots of respondents at Score = 3), the bumps overlap and stack, producing a tall peak. Where scores are sparse, the curve stays low.
+
+# Minimum n per region x intervention needed to estimate a density ridge;
+# below this, show raw points only (matches the plot caption below)
+min_n_for_ridge <- 5
+
+# Calculate n per region x Score.type (not just per region)
+region_scoretype_n <- Survey_2_long %>%
+  filter(!is.na(World.region.clean), !is.na(Score)) %>%
+  distinct(Respondent.entry.label, World.region.clean, Score.type) %>%
+  count(World.region.clean, Score.type, name = "n_facet")
+
 
 Survey_2_long %>%
   ggplot(aes(x = Score, y = Score.type, fill = after_stat(x))) +

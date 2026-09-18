@@ -1,6 +1,6 @@
 # Code author: Rani Davis
 # Last updated: 6 July 2026
-# Can view our 'knowledge pathway' here: https://www.canva.com/design/DAGs2rCMnYQ/0oo2xr8_waggqfzTKeBudg/edit
+# Can ##View our 'knowledge pathway' here: https://www.canva.com/design/DAGs2rCMnYQ/0oo2xr8_waggqfzTKeBudg/edit
 #
 # ----------------------------------------
 # 0. Load libraries
@@ -15,7 +15,7 @@ Survey_1_data <- read_csv("Analysis/clean data/Survey 1_scored_near complete_16.
 head(Survey_1_data)
 names(Survey_1_data)
 str(Survey_1_data)
-#View(Survey_1_data)
+###View(Survey_1_data)
 
 
 # ----------------------------------------
@@ -38,7 +38,7 @@ Survey_1_long <- Survey_1_data %>%
   ) %>%
   mutate(Score.type = str_remove(Score.type, "^\\d+a\\. ") %>%
            str_remove(" Score$"))
-#View(Survey_1_long)
+###View(Survey_1_long)
 
 
 # ----------------------------------------
@@ -120,7 +120,7 @@ Survey_1_long <- Survey_1_long %>%
   mutate(Score.type = factor(Score.type, levels = desired_order))
 
 # Check data
-#View(Survey_1_long)
+###View(Survey_1_long)
 
 write.csv(Survey_1_long, "Analysis/clean data/Survey 1_scored_near complete_long_16.6.26.csv", row.names = FALSE)
 
@@ -129,60 +129,18 @@ write.csv(Survey_1_long, "Analysis/clean data/Survey 1_scored_near complete_long
 # 7. VISUALISATIONS - 
 # 'Heatmaps'
 # ----------------------------------------
-responder_column <- "Respondent.entry.label"
 
-# Simple heatmap (no facet), labelled by crop 
-ggplot(Survey_1_long, aes(x = Score.type, y = Respondent.entry.label, fill = Score)) +
-  geom_tile(color = "white", height = 0.9) +
-  scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850", midpoint = 1.5) +
-  scale_y_discrete(labels = setNames(Survey_1_long$Crop.clean, Survey_1_long$Respondent.entry.label)) +
-  theme_minimal() +
-  labs(x = NULL, y = NULL, fill = "Score") +
-  theme(
-    axis.text.y = element_text(size = 8, hjust = 1),
-    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
-    axis.title.y = element_text(margin = margin(r = 15))
-  ) +
-  coord_cartesian(clip = "off")
+Survey_1_long <- Survey_1_long %>%
+  mutate(Score.type = factor(Score.type, levels = desired_order))
 
-# Simple heatmap (no facet), labelled by country
-ggplot(Survey_1_long, aes(x = Score.type, y = Respondent.entry.label, fill = Score)) +
-  geom_tile(color = "white", height = 0.9) +
-  scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850", midpoint = 1.5) +
-  scale_y_discrete(labels = setNames(Survey_1_long$Country.clean, Survey_1_long$Respondent.entry.label)) +
-  theme_minimal() +
-  labs(x = NULL, y = NULL, fill = "Score") +
-  theme(
-    axis.text.y = element_text(size = 8, hjust = 1),
-    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
-    axis.title.y = element_text(margin = margin(r = 15))
-  ) +
-  coord_cartesian(clip = "off")
-
-# Faceted by world region
-ggplot(Survey_1_long, aes(x = Score.type, y = Respondent.entry.label, fill = Score)) +
-  geom_tile(color = "white", height = 0.9) +
-  scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850", midpoint = 1.5) +
-  scale_y_discrete(labels = setNames(Survey_1_long$Crop.clean, Survey_1_long$Respondent.entry.label)) +
-  facet_wrap(~ World.region.clean, scales = "free_y", ncol = 3) +
-  theme_minimal() +
-  labs(x = NULL, y = NULL, fill = "Score") +
-  theme(
-    panel.spacing = unit(2, "lines"),
-    axis.text.y = element_text(size = 8, hjust = 1),
-    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
-    axis.title.y = element_text(margin = margin(r = 15))
-  )
-
-
-# ----------------------------------------
-# 8. VISUALISATIONS - 
-# Line plots with raw points and mean lines
-# ----------------------------------------
-## -- Remove 'representativeness' column  --
-# In most systems, representativeness scores are low, but we don't necessarily want to plot this on our knowledge pathway, something to consider during write-up
+# ---- Define keep_5: all score types except Representativeness ----
+# In most systems, representativeness scores are low, but we don't necessarily
+# want to plot this on our knowledge pathway, something to consider during write-up
 keep_5 <- c("Evidence", "Limiting Factors", "Available Interventions",
             "Monitoring Interventions", "Breadth of Implementation\nof Interventions")
+
+# Check data
+##View(Survey_1_long)
 
 ## -- Colour palette specified in 'Colour palette script' --
 
@@ -205,6 +163,65 @@ score_relabel_axis <- c(
   "Monitoring Interventions" = "Monitoring of\nintervention\noutcomes",
   "Breadth of Implementation\nof Interventions" = "System-wide\nextent of\nintervention\nimplementation")
 generic_labels <- c(`0` = " 0 =\nAbsent", `1` = " 1 =\nAnecdotal / Limited", `2` = "2 =\nPartial / Developing", `3` = "3 =\nEstablished / Widespread")
+
+
+responder_column <- "Respondent.entry.label"
+
+
+# Simple heatmap (no facet), labelled by crop 
+ggplot(Survey_1_long %>% filter(Score.type %in% keep_5, !is.na(Score)),
+       aes(x = Score.type, y = Respondent.entry.label, fill = Score)) +
+  geom_tile(color = "white", height = 0.9) +
+  scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850", midpoint = 1.5) +
+  scale_x_discrete(limits = keep_5) +
+  scale_y_discrete(labels = setNames(Survey_1_long$Crop.type.clean, Survey_1_long$Respondent.entry.label)) +
+  theme_minimal() +
+  labs(x = NULL, y = NULL, fill = "Score") +
+  theme(
+    axis.text.y = element_text(size = 8, hjust = 1),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
+    axis.title.y = element_text(margin = margin(r = 15))
+  ) +
+  coord_cartesian(clip = "off")
+
+# Simple heatmap (no facet), labelled by country
+ggplot(Survey_1_long %>% filter(Score.type %in% keep_5, !is.na(Score)),
+       aes(x = Score.type, y = Respondent.entry.label, fill = Score)) +
+  geom_tile(color = "white", height = 0.9) +
+  scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850", midpoint = 1.5) +
+  scale_x_discrete(limits = keep_5) +
+  scale_y_discrete(labels = setNames(Survey_1_long$Country.clean, Survey_1_long$Respondent.entry.label)) +
+  theme_minimal() +
+  labs(x = NULL, y = NULL, fill = "Score") +
+  theme(
+    axis.text.y = element_text(size = 8, hjust = 1),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
+    axis.title.y = element_text(margin = margin(r = 15))
+  ) +
+  coord_cartesian(clip = "off")
+
+# Faceted by world region
+ggplot(Survey_1_long %>% filter(Score.type %in% keep_5, !is.na(Score)),
+       aes(x = Score.type, y = Respondent.entry.label, fill = Score)) +
+  geom_tile(color = "white", height = 0.9) +
+  scale_fill_gradient2(low = "#d73027", mid = "#fee08b", high = "#1a9850", midpoint = 1.5) +
+  scale_x_discrete(limits = keep_5) +
+  scale_y_discrete(labels = setNames(Survey_1_long$Crop.type.clean, Survey_1_long$Respondent.entry.label)) +
+  facet_wrap(~ World.region.clean, scales = "free_y", ncol = 3) +
+  theme_minimal() +
+  labs(x = NULL, y = NULL, fill = "Score") +
+  theme(
+    panel.spacing = unit(2, "lines"),
+    axis.text.y = element_text(size = 8, hjust = 1),
+    axis.text.x = element_text(angle = 45, hjust = 1, size = 10),
+    axis.title.y = element_text(margin = margin(r = 15))
+  )
+
+
+# ----------------------------------------
+# 8. VISUALISATIONS - 
+# Line plots with raw points and mean lines
+# ----------------------------------------
 
 # -- 8a. By Crop Type --
 summary_crop <- Survey_1_long %>%

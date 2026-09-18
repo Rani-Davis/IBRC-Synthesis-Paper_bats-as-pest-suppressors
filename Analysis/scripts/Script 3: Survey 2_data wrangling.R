@@ -20,7 +20,7 @@ survey_2 <- read_csv("Analysis/raw data/Survey 2 clean_near complete_16.6.26.csv
 glimpse(survey_2)
 head(survey_2)
 names(survey_2)
-#View(survey_2)
+###View(survey_2)
 
 
 # ----------------------------------------
@@ -162,7 +162,7 @@ survey_2.2 <- survey_2.2 %>%
 # =========================
 # Quick check
 # =========================
-#View(survey_2.2)
+###View(survey_2.2)
 print(survey_2.2)
 colnames(survey_2.2)
 

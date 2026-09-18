@@ -3,14 +3,14 @@
 #-----------------------------------------
 # For broad World Regions:
 region_colours <- c(
-  "Europe"                     = "#2166AC",
-  "Africa"                     = "#D6604D",
-  "Latin America / Caribbean"  = "#33A02C",
+  "Europe"                     = "#4F86F7",
+  "Africa"                     = "#C62828",
+  "Latin America / Caribbean"  = "#1B9E77",
   "Australasia / Pacific"      = "#00B4D8",
-  "North America"              = "#7B2D8B",
-  "Middle East / Western Asia" = "#FF8C00",
+  "North America"              = "#7B1FA2",
+  "Middle East / Western Asia" = "#D95F02",
   "South / Southeast Asia"     = "#E7298A",
-  "East Asia"                  = "#E6C619"
+  "East Asia"                  = "#E6AB02"
 )
 
 
@@ -24,6 +24,7 @@ crop_colours <- c(
   "Field crops"                       = "#FDD835", 
   "Grain crops"                       = "#FF8C00", 
   "Agroforestry cacao"                = "#3E2000")
+
 
 #-----------------------------------------
 # For specific crops:
