@@ -120,15 +120,6 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 
 The current best-supported GLMM for predicting mean Knowledge Pathway scores (averaged across the entire pathway) is:
 
-MeanScore.allSteps ~ Environmental Performance + (1|Country.clean) + (1|Respondent.clean)
-
-<p align="center">
-  <img src="Analysis/model%20selection/Survey%201-%20Model%20predicted%20mean%20knowledge%20score%20by%20EnvPerformance.png" /><br>
-  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Knowledge score (Survey 1, mean across knowledge pathway).  </i></sub>
-</p>
-
-<br>
-
 **Model:** `Survey_1_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
 Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 
@@ -144,20 +135,20 @@ Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 
 *AIC = -44.3, BIC = -32.7, log-likelihood = 27.2*
 
+
+<p align="center">
+  <img src="Analysis/model%20selection/Survey%201-%20Model%20predicted%20mean%20knowledge%20score%20by%20EnvPerformance.png" /><br>
+  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Knowledge score (Survey 1, mean across knowledge pathway).  </i></sub>
+</p>
+
+<br>
+
+
 ---
 
 #### Survey 2 — Intervention scores
 
 The current best-supported GLMM for predicting mean Intervention Testing scores (across all 6 interventions) is:
-
-MeanScore.allInterventions ~ Environmental Performance + (1|Country.clean) + (1|Respondent.clean)
-
-<p align="center">
-  <img src="Analysis/model%20selection/Survey%202-%20Model%20predicted%20mean%20intervention%20score%20by%20EnvPerformance.png" /><br>
-  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Intervention Testing scores (averaged across all 6 interventions)  </i></sub>
-</p>
-
-<br>
 
 **Model:** `Survey_2_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
 Family: Beta (logit link) | n = 58 observations, 24 countries, 36 respondents
@@ -173,6 +164,15 @@ Family: Beta (logit link) | n = 58 observations, 24 countries, 36 respondents
 | Respondent | <0.001 | <0.001 |
 
 *AIC = -88.2, BIC = -77.9, log-likelihood = 49.1*
+
+
+<p align="center">
+  <img src="Analysis/model%20selection/Survey%202-%20Model%20predicted%20mean%20intervention%20score%20by%20EnvPerformance.png" /><br>
+  <sub><i>Figure 13: GLMM-predicted relationship between Environmental Performance Index and mean (±95% CI) Intervention Testing scores (averaged across all 6 interventions)  </i></sub>
+</p>
+
+<br>
+
 
 
 ---
