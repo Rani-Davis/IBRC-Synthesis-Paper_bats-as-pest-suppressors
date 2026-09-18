@@ -105,6 +105,7 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 | Survey 1 | Knowledge Pathway score (`MeanScore.allSteps`) | Environmental Performance Index  | Country + Respondent |
 | Survey 2 | Intervention score (`MeanScore.allInterventions`) | Environmental Performance Index | Country + Respondent |
 
+---
 
 #### Survey 1 — Knowledge Pathway scores
 
