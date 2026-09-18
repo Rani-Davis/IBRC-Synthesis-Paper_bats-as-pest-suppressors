@@ -94,6 +94,10 @@ Additional predictors included in models:
 - 🌱 Crop type.
 - 🦇 Bat species richness - more complex systems with more species may be more challenging to gain knowledge in.
 
+Our predictor 'budget':
+
+- 🌍 We have responses from 24 countries, and the socio-economic and bat species richness data will be at country level. Therefore, we can only ‘afford’ 2 predictors following the 10 observations per predictor rule (excluding random effects). 
+
 
 ## Current GLMM results
 ### Best supported models:
