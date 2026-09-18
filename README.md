@@ -134,7 +134,6 @@ Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 <br>
 
 
----
 
 ### Survey 2: Intervention Testing score model
 
