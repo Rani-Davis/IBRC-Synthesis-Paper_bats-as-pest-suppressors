@@ -129,6 +129,22 @@ MeanScore.allSteps ~ Environmental Performance + (1|Country.clean) + (1|Responde
 
 <br>
 
+**Model summary — mean Knowledge Pathway score (Survey 1)**
+
+| Term | Estimate | Std. Error | z value | p value |
+|---|---|---|---|---|
+| Intercept | -1.374 | 0.483 | -2.848 | 0.0044 |
+| Environmental Performance Index | 0.023 | 0.009 | 2.537 | 0.0112 |
+
+**Random effects**
+
+| Group | Variance | Std. Dev. |
+|---|---|---|
+| Country | 0.186 | 0.431 |
+| Respondent | <0.001 | <0.001 |
+
+*Model fit: AIC = -44.3, BIC = -32.7, log-likelihood = 27.2, n = 75 observations (24 countries, 37 respondents)*
+
 ---
 
 #### Survey 2 — Intervention scores
@@ -143,6 +159,22 @@ MeanScore.allInterventions ~ Environmental Performance + (1|Country.clean) + (1|
 </p>
 
 <br>
+
+**Model summary — mean Intervention Testing score (Survey 2)**
+
+| Term | Estimate | Std. Error | z value | p value |
+|---|---|---|---|---|
+| Intercept | -2.538 | 0.399 | -6.361 | < 0.001 |
+| Environmental Performance Index | 0.024 | 0.007 | 3.367 | < 0.001 |
+
+**Random effects**
+
+| Group | Variance | Std. Dev. |
+|---|---|---|
+| Country | 0.0264 | 0.162 |
+| Respondent | <0.001 | <0.001 |
+
+*Model fit: AIC = -88.2, BIC = -77.9, log-likelihood = 49.1, n = 58 observations (24 countries, 36 respondents)*
 
 
 ---
