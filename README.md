@@ -119,6 +119,7 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 #### Survey 1 — Knowledge Pathway scores
 
 The current best-supported GLMM for predicting mean Knowledge Pathway scores (averaged across the entire pathway) is:
+
 MeanScore.allSteps ~ Environmental Performance + (1|Country.clean) + (1|Respondent.clean)
 
 <p align="center">
