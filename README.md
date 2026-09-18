@@ -96,18 +96,14 @@ Additional predictors included in models:
 
 Among tested indices, Environmental Performance Index appears to be the strongest predictor and is included in the current best-supported models. You can find more about how the Environmental Performance Index is calculated here https://epi.yale.edu
 
----
 
-## Current best model structures
+## Current GLMM results
 
 | Survey | Response variable | Fixed effects | Random effects |
 | :--- | :--- | :--- | :--- |
 | Survey 1 | Knowledge Pathway score (`MeanScore.allSteps`) | Environmental Performance Index  | Country + Respondent |
 | Survey 2 | Intervention score (`MeanScore.allInterventions`) | Environmental Performance Index | Country + Respondent |
 
----
-
-## Current GLMM results
 
 #### Survey 1 — Knowledge Pathway scores
 
