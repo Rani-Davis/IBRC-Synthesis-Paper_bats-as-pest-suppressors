@@ -81,7 +81,7 @@ Explore the global coverage of our study systems using these interactive maps:
 ## Exploring predictors of Knowledge Pathway and Intervention Testing scores
 We are exploring whether variation in Knowledge Pathway scores (Survey 1) and Intervention Testing scores (Survey 2) can be explained by broader **socio-economic, environmental, and agricultural factors**, while also considering important study-system characteristics such as crop type.
 
-Socio-economic and environmental indices being explored:
+Socio-economic and environmental indices explored:
 
 - 🌍 Environmental Performance Index
 - 💰 GDP
