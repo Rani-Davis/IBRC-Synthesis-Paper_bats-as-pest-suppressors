@@ -109,8 +109,8 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 
 | Survey | Response variable | Fixed effects | Random effects |
 | :--- | :--- | :--- | :--- |
-| Survey 1 | Knowledge Pathway score (`MeanScore.allSteps`) | Environmental Performance Index  | (1|Country) + (1|Respondent) |
-| Survey 2 | Intervention score (`MeanScore.allInterventions`) | Environmental Performance Index | (1|Country) + (1|Respondent) |
+| Survey 1 | Knowledge Pathway score (`MeanScore.allSteps`) | Environmental Performance Index  | Country + Respondent |
+| Survey 2 | Intervention score (`MeanScore.allInterventions`) | Environmental Performance Index | Country + Respondent |
 
 ---
 
