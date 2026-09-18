@@ -129,21 +129,20 @@ MeanScore.allSteps ~ Environmental Performance + (1|Country.clean) + (1|Responde
 
 <br>
 
-**Model summary — mean Knowledge Pathway score (Survey 1)**
+**Model:** `Survey_1_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
+Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 
-| Term | Estimate | Std. Error | z value | p value |
-|---|---|---|---|---|
-| Intercept | -1.374 | 0.483 | -2.848 | 0.0044 |
-| Environmental Performance Index | 0.023 | 0.009 | 2.537 | 0.0112 |
+| | Estimate | Std. Error | z value | p value |
+|:---|---:|---:|---:|---:|
+| (Intercept) | -1.374 | 0.483 | -2.848 | 0.0044 ** |
+| Environmental Performance Index | 0.023 | 0.009 | 2.537 | 0.0112 * |
 
-**Random effects**
-
-| Group | Variance | Std. Dev. |
-|---|---|---|
+| Random effect | Variance | Std. Dev. |
+|:---|---:|---:|
 | Country | 0.186 | 0.431 |
 | Respondent | <0.001 | <0.001 |
 
-*Model fit: AIC = -44.3, BIC = -32.7, log-likelihood = 27.2, n = 75 observations (24 countries, 37 respondents)*
+*AIC = -44.3, BIC = -32.7, log-likelihood = 27.2*
 
 ---
 
