@@ -121,6 +121,7 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 The current best-supported GLMM for predicting mean Knowledge Pathway scores (averaged across the entire pathway) is:
 
 **Model:** `Survey_1_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
+
 Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 
 | | Estimate | Std. Error | z value | p value |
@@ -151,6 +152,7 @@ Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 The current best-supported GLMM for predicting mean Intervention Testing scores (across all 6 interventions) is:
 
 **Model:** `Survey_2_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
+
 Family: Beta (logit link) | n = 58 observations, 24 countries, 36 respondents
 
 | | Estimate | Std. Error | z value | p value |
