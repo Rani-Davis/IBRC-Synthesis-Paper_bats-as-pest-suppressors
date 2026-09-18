@@ -98,7 +98,7 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 
 
 ## Current GLMM results
-#### Best performing models:
+#### Best supported models:
 
 | Survey | Response variable | Fixed effects | Random effects |
 | :--- | :--- | :--- | :--- |
@@ -107,7 +107,7 @@ Among tested indices, Environmental Performance Index appears to be the stronges
 
 
 
-### Model predictions for Survey 1 — mean knowledge pathway score model
+### Survey 1: Knowledge Pathway score model
 
 **Model:** `Survey_1_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
 
@@ -136,7 +136,7 @@ Family: Beta (logit link) | n = 75 observations, 24 countries, 37 respondents
 
 ---
 
-### Model predictions for Survey 2 — mean intervention score model
+### Survey 2: Intervention Testing score model
 
 **Model:** `Survey_2_mean_rescaled_beta ~ EnviroPerformance_score + (1|Country.clean) + (1|Respondent.clean)`
 
