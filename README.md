@@ -133,7 +133,9 @@ MeanScore.allSteps ~ Environmental Performance + (1|Country.clean) + (1|Responde
 
 #### Survey 2 — Intervention scores
 
-The current best-supported GLMM includes Environmental Performance Index as a predictor of mean Intervention Testing scores (averaged across all 6 interventions), plus the random effect of country and respondent.
+The current best-supported GLMM for predicting mean Intervention Testing scores (across all 6 interventions) is:
+
+MeanScore.allInterventions ~ Environmental Performance + (1|Country.clean) + (1|Respondent.clean)
 
 Key model-predicted relationships are shown below.
 
