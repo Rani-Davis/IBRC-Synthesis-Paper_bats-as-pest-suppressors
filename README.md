@@ -153,7 +153,7 @@ The Survey 2 dredge on the complete-case dataset favoured the main-effects EP mo
 **What the best model says:** the more a country's economy relies on agriculture (higher AgGDP), the **lower** the knowledge scores, at every step of the pathway except Evidence. The effect was strongest for Representativeness and Breadth of Implementation of Interventions.
 
 <p align="center">
-  <img src="Fig_S1_AgGDP_by_Score.type_overlay.png" alt="Model predictions of knowledge score by agriculture share of GDP for each pathway step" /><br>
+  <img src="figure%20exports/Model-predictions%20for%20indices/Fig_S1_AgGDP_by_Score.type_overlay.png" alt="Model predictions of knowledge score by agriculture share of GDP for each pathway step" /><br>
   <sub><i>Figure 7: CLMM-predicted relationship between the percentage of GDP contributed by agriculture, forestry and fishing and scores at each step of the knowledge pathway.</i></sub>
 </p>
 
@@ -179,7 +179,7 @@ The Survey 2 dredge on the complete-case dataset favoured the main-effects EP mo
 **What the best model says:** countries with higher Environmental Performance tended to have higher intervention testing scores, but this differed among interventions. Only **Agrochemical Reduction** showed a clear positive association (about 2.5 times higher odds of a higher score per +1 SD of EP). Artificial Water Sources and Revegetation had similarly large positive slopes with intervals including zero (both p = 0.068), and the remaining interventions had slopes close to zero.
 
 <p align="center">
-  <img src="Fig_S2_EP_by_Score.type_overlay.png" alt="Model predictions of intervention testing score by Environmental Performance Index for each intervention" /><br>
+  <img src="figure%20exports/Model-predictions%20for%20indices/Fig_S2_EP_overlay.png" alt="Model predictions of intervention testing score by Environmental Performance Index for each intervention" /><br>
   <sub><i>Figure 8: CLMM-predicted relationship between Environmental Performance Index and testing scores for each intervention.</i></sub>
 </p>
 
