@@ -169,19 +169,22 @@ dropdown_js_template <- "
   }
 "
 
-# d. base tile
+# d. base tile (updated, no longer uses CARTO)
 base_map <- function() {
   leaflet(map_data) %>%
-    addProviderTiles(providers$CartoDB.Positron, group = "Map") %>%
+    # keyless OpenStreetMap tiles
+    addTiles(
+      urlTemplate = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      attribution = '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+      group = "Map"
+    ) %>%
     addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
-    addProviderTiles(providers$CartoDB.PositronOnlyLabels, group = "Satellite") %>%
     addLayersControl(
       baseGroups = c("Map", "Satellite"),
       options = layersControlOptions(collapsed = FALSE),
       position = "topright"
     )
 }
-
 
 ## ----------------------------------------
 # 5. Map Option 1: Make the map with 'teardrop' / pin markers

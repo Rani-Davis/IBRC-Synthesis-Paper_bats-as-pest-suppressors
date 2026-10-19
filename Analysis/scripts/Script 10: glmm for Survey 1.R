@@ -60,6 +60,8 @@ Survey_1_long_indices_wLatLong_wRichness %>% distinct(Country.clean) %>% arrange
 #  -  a: socio-economic predictor
 #  -  b: bat species richness
 
+head(Survey_1_long_indices_wLatLong_wRichness)
+names(Survey_1_long_indices_wLatLong_wRichness)
 
             
 # ==============================================================================
@@ -111,7 +113,7 @@ Survey_1_respondent <- Survey_1_long_indices_wLatLong_wRichness %>%
 
 nrow(Survey_1_respondent) == n_distinct(Survey_1_long_indices_wLatLong_wRichness$Respondent.entry.label)  # should be TRUE
 
-
+names(Survey_1_respondent)
 
 
 # ==============================================================================
@@ -924,6 +926,9 @@ S1_p_region <- ggplot(S1_fit_data, aes(x = EnviroPerformance_score, y = visregFi
         legend.title = element_text(face = "bold", size = 10))
 
 ggplotly(S1_p_region, tooltip = "text")
+
+
+
 
 
 
