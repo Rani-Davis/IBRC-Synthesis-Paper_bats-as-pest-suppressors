@@ -139,6 +139,8 @@ Bat richness did not improve the model on the full dataset (ΔAICc = 1.74), so i
 | Score.type + AgGDP | 11 | 948.2 | 29.6 |
 | Score.type + AgGDP + AgGDP × Score.type | 16 | 918.6 | 0.0 |
 
+Yes - The Survey 1 dredge on the complete-case dataset favoured the main-effects AgGDP model, but refitting on the full dataset recovered rows with valid AgGDP values but missing values for other indices, and the interaction model then had the lowest AICc.
+
 **Survey 2: models within 2 AICc (complete-case dataset)**
 
 | Model terms | df | logLik | AICc | Delta AICc | Akaike weight |
@@ -155,7 +157,7 @@ Bat richness did not improve the model on the full dataset (ΔAICc = 1.74), so i
 | Score.type + EP | 11 | 733.8 | 2.2 |
 | Score.type + EP + EP × Score.type | 16 | 731.6 | 0.0 |
 
-The Survey 2 dredge on the complete-case dataset favoured the main-effects EP model, but refitting on the full dataset recovered rows with valid EP values but missing values for other indices, and the interaction model then had the lowest AICc. Support for the interaction is modest (ΔAICc = 2.2).
+Yes - The Survey 2 dredge on the complete-case dataset favoured the main-effects EP model, but refitting on the full dataset recovered rows with valid EP values but missing values for other indices, and the interaction model then had the lowest AICc. Support for the interaction is modest (ΔAICc = 2.2).
 
 </details>
 
