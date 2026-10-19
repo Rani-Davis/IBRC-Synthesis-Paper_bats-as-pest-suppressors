@@ -107,6 +107,21 @@ We have responses from 24 countries, and the socio-economic and bat species rich
 
 Candidate models were ranked with `dredge()` and AICc on a complete-case dataset (no missing values for any candidate predictor). Models within 2 AICc units of the best were considered comparable. The best predictor was then refitted on the full dataset (all rows with valid values for that predictor) to test whether the interaction with `Score.type` was needed. AICc values are only comparable between models fitted to the same dataset.
 
+**Dredge model rankings (complete-case data).** Each point is one candidate model, and the further left, the better supported. The dashed line marks 2 AICc units above the best model, point size shows Akaike weight, and purple points are models with an interaction with `Score.type` (grey are main effects only).
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="figure%20exports/Fig_S1_DredgeModelRankings.png" alt="Survey 1 dredge model rankings" /><br>
+      <sub><i>Figure 9: Survey 1 (knowledge pathway) model rankings. Models containing the AgGDP × Score.type interaction are best supported.</i></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="figure%20exports/Fig_S2_DredgeModelRankings.png" alt="Survey 2 dredge model rankings" /><br>
+      <sub><i>Figure 10: Survey 2 (intervention testing) model rankings. EP and Latitude models have similar support, so there is model uncertainty.</i></sub>
+    </td>
+  </tr>
+</table>
+
 **Survey 1: models within 2 AICc (complete-case dataset)**
 
 | Model terms | df | logLik | AICc | Delta AICc | Akaike weight |
