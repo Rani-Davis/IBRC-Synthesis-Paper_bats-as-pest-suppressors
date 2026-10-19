@@ -64,32 +64,100 @@ Contributors completed two surveys about the research conducted in their study s
 
 # 📈 Do country-level factors explain knowledge and intervention testing? (CLMMs)
 
-We tested whether scores in each survey were associated with national socio-economic, environmental and agricultural indices (GDP, agriculture's share of GDP, public agricultural R&D, Environmental Performance Index), plus bat species richness and latitude. Because scores are ordinal (0 to 3), we fitted separate **Cumulative Link Mixed Models (CLMMs)** for each survey, with `Score.type` (the pathway step or intervention) as a fixed effect and random effects for country and respondent.
+We tested whether scores in each survey were associated with broader **socio-economic, environmental and agricultural factors** at the country level, while accounting for the step or intervention being scored. Because scores are ordinal (0 to 3), we fitted separate **Cumulative Link Mixed Models (CLMMs)** for each survey.
 
 **Full methods** (predictor sources and transformations, candidate model set, and AICc ranking) are in the manuscript Methods and Supplementary Table X. Code is in `Script 10` (Survey 1) and `Script 11` (Survey 2).
 
-### Best-supported models
+## 🔍 Predictors explored
 
-| Survey | Best model | Predictor effect |
+Socio-economic, environmental and agricultural indices:
+
+- 🌍 **Environmental Performance Index (EP)**: 2026 scores from Yale's EPI, which combines 47 indicators across Ecosystem Vitality, Environmental Health and Climate Change to rank 177 countries on progress towards environmental policy targets. More information: https://epi.yale.edu
+- 💰 **GDP**: the scale of each country's economy (World Bank, via the `WDI` R package).
+- 🌾 **Agricultural contribution to GDP (AgGDP)**: agriculture, forestry and fishing, value added (% of GDP), an indicator of how much a country's economy relies on these sectors (World Bank, via `WDI`).
+- 🔬 **Agricultural research & development investment**: public agricultural R&D expenditure (million 2017 PPP$), from the GRAPE dataset.
+
+Additional predictors:
+
+- 🦇 **Bat species richness**: more complex systems with more species may be harder to gain knowledge in (country-level species counts from batnames.org).
+- 🧭 **Latitude** of each study system (joined in Script 8).
+
+<!-- TODO: confirm which predictors were log10-transformed (methods list GDP, agricultural R&D and bat richness; the Survey 1 post-hoc slopes are per SD of log10 AgGDP) -->
+
+## 💻 Predictor 'budget'
+
+We have responses from 24 countries, and the socio-economic and bat species richness data are at country level. Following the 10-observations-per-predictor rule, we can only 'afford' up to **2 country-level predictors** (excluding random effects), plus `Score.type` and its interactions.
+
+## 🎲 Random effects
+
+- 🌍 `(1 | Country)`: accounts for multiple respondents per country sharing the same GDP, EP etc. values.
+- 👤 `(1 | Respondent)`: accounts for multiple responses per person.
+
+## ✅ Best-supported models
+
+| Survey | Response variable | Best model |
 | :--- | :--- | :--- |
-| Survey 1: Knowledge pathway | `Score ~ Score.type + AgGDP × Score.type + (1 \| Country) + (1 \| Respondent)` | Scores were **lower in more agriculture-dependent countries** at most steps |
-| Survey 2: Intervention testing | `Score ~ Score.type + EP × Score.type + (1 \| Country) + (1 \| Respondent)` | Testing was **higher in countries with better Environmental Performance** for some interventions |
+| Survey 1: Knowledge pathway | Score at each step of the pathway | `Score ~ Score.type + AgGDP × Score.type + (1 \| Country) + (1 \| Respondent)` |
+| Survey 2: Intervention testing | Testing score for each intervention | `Score ~ Score.type + EP × Score.type + (1 \| Country) + (1 \| Respondent)` |
 
-Bat species richness did not improve the Survey 1 model (ΔAICc = 1.74 on the full dataset). Slopes below are cumulative log-odds of a higher score per +1 SD of the predictor, with Holm-adjusted p-values across the six steps or interventions.
+**How to read these models.** `Score.type` lets the average score differ among pathway steps (or interventions). The interaction (`× Score.type`) means the effect of the country-level predictor is allowed to **differ for each step or intervention**, rather than being a single overall slope. Each slope in the post-hoc tables is the change in the cumulative log-odds of a higher score for each +1 SD of the predictor. Positive slopes mean higher scores as the predictor increases, and negative slopes mean lower scores. P-values and confidence intervals are Holm-adjusted across the six steps or interventions, and a slope is considered clearly different from zero when its confidence interval excludes zero.
+
+<details>
+<summary><b>How the best models were chosen (click to expand)</b></summary>
+
+Candidate models were ranked with `dredge()` and AICc on a complete-case dataset (no missing values for any candidate predictor). Models within 2 AICc units of the best were considered comparable. The best predictor was then refitted on the full dataset (all rows with valid values for that predictor) to test whether the interaction with `Score.type` was needed. AICc values are only comparable between models fitted to the same dataset.
+
+**Survey 1: models within 2 AICc (complete-case dataset)**
+
+| Model terms | df | logLik | AICc | Delta AICc | Akaike weight |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Score.type + AgGDP × Score.type | 16 | -389.8 | 813.1 | 0.00 | 0.543 |
+| Score.type + AgGDP × Score.type + BatRich | 17 | -389.6 | 814.8 | 1.79 | 0.221 |
+
+Bat richness did not improve the model on the full dataset (ΔAICc = 1.74), so it was excluded.
+
+**Survey 1: is the interaction needed? (full dataset)**
+
+| Model | df | AICc | Delta AICc |
+| :--- | ---: | ---: | ---: |
+| Score.type only (null) | 10 | 956.4 | 37.8 |
+| Score.type + AgGDP | 11 | 948.2 | 29.6 |
+| Score.type + AgGDP + AgGDP × Score.type | 16 | 918.6 | 0.0 |
+
+**Survey 2: models within 2 AICc (complete-case dataset)**
+
+| Model terms | df | logLik | AICc | Delta AICc | Akaike weight |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Score.type + EP | 11 | -316.1 | 655.0 | 0.00 | 0.171 |
+| Score.type + Lat × Score.type | 16 | -310.6 | 655.1 | 0.07 | 0.165 |
+| Score.type + EP × Score.type | 16 | -310.9 | 655.7 | 0.67 | 0.122 |
+
+**Survey 2: is the interaction needed? (full dataset)**
+
+| Model | df | AICc | Delta AICc |
+| :--- | ---: | ---: | ---: |
+| Score.type only (null) | 10 | 742.4 | 10.8 |
+| Score.type + EP | 11 | 733.8 | 2.2 |
+| Score.type + EP + EP × Score.type | 16 | 731.6 | 0.0 |
+
+The Survey 2 dredge on the complete-case dataset favoured the main-effects EP model, but refitting on the full dataset recovered rows with valid EP values but missing values for other indices, and the interaction model then had the lowest AICc. Support for the interaction is modest (ΔAICc = 2.2).
+
+</details>
+
+<!-- TODO: add model summary tables (coefficients and random-effect variances) for each best model; see S1_AgGDP_model_summary_tables.docx and S2_EP_model_summary_tables.docx -->
 
 ---
 
-## Survey 1: Knowledge Pathway
+## 🌾 Survey 1: Knowledge Pathway
+
+**What the best model says:** the more a country's economy relies on agriculture (higher AgGDP), the **lower** the knowledge scores, at every step of the pathway except Evidence. The effect was strongest for Representativeness and Breadth of Implementation of Interventions.
 
 <p align="center">
   <img src="Fig_S1_AgGDP_by_Score.type_overlay.png" alt="Model predictions of knowledge score by agriculture share of GDP for each pathway step" /><br>
   <sub><i>Figure 7: CLMM-predicted relationship between the percentage of GDP contributed by agriculture, forestry and fishing and scores at each step of the knowledge pathway.</i></sub>
 </p>
 
-Knowledge scores fell as agriculture's share of GDP increased at every step except Evidence, with the strongest declines for Representativeness and Breadth of Implementation of Interventions.
-
-<details>
-<summary><b>Post-hoc slopes for each step</b></summary>
+**Post-hoc test of the AgGDP effect at each step.** Each row tests whether the AgGDP slope for that step differs from zero (negative = lower scores in more agriculture-dependent countries). Slopes are on the cumulative log-odds scale per +1 SD of AgGDP, from the refitted model (24 countries).
 
 | Step in knowledge pathway | Slope | SE | Lower CI | Upper CI | z | p (Holm) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -100,23 +168,22 @@ Knowledge scores fell as agriculture's share of GDP increased at every step exce
 | Monitoring Interventions | -1.10 | 0.36 | -2.06 | -0.14 | -3.03 | 0.010 ** |
 | Breadth of Implementation of Interventions | -1.72 | 0.39 | -2.74 | -0.69 | -4.42 | < 0.001 *** |
 
-</details>
+> **Note:** For Limiting Factors the CI just includes zero (-1.81 to 0.05) even though p (Holm) = 0.024, so treat this step as borderline.
+
+<!-- TODO: add Survey 1 post-hoc slope figure and diagnostics -->
 
 ---
 
-## Survey 2: Intervention Testing
+## 🌿 Survey 2: Intervention Testing
+
+**What the best model says:** countries with higher Environmental Performance tended to have higher intervention testing scores, but this differed among interventions. Only **Agrochemical Reduction** showed a clear positive association (about 2.5 times higher odds of a higher score per +1 SD of EP). Artificial Water Sources and Revegetation had similarly large positive slopes with intervals including zero (both p = 0.068), and the remaining interventions had slopes close to zero.
 
 <p align="center">
   <img src="Fig_S2_EP_by_Score.type_overlay.png" alt="Model predictions of intervention testing score by Environmental Performance Index for each intervention" /><br>
   <sub><i>Figure 8: CLMM-predicted relationship between Environmental Performance Index and testing scores for each intervention.</i></sub>
 </p>
 
-Only Agrochemical Reduction showed a clear positive association with Environmental Performance (about 2.5 times higher odds of a higher score per +1 SD). Artificial Water Sources and Revegetation had similarly large positive slopes with intervals including zero (both p = 0.068). Slopes for the remaining interventions were close to zero.
-
-> **Caution:** The interaction model was chosen on the full dataset with modest support over the main-effects model (ΔAICc = 2.2), and model diagnostics showed significant quantile deviations. Interpret these results cautiously.
-
-<details>
-<summary><b>Post-hoc slopes for each intervention</b></summary>
+**Post-hoc test of the EP effect on each intervention.** Each row tests whether the EP slope for that intervention differs from zero. Slopes are on the cumulative log-odds scale per +1 SD of Environmental Performance, from the refitted model (24 countries).
 
 | Intervention | Slope | SE | Lower CI | Upper CI | z | p (Holm) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -127,7 +194,9 @@ Only Agrochemical Reduction showed a clear positive association with Environment
 | Artificial Water Sources | 1.29 | 0.52 | -0.09 | 2.67 | 2.47 | 0.068 |
 | Acoustic Bat Lure | 0.28 | 0.43 | -0.84 | 1.40 | 0.65 | 1.000 |
 
-</details>
+> **Caution:** The interaction model had modest support over the main-effects model (ΔAICc = 2.2), and model diagnostics showed significant quantile deviations. Interpret these results cautiously.
+
+<!-- TODO: add Survey 2 post-hoc slope figure and diagnostics -->
 
 ---
 
@@ -168,3 +237,4 @@ Collaborators can be given access to edit the GitHub repository and explore alte
 | `Script 9` | Joins bat richness data and prepares variables for modelling |
 | `Script 10` | Fits CLMMs evaluating predictors of Knowledge Pathway scores (Survey 1 data) |
 | `Script 11` | Fits CLMMs evaluating predictors of Intervention Testing scores (Survey 2 data) |
+
